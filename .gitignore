@@ -1,0 +1,47 @@
+# Entornos virtuales
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de distribución
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# Archivos temporales
+*.tmp
+*.swp
+.DS_Store
+
+# Configuración de IDEs
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Variables de entorno
+.env
+
+# SQLite (si usás Django o pruebas)
+db.sqlite3
+
+# Archivos compilados
+*.so
+
+# Coverage / testing
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Mypy
+.mypy_cache/
