@@ -20,8 +20,8 @@ def tokenize(string):
     eliminando caracteres especiales, pasando a minúsculas,
     y removiendo acentos.
     """
-    # Regex original de TP01_P1.py
-    string = re.sub('[\'-\[!\"\$%&\(\)=/|:]', '', string)
+
+    string = re.sub(r'[^\w\s]|_', '', string)
     string = string.lower()         # pasaje a miscula
     string = translate(string)      # quita acentos
     return string.split()           # detecta tokens

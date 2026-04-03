@@ -1,0 +1,10 @@
+COMANDOS PARA EJECUTAR EL PROGRAMA
+
+# Seteando directorio de documentos, y coleccion con estadisticas
+EJEMPLO 1 > python TP01_P1.py ../collection_test/TestCollection ../collection_test/collection_data.json
+
+# Seteando solo directorio de documentos
+EJEMPLO 2 > python TP01_P1.py ../collection_test/TestCollection
+
+# Sin setear parametros.
+EJEMPLO 3 > python TP01_P1.py

@@ -1,7 +1,0 @@
-COMANDOS DE LLAMADA AL PROGRAMA
-
-EJEMPLO 1 > python TP01_P1.py ../RI-tknz-data True ../stopwords/spanish.txt
-
-EJEMPLO 2 > python TP01_P1.py ../RI-tknz-data False
-
-EJEMPLO 3 > python TP01_P1.py

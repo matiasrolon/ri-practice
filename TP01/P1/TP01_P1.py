@@ -9,39 +9,25 @@ from os.path import join, isdir
 from tokenizer import tokenize
 
 def main():
-    cont = 1
-    proccess_docs = 0
+    docs_count = 0
     total_tokens_count = 0
     df = {} # Document Frequency
     all_terms = set()
-    
+    # valores de path por defecto
+    dir_path = '../collection_test/TestCollection'
+    json_path = '../collection_test/collection_data.json'
     if len(sys.argv) < 2:
-        print('El usuario NO ha pasado argumentos suficientes. Se estableceran los valores por defecto')
-        dir_path = '../collection_test/TestCollection'
-        delete_sw = False
-        stop_words = []
+        print('El usuario NO ha pasado parametros. Se establecerán por defecto')
+    elif len(sys.argv) < 3:
+        print('El usuario NO ha pasado un path para el archivo json de estadisticas de la coleccion. Se establece uno por defecto.')
+        dir_path = sys.argv[1]   
     else:    
         dir_path = sys.argv[1]
-        
-        delete_sw = False
-        stop_words = []
-        if len(sys.argv) >= 3 and sys.argv[2].lower() == 'true': 
-            delete_sw = True
-            if len(sys.argv) >= 4:
-                path_sw = sys.argv[3]
-                if os.path.exists(path_sw):
-                    with open(path_sw, "r", encoding="utf-8", errors="ignore") as sw_file:
-                        stop_words = [line.strip() for line in sw_file.readlines()]
-                else:
-                    print(f"No se encontro el archivo de stopwords: {path_sw}")
+        json_path = sys.argv[2] 
+    
+    print('Directorio a analizar: ' + dir_path)
+    print('Archivo json: ' + json_path)
 
-    print('Directorio a analizar    > ' + dir_path)
-    if not delete_sw:
-        print('No se Eliminaran palabras vacias.')        
-    else:
-        print('Se eliminaran palabras vacias.')
-    print('---------------------------------------------------')
-        
     if isdir(dir_path):
         l = listdir(dir_path)
         for arch in l:
@@ -53,33 +39,26 @@ def main():
                 # Tokenizamos
                 tokens_doc = tokenize(content)
                 
-                # Borramos stopwords
-                if delete_sw:
-                    tokens_doc = [t for t in tokens_doc if t not in stop_words]
-                
                 total_tokens_count += len(tokens_doc)
-                
                 # Extraemos y contamos tokens únicos para Document Frequency
                 terms_in_doc = set(tokens_doc)
                 all_terms.update(terms_in_doc)
-                
+                # Todos los terminos de este documento, sumaran 1 a su DF
                 for term in terms_in_doc:
                     df[term] = df.get(term, 0) + 1
                     
-                cont += 1
-                proccess_docs += 1
+                docs_count += 1
         
-        # Resultados pedidos para la consigna
-        print(f"\nLista de términos y su DF (Mostrando algunos de ejemplo):")
+        # Resultados
+        print(f"\n> Lista de términos y su DF:")
         # Mostrar 10 como muestra para no llenar la consola si hay muchos
-        muestra_df = list(df.items())[:10]
-        for v in muestra_df:
-            print(f"   {v[0]}: {v[1]}")
-        print("   ...")
+        list_df = list(df.items())
+        for term, df_count in list_df:
+            print(f"{term} {df_count}")
         
-        print(f"\nCantidad de tokens: {total_tokens_count}")
-        print(f"Cantidad de términos: {len(all_terms)}")
-        print(f"Cantidad de documentos procesados: {proccess_docs}")
+        print(f"\n> Cantidad de tokens: {total_tokens_count}")
+        print(f"> Cantidad de términos: {len(all_terms)}")
+        print(f"> Cantidad de documentos procesados: {docs_count}")
 
         # Comparar con collection_data.json
         print('\n--- COMPARACIÓN CON collection_data.json ---')
@@ -91,29 +70,35 @@ def main():
         if os.path.exists(json_path):
             with open(json_path, 'r', encoding="utf-8") as f:
                 coll_data = json.load(f)
+            
+            stats = coll_data.get("statistics", {})
+            if stats:
+                print(f"> Cantidad de tokens: {stats.get('num_tokens', 'N/A')}")
+                print(f"> Cantidad de términos: {stats.get('num_terms', 'N/A')}")
+                print(f"> Cantidad de documentos procesados: {stats.get('N', 'N/A')}\n")
                 
-            coincidencias = 0
-            fallas = 0
+            coincidences = 0
+            failures = 0
             for data in coll_data.get("data", []):
                 term = data["term"]
                 expected_df = data["df"]
-                actual_df = df.get(term, 0)
+                current_df = df.get(term, 0)
                 
-                if expected_df == actual_df:
-                    coincidencias += 1
+                if expected_df == current_df:
+                    coincidences += 1
                 else:
-                    fallas += 1
-                    print(f"Falla en el termino '{term}': DF calculado = {actual_df} | DF esperado = {expected_df}")
+                    failures += 1
+                    print(f"> Falla en el termino '{term}': DF calculado = {current_df} | DF esperado = {expected_df}")
             
-            if fallas == 0:
-                print(f"✔️ Todos los {coincidencias} terminos comparados coinciden exitosamente con su respectivo DF.")
+            if failures == 0:
+                print(f"> Todos los {coincidences} terminos comparados coinciden exitosamente con su respectivo DF.")
             else:
-                print(f"Terminos comparados exitosamente: {coincidencias}. Fallas: {fallas}.")
+                print(f"> Terminos comparados exitosamente: {coincidences}. Fallas: {failures}.")
         else:
-            print(f"No se pudo localizar el archivo collection_data.json en {json_path}")
+            print(f"> No se pudo localizar el archivo collection_data.json en {json_path}")
             
     else:
-        print("El paramero pasado no corresponde a un directorio")
+        print("> El paramero pasado no corresponde a un directorio")
 
 if __name__ == '__main__':
     main()
