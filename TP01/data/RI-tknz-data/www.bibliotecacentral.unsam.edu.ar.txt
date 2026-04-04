@@ -1,0 +1,28 @@
+biblioteca central de la unsam
+          td  
+document.writeln( +   + " " + "de " +
+ ; estas en: inicio red de bibliotecas biblioteca central
+presentación horario y ubicación equipo acuerdos cooperativos infraestructura reglamento general
+buscar en catálogo de la biblioteca central bases de datos
+sitios de interés colecciones servicios consulta en sala y préstamos
+provisión de documentos búsqueda de información talleres y capacitaciones visitas
+guiadas sugerencias de compras asociate a la biblioteca canje y
+donación comentarios y sugerencias novedades conocenos catálogo en línea de
+la biblioteca central se puede buscar información bibliográfica por autor,
+título, tema, etc., permite guardar los resultados de las búsquedas
+en la pc o enviarlas por e-mail, entre otras muchas
+funcionalidades. para consultarlo ingresar en: http://koha.unsam.edu.ar/. nuevo recurso para buscar
+información. la biblioteca electrónica becyt incorporó un metabuscador que permite
+realizar búsquedas simultáneamente en más de 24 bases de datos
+académicas reconocidas internacionalmente como jstor, ebsco, ieee. un único y
+simple casillero de búsqueda funciona como punto de partida para
+buscar información de manera fácil y simultánea en diferentes recursos.
+para más detalles consulta el tutorial en línea. ¡asociate a
+la biblioteca! podrás retirar materiales en préstamo y utilizar todos
+los servicios que tenemos para ofrecerte. información sobre el trámite.
+bases de datos: acceso remoto este servicio permite el uso
+de las bases desde fuera del campus y desde computadoras
+sin ip unsam. se encuentra habilitado para docentes, investigadores, estudiantes
+de posgrado y personal no docente de la unsam que
+previamente haya solicitado su usuario y contraseña. leer más visitas
+al sitio: 19807 Última actualización: 09/11/2011

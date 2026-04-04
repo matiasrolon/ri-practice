@@ -1,0 +1,2 @@
+jtablesession::store faileddb function failed with error number 145table './agentia/jos_session' is
+marked as crashed and should be repaired sql=insert into    

@@ -1,0 +1,10 @@
+argenfoods tabla de composición de alimentos - universidad nacional de
+luján * esta tabla se ha elaborado con el propósito
+de brindar datos de composición nutricional de nuestros alimentos. los
+datos han sido tomados de la base de datos de
+composición de alimentos argenfoods que se está desarrollando en la
+universidad nacional de luján, en el marco del proyecto   de la universidad de
+las naciones unidas y  . en esta base se
+acopia toda la información sobre composición de alimentos disponible en
+el país, compilada de acuerdo a las pautas metodológicas internacionalmente
+recomendadas

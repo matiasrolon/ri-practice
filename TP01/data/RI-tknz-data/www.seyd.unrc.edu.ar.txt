@@ -1,0 +1,3 @@
+secretaría de extensión y desarrollo cargando página /seyd/estructura_inicial.jsp , aguarde
+... sino se cargó la página en forma automática pulse
+este enlace.

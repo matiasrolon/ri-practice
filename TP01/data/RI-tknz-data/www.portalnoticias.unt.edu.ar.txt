@@ -1,0 +1,28 @@
+servidor en mantenimiento /* fecha y hora by chivi */
+/* coeminza el script del reloj */  { /*
+capturamos la hora, los minutos y los segundos */ marcacion
+= new   /* capturamos la hora */ hora =
+  /* capturamos los minutos */ minutos =   /*
+capturamos los segundos */ segundos =   /* si la
+hora, los minutos o los segundos son menores o igual
+a 9, le añadimos un 0 */   hora
+= "0" + hora   minutos = "0" +
+minutos   segundos = "0" + segundos /* termina
+el script del reloj */ /* coemienza eñ script de
+la fecha */     var
+fecha = "" +  ] + ", " +  
++ " de " +  ] + " de "
++ anio + ", "; /* termina el script de
+la fecha */ /* creamos 4 variables para darle formato
+a nuestro script */ var inicio, script, final, total /*en
+inicio le indicamos un color de fuente y un tamaño
+*/ inicio = "" /* en reloj le
+indicamos la hora, los minutos y los segundos */ script
+= fecha + hora + ":" + minutos + ":"
++ segundos /* en final cerramos el tag de la
+fuente */ final = "" /* en total finalizamos el
+reloj uniendo las variables */ total = inicio + script
++ final /* capturamos una celda para mostrar el reloj
+*/  .innerhtml = total /* indicamos que nos refresque el
+reloj cada 1 segundo */   bienvenido a la
+unt.

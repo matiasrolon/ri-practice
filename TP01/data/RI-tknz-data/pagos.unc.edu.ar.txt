@@ -1,0 +1,6 @@
+pagos - autentificación de usuarios#overlay, #capa_espera  .barra-superior {background:  .ei-cuadro-col-tit, .ei-ml-columna, .ei-filtro-columna {background:  .ei-barra-sup, .ci-botonera {background:
+   apex_solicitud_tipo='web'var toba_espera=0; procesando...procesando. por
+favor aguarde...versión 1.0.0autentificación de usuarios    ingresarwindow.toba_prefijo_vinculo =
+"/aplicacion.php?ah=4f32f8a5ca431&ai=pagos||3470";window.toba_hilo_item = [ 'pagos',3470 ]window.toba_qs_zona = '';//---------------- creando objeto js_ci_2306
+-------------- window.js_ci_2306 = new  ;//---------------- creando objeto js_form_2304_datos -------------- window.js_form_2304_datos = new ei_formulario([
+'pagos',2304 ], 'js_form_2304_datos', new  , new  , new  ;js_form_2304_datos.agregar_ef(new  ;js_form_2304_datos.agregar_ef(new  ;js_form_2304_datos.set_evento_implicito(new   ;//-----------------------------------------------------------------   ;//-----------------------------------------------------------------  ;desarrollado por  ;

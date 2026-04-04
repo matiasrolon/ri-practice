@@ -1,0 +1,12 @@
+en construcción en construcción el sitio que intenta ver no
+tiene una página predeterminada actualmente. puede que se esté actualizando
+o configurando. intente ver este sitio más tarde. si sigue
+teniendo este problema, pruebe a ponerse en contacto con el
+administrador del sitio web. si es el administrador del sitio
+web y cree que ha recibido este mensaje por error,
+consulte la sección de la ayuda de iis "habilitar y
+deshabilitar contenido dinámico". para tener acceso a la ayuda de
+iis haga clic en inicio y, a continuación, seleccione ejecutar.
+en el cuadro de texto abrir, escriba inetmgr. aparecerá el
+administrador de iis. desde el menú ayuda, haga clic en
+temas de ayuda. seleccione servicios de internet information server.

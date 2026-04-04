@@ -1,0 +1,20 @@
+facultad de odontología -  {//hover states on the static    {  ,   {  {//hover states on
+the static    {  ,   {
+    );},   );},  );});});.atencion{ font-family: "lucida bright", "times
+new roman", serif;font-size: 20px; font-weight: bold; padding: 20px; color: #fff
+!important; background:  .images .verde{ font-family:
+"lucida bright", "times new roman", serif;font-size: 20px; font-weight: bold; padding:
+10px; color: #fff !important; background:  .images .azul { font-family: "lucida bright", "times new roman",
+serif;font-size: 20px; font-weight: bold; padding: 10px; color: #fff !important; ;
+border-bottom: 1px solid #dbe2e6; background:  .images .beauty{
+font-family: "lucida bright", "times new roman", serif;font-size: 20px; font-weight: bold;
+padding: 10px; color: #fff !important; background:  .images .amarillo{ font-family: "lucida bright", "times new roman",
+serif;font-size: 20px; font-weight: bold; padding: 10px; color: #fff !important; background:
+ .images .rojo { font-family:
+"lucida bright", "times new roman", serif;font-size: 20px; font-weight: bold; padding:
+10px; color: #fff !important; background:  .images .naranja { font-family: "lucida bright", "times new roman",
+serif;font-size: 20px; font-weight: bold; padding: 10px; color: #fff !important; background:
+ .images .rosado { font-family: "lucida
+bright", "times new roman", serif;font-size: 20px; font-weight: bold; padding: 10px;
+color: #fff !important; background:  .images   div img { background: transparent; -ms-filter:
+ "; /* ie8 */ filter:  

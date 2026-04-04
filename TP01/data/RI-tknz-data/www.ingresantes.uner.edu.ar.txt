@@ -1,0 +1,31 @@
+portal del ingresante | universidad nacional de entre rÃ­os portada
+| la uner | facultades & carreras | trámites de
+ingreso | bienestar estudiantil | becas | contacto facultad de
+bromatología facultad de ciencias agropecuarias facultad de ingeniería facultad de
+ciencias económicas facultad de ciencias de la educación facultad de
+trabajo social facultad de ciencias de la salud facultad de
+ciencias de la administración facultad de ciencias de la alimentación
+  // load theme  ; // run galleria and add
+some options  .galleria({ image_crop: true, transition: 'fade', transition_speed: 1000, thumb_crop:
+true, carousel: true, autoplay: 6000, data_config:   { // will
+extract and return image captions from the source: return {
+title:  , description:  ; } }); eventosfeb28curso de ambientación
+comienza en bromatologí y trabajo socialfeb06económicas, agropecuarias e ingenierí: inician
+curso de ambientaciónfeb01primera semana: continúan inscripciones en algunas facultadesver todosegresadosexperiencia
+de intercambio en una universidad chilena de valeria urbani, estudiante
+de ingenierí en alimentos más testimonios noticiasciencias de la administración:
+dís y horarios del curso de ambientación desde el 22
+de febrero al 28 de marzo de 2012 se desarrollará
+el curso de ambientación a la vida universitaria. los días
+y horarios según cada carrera se detallan a...reunión informativa en
+ciencias de la salud: 13 de febrero el 13 de
+febrero se realizará la primera reunión informativa para ingresantes 2012
+acerca del nuevo curso de ambientación a la vida universitaria
+que se implementará...ciencias de la educación: el 7 de febrero
+comienza el curso de ambientación curso de ambientación en ingenierí
+el 6 de febrero a las 8 hs. comenzaráel curso
+de ambientación a la vida universitaria en la facultad de
+ingeniería. consta de 4 módulos de 30horas cada uno, que...más
+noticias unertv portada | la uner | trámites de ingreso
+| bienestar estudiantil | becas | contacto portal del ingresante
+| secretaría de extensión universitaria y cultura    ;  ;   {   ga.type = 'text/javascript'; ga.async = true; ga.src   + '.google-analytics.com/ga.js';  

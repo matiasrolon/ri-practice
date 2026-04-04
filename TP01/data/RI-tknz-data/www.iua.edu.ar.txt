@@ -1,0 +1,33 @@
+instituto universitario aeronáutico      
+#encabezado   #encabezado               #menu   #menu   #menu   #menu ul                
+ 
+#menuiua li     #menuaca
+  #menuaca li     #menuing   #menuing
+li     #menu #menuinv   #menuinv li     #menuser li   #menu
+#menuser     #menu #menuegre   #menuegre li     #menu #menupren   #menupren li   #menu
+ul li ul { position:absolute; float:left; list-style-type: none; width:139px; /*width:230px;*/
+/*width:109px;*/ /*height:40px;*/ overflow: visible; visibility: hidden; display: none;   #menu ul li ul   #menu ul li ul
+  #menu ul li ul li
+  #menu ul li ul
+li          
+-->   ga.type = 'text/javascript'; ga.async
+= true; ga.src   + '.google-analytics.com/ga.js';       {    
+      #layer1     .a_img    
+  var specifyimage=new   //your images specifyimage[0]="imagenes/1.png" specifyimage[1]="imagenes/2.png"
+specifyimage[2]="imagenes/logo_80x80.png" specifyimage[3]="imagenes/3.png" specifyimage[4]="imagenes/4.png" specifyimage[5]="imagenes/logo_80x80.png" specifyimage[6]="imagenes/5.png" specifyimage[7]="imagenes/6.png" specifyimage[8]="imagenes/logo_80x80.png" /*specifyimage[6]="imagenes/siete.png" specifyimage[7]="imagenes/ocho.png"*/      .style.color = "#36405c"; else  .style.color = "#ffffff";
+  {   count++;   count=0;   */ encs =  ;   { encs[0] =
+new  ); encs[1] = new  );     {  ;  ;    { encs[1].element.style.zindex = "2"; encs[0].element.style.zindex = "1";  ;
+  count++;   count=0;   // window.onload=new  ;
+ ; // {   instituto universitario aeronáutico
+iua historia
+escudo autoridades ubicación comunicación unidades académicas asociadas documentos y reglamentaciones
+acreditación informáticas autoevaluación institucional ingreso carreras aranceles equivalencias nexo colegios
+académico grado posgrado formación continua extensión egresados convenios becas pasantías
+deportes cultura museo investigación secyt centro de investigaciones aplicadas facultad
+de ingeniería servicios museo pasantías biblioteca becas documentos y reglamentaciones
+deportes cultura salud orientación para el aprendizaje plano web bar/comedor
+prensa noticias del iua periódico iua contacto
+ { //para el
+form con clase "deslizarvert"   ); });  
+/*algunos estilos basicos para el form*/        
+    form .titulo_iua      

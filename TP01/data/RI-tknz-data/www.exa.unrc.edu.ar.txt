@@ -1,0 +1,81 @@
+facultad de ciencias exactas  {   return;  ;  ;  ;
+ ;  ;  ;  ;   menuizqitems[0] = 0; menuizqitems[1] = 6; menuizqitems[2]
+= 2; menuizqitems[3] = 6; menuizqitems[4] = 7; menuizqitems[5] =
+8; menuizqitems[6] = 7; menuizqitems[7] = 5; menuizqitems[8] = 5;
+menuizqitems[9] = 3;   principal institucional eventos teléfonos
+contacto noticias facultad>posgrado facultad ingreso carreras capacitación alumnos universitarios graduados
+- profesionales docentes universitarios docentes de escuela ayudantes alumnos no
+docentes posgrado oferta educativa calendario 2012 investigación extensión servicios a
+terceros proyectos de extensión asesoramiento a empresas pasantías/prácticas en empresas
+selección de profesionales visitas guiadas "el espinal" bioética centro de
+enseñanza comunidad alumnos información general sial calendario académico 2012 asesoramiento,
+consultas capacitación pasantías y prácticas reglamentos y resoluciones graduados adscripciones
+información general capacitación oferta laboral oferta de posgrado registrarse pasantías
+de profesionales reglamentos y resoluciones docentes información general sial capacitación
+concursos listado del personal reglamentos y resoluciones cuestionario docente no
+docentes información general capacitación concursos listado del personal reglamentos y
+resoluciones empresas solicitar un profesional pedir asesoramiento solicitar un pasante
+ofrecer una práctica profesional solicitar un servicio inst. educativas pedir
+asesoramiento pasantías y prácticas visitas guiadas "el espinal" links de
+interés biblioteca cultura.arte.identidad olimpíada argentina de biología bosque autóctono "el
+espinal" fundación conydes ciencias de la vida sitio oficial del
+cucen ............................. ............................. buscar en la facultad vínculos relacionados cursos
+de posgrado seminarios de posgrado calendario académico de posgrado información
+de interés para el docente información de interés para el
+alumno de posgrado responsables y contactos dra. marisa rovera secretaria
+de posgrado tel: 0358-4676431 email: secpostgrado@exa.unrc.edu.ar ............................. oferta educativa de
+posgrado las carreras de maestrías, doctorados y especializaciones están reguladas
+por las siguientes resoluciones: el régimen de carreras de   y la reglamentación de carreras de posgrado
+de la  . además del régimen de
+alumnos de  . carreras de posgrado   doctorado en ciencias químicas -
+categoría   doctorado en ciencias biológicas - categoría   doctorado en ciencias geológicas - categoría   maestrías
+y   maestría en matemática aplicada maestría en
+biotecnología - categoría   cohorte 2005 inscripción instrucciones y
+recomendaciones solicitud de inscripción a doctorado trámites de admisión: explicación
+del circuito de gestión pago de aranceles consultas secretaría de
+posgrado teléfono:   email: secpostgrado@exa.unrc.edu.ar subsecretaria: dra. maría
+marta reynoso mreynoso@exa.unrc.edu.ar universidad nacional de río cuarto facultad de
+ciencias exactas físico-químicas y naturales • webmaster facultad de ciencias
+exactas  {   return;  ;  ;  ;  ;  ;  ;
+ ;   menuizqitems[1] = 6; menuizqitems[2] = 2; menuizqitems[3]
+= 6; menuizqitems[4] = 7; menuizqitems[5] = 8; menuizqitems[6] =
+7; menuizqitems[7] = 5; menuizqitems[8] = 5; menuizqitems[9] = 3;
+  principal institucional eventos teléfonos contacto noticias facultad>posgrado>doctorado
+en ciencias geológicas - categoría   facultad ingreso carreras
+capacitación alumnos universitarios graduados - profesionales docentes universitarios docentes de
+escuela ayudantes alumnos no docentes posgrado oferta educativa calendario 2012
+investigación extensión servicios a terceros proyectos de extensión asesoramiento a
+empresas pasantías/prácticas en empresas selección de profesionales visitas guiadas "el
+espinal" bioética centro de enseñanza comunidad alumnos información general sial
+calendario académico 2012 asesoramiento, consultas capacitación pasantías y prácticas reglamentos
+y resoluciones graduados adscripciones información general capacitación oferta laboral oferta
+de posgrado registrarse pasantías de profesionales reglamentos y resoluciones docentes
+información general sial capacitación concursos listado del personal reglamentos y
+resoluciones cuestionario docente no docentes información general capacitación concursos listado
+del personal reglamentos y resoluciones empresas solicitar un profesional pedir
+asesoramiento solicitar un pasante ofrecer una práctica profesional solicitar un
+servicio inst. educativas pedir asesoramiento pasantías y prácticas visitas guiadas
+"el espinal" links de interés biblioteca cultura.arte.identidad olimpíada argentina de
+biología bosque autóctono "el espinal" fundación conydes ciencias de la
+vida sitio oficial del cucen ............................. ............................. buscar en la
+facultad vínculos relacionados instrucciones y recomendaciones solicitud de inscripción a
+doctorado trámites de admisión pago de aranceles más posgrado institucional
+seminarios de posgrado calendario académico de posgrado información de interés
+para el docente información de interés para el alumno de
+posgrado ............................. doctorado en ciencias geológicas título: doctorado en ciencias
+geológicas acreditación: coneau nº   duración: 4 años
+perfil del egresado el enriquecimiento y formación de los doctorandos
+no sólo se lleva a cabo con las actividades establecidas
+en el plan de doctorado, sino que además se completa
+con una determinada actividad en el plano de la enseñanza
+de grado, involucrando en tiempos una inversión equivalente a una
+dedicación simple.debe destacarse, que la mayoría de los doctorandos actuales,
+son docentes estables del departamento de geología, que una vez
+que completen una formación de cuarto nivel, impactarán de forma
+decisiva tanto en la oferta educativa de grado como de
+posgrado. condiciones de inscripción egresados de carreras geológicas mínimo de
+cinco años. importante: a los egresados de otras universidades se
+les exige título equivalente autenticado. consultas secretaría de posgrado teléfono:
+   correo electrónico: secpostgrado@exa.unrc.edu.ar
+coordinadores dr mario cantúmcantu@exa.unrc.edu.ar universidad nacional de río cuarto facultad
+de ciencias exactas físico-químicas y naturales • webmaster

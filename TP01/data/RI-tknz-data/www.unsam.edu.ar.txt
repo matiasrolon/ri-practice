@@ -1,0 +1,263 @@
+unsam - universidad nacional de san   inicio | contacto | webmail | soporte técnico
+| cómo llegar al campus miguelete | osunsam stuhover   {      
+ila investigación, el
+estudio y la creación como núcleo de la vida de
+la institución" fcontent[1]="las diferentes experiencias como fuentes del saber y
+la acción" fcontent[2]="el diálogo de los saberes, las prácticas y
+los actores como hábito educativo" fcontent[3]="el ambiente de estudio como
+centro de la vida académica" fcontent[4]="una pedagogía que favorezca el
+pensamiento crítico y la actitud innovadora por parte de los
+alumnos" closetag='' var fwidth=576 //ancho var fheight=15 //alto ///no editar/////////////////
+var ie4=document.all&&!document.getelementbyid var ns4=document.layers var dom2=document.getelementbyid var faderdelay=0 var index=0
+  faderdelay=2000 //function to change content  {   index=0  {  "  .innerhtml=begintag+fcontent[index]+closetag   else   document.all.fscroller.innerhtml=begintag+fcontent[index]+closetag else  {     index++   //   partially by marcio galli for netscape communications.
+//////////// frame=20; hex=255 // initial color value.   {
+// 20 frames fading process   { hex-=10; // increase
+color value  ";// set color value. frame--;   else{
+      window.onload=changecontent maestría en derechos humanos y democratización para
+américa latina se realizó en el campus miguelete la clase
+inaugural de la maestría que dicta la unsam con el
+apoyo de la unión europea junto a instituciones asociadas. ampliar...
+inscripciones ciclo 2012 en febrero la unsam retomó su actividad
+luego del receso de verano. previo al inicio de los
+cursos de preparación universitaria, se abre un nuevo llamado a
+inscripción para carreras de grado, pregrado y posgrado. ampliar... autoevaluación:
+inicio de la segunda etapa este año, a partir de
+los temas presentados en el informe de avance 2011, se
+definirán ejes estratégicos que permitirán delinear un plan de mejoras
+en los diversos rubros destinados a la función investigación, desarrollo
+e innovación. ampliar... unsam campus miguelete, 25 de mayo y
+francia. c.p.: 1650. san martín, provincia de buenos aires, argentina
+teléfonos: 4006 1500 ó 4724 1500 | webmaster@unsam.edu.ar | encontranos
+en: mantenimiento y actualización: gerencia de comunicación institucional | gerencia
+de tecnología y sistemas de la información    ;  ;   {   ga.type = 'text/javascript'; ga.async = true; ga.src   + '.google-analytics.com/ga.js';       inicio | contacto | webmail
+| soporte técnico | cómo llegar al campus miguelete |
+osunsam stuhover   {   if   { newselector =  ;     i » carreras de
+pre-grado » carreras de grado carreras de pre-grado escuela de
+ciencia y tecnología » tecnicatura universitaria en diagnóstico por imágenes
+» tecnicatura universitaria en electromedicina » tecnicatura universitario en programación
+informática » tecnicatura universitario en redes informáticas escuela de economía
+y negocios » martillero público y corredor de comercio inst.
+rehabilitación y movimiento » tecnicatura universitaria en puericultura y crianza
+inst. de est. de ciencias jurídicas » tecnicatura universitaria en
+administración de consorcios y urbanizaciones instituto dan beninson » tecnicatura
+universitaria en aplicaciones nucleares inst. inv. e ingeniería ambiental »
+tecnicatura universitaria en teledetección y eco-informática inst. de invest. biotecnológicas
+» tecnicatura universitario en laboratorio inst. ferroviario scalabrini ortiz »
+tecnicatura universitaria en administración y gestión ferroviaria » tecnicatura universitaria
+en tecnología ferroviaria carreras de grado ad: modalidad de cursada
+a distanciaccc: ciclo de complementación curricular escuela de ciencia y
+tecnología » ingeniería ambiental » ingeniería biomédica » ingeniería electrónica
+» ingeniería en energía » ingeniería en telecomunicaciones » ingeniería
+industrial » licenciatura en análisis ambiental » licenciatura en biotecnología
+» licenciatura en física médica » licenciatura en diagnóstico por
+imágenes ccc » licenciatura en tecnología e instrumentación biomédica ccc
+escuela de economía y negocios » licenciatura en economía »
+licenciatura en administración y gestión empresarial » licenciatura en turismo
+» contador público » licenciatura en administración de empresas hoteleras
+y gastronómicas escuela de humanidades » licenciatura en psicopedagogía »
+licenciatura y profesorado en filosofía » profesorado universitario en letras
+» profesorado en ciencias de la educación » licenciatura en
+antropología social y cultural » licenciatura en educación » licenciatura
+en psicopedagogía ccc » licenciatura en comunicación audiovisual ccc »
+licenciatura en lengua inglesa ccc » licenciatura en artes ccc
+» licenciatura en enseñanza de las artes audiovisuales. ccc »
+licenciatura en enseñanza de las ciencias adccc » licenciatura en
+enseñanza de las ciencias sociales adccc » licenciatura en enseñanza
+de la lengua y la literatura adccc » licenciatura en
+educación inicial adccc » licenciatura en educación especial adccc »
+licenciatura en educación básica adccc escuela de política y gobierno
+» licenciatura en administración pública » licenciatura en ciencia política
+» licenciatura en organización y dirección institucional » licenciatura en
+administración pública ccc » licenciatura en dirección de organizaciones de
+la sociedad civil ccc » licenciatura en dirección de organizaciones
+de la sociedad civil adccc inst. de altos estudios sociales
+» licenciatura en antropología social y cultural » licenciatura en
+sociología instituto de calidad industrial » ingeniería industrial inst. rehabilitación
+y movimiento » licenciatura en ortesis y prótesis » licenciatura
+en terapia ocupacional » licenciatura en educación física ccc »
+licenciatura en kinesiología y fisiatría ccc » licenciatura en ortesis
+y prótesis ccc » licenciatura en rehabilitación visual ccc »
+licenciatura en terapia ocupacional ccc inst. inv. e ingeniería ambiental
+» ingeniería ambiental inst. de invest. biotecnológicas » licenciatura en
+biotecnología » ingeniería en agrobiotecnología instituto sabato » ingeniería en
+materiales pregrado y grado posgrado cursos de formación ingreso a
+la unsam alumnos preinscripción unsam campus miguelete, 25 de mayo
+y francia. c.p.: 1650. san martín, provincia de buenos aires,
+argentina teléfonos: 4006 1500 ó 4724 1500 | webmaster@unsam.edu.ar |
+encontranos en: mantenimiento y actualización: gerencia de comunicación institucional |
+gerencia de tecnología y sistemas de la información    ;  ;   {  
+      inicio | contacto |
+webmail | soporte técnico | cómo llegar al campus miguelete
+| osunsam stuhover   {  
+    {
+cssrule = document.stylesheets[i].rules[x]; if   { newselector =
+ ;     for (  id =  ;
+eval("page" + id + " =  
+@import  ;
+  { day = new  ; id =  ; eval("page"
++ id + " =  
+inicio | contacto | webmail | soporte técnico
+| cómo llegar al campus miguelete cienciaytecnología economíaynegocios humanidades políticaygobierno
+unidad académica de las artes invest. e ing. ambiental instituto
+dan beninson cienciasdelarehabilitación.. investigacionesbiotecnológicas institutosabato calidadindustrial altosestudiossociales inst. tecnológico ferroviario
+inst. en ciencias jurídicas carreras cursos ingresoalaunsam alumnos autoridades historia
+sedes misiónyvalores plan estratégico foros institucionales observatorio de educación superior
+escuela de economía y negocios maestría en
+economía y desarrollo del turismo directora: regina schlüter / acreditada
+res. coneau nº 904/10 posgradoturismo.eeyn@unsam.edu.ar especialización en economía y desarrollo
+del turismo directora: regina schlüter / acreditada res. coneau nº
+719/10 posgradoturismo.eeyn@unsam.edu.ar escuela de humanidades doctorado en antropología   directores: claudia fonseca - alejandro grimson
+/ acreditada res. coneau nº 84/10 “bn” antropounsam@unsam.edu.ar maestría en
+derechos humanos y políticas sociales directora: graciela di marco /
+presentada a acreditación 2009 democ@unsam.edu.ar | cedehu@unsam.edu.ar maestría en educación,
+lenguajes y medios directora: mónica pini / a presentarse en
+la próxima convocatoria pida.educ@unsam.edu.ar maestría en enseñanza de las ciencias
+experimentales y matemáticas director: héctor pedrol / a presentarse en
+la próxima convocatoria ciencias@unsam.edu.ar maestría en estudios de familia directora:
+mónica tarducci / acreditada res. coneau nº 910/09 “bn” familias@unsam.edu.ar
+maestría en estudios latinoamericanos director: horacio crespo / acreditada res.
+coneau nº 909/09 “b” cel@unsam.edu.ar maestría en gestión educativa directora:
+ana maría cambours de donini / acreditada res. coneau nº
+352/07 “c” geduc@unsam.edu.ar especialización en derechos humanos y políticas sociales
+directora: graciela di marco / presentada a acreditación 2009 democ@unsam.edu.ar
+| cedehu@unsam.edu.ar especialización en educación, lenguajes y medios directora: mónica
+pini / acreditada res. coneau nº 374/07 "cn" pida.educ@unsam.edu.ar especialización
+en enseñanza de las ciencias experimentales y matemáticas director: héctor
+pedrol / a presentarse en la próxima convocatoria ciencias@unsam.edu.ar especialización
+en estudios de familia directora: mónica tarducci / acreditada res.
+coneau nº 937/09 “b” familias@unsam.edu.ar especialización en gestión educativa directora:
+ana maría cambours de donini / acreditada res. coneau nº
+334/04 "cn" geduc@unsam.edu.ar escuela de política y gobierno doctorado en
+ciencia política director: marcelo cavarozzi / acreditada res. coneau nº
+83/10 doctoradocp@unsam.edu.ar maestría en auditoría gubernamental directores: guillermo schweinheim -
+guillermo alonso / presentada a acreditación 2009 auditgub@unsam.edu.ar maestría en
+desarrollo local directores: oscar madoery - antonio vázquez barquero acreditada
+res. coneau nº 381/04 "bn" / presentada a acreditación 2009
+deslocal@unsam.edu.ar maestría en políticas públicas y gerenciamiento del desarrollo directores:
+marcelo cavarozzi - eusebio mujal-león / acreditada res. coneau nº
+573/05 "b" ppygd@unsam.edu.ar instituto de altos estudios sociales - idaes
+doctorado en antropología  
+directores: claudia fonseca - alejandro grimson / acreditada res. coneau
+nº 084/10 “bn” antropounsam@unsam.edu.ar doctorado en sociología director: josé nun
+/ proyecto acreditado dictamen coneau nº 10413/09 doctoradosocio@unsam.edu.ar maestría en
+antropología social directores: rosana guber - axel lázzari / acreditada
+res. coneau nº 645/05 “b” maestrias@ides.org.ar maestría en ciencia política
+directores: josé nun - gerardo aboy carlés / acreditada res.
+coneau nº 335/99 “b” maestriacpolitica@unsam.edu.ar maestría en clínica psicoanalítica directoras:
+graciela brodsky – adriana rubistein / acreditada res. coneau nº
+296/09 lcozza@unsam.edu.ar maestría en historia director: juan suriano / acreditada
+como proyecto res. coneau nº 915/05 maestriahistoria@unsam.edu.ar maestría en historia
+del arte argentino y latinoamericano directora: laura malosetti costa /
+acreditada como proyecto coneau nº 909/05 maestriahdelarte@unsam.edu.ar maestría en sociología
+de la cultura y análisis cultural directores: laura malosetti costa
+- alejandro grimson / acreditada res. coneau nº 080/10 “a”
+maestriascultura@unsam.edu.ar maestría en sociología económica directores: josé nun - ana
+gabriela castellani / acreditada res. coneau nº 878/09 “a” maestriaseconomica@unsam.edu.ar
+especialización en gestión cultural y políticas culturales directores: rubens bayardo
+- marta dujovne / acreditada res. coneau nº 765/09 ”cn”
+especializaciongcultural@unsam.edu.ar instituto de ciencias de la rehabilitación - icrym especialización
+en kinefisiatría crítica respiratoria director: mariano setten / acreditación resolución
+coneau nº 1050/10 - categoría "c" kinesiologia@sati.org.ar especialización en medicina
+legal director: francisco famá / acreditación resolución coneau nº 159
+- p 56/98 categoría "c" ffama@intramed.net instituto de estudios en
+ciencias jurídicas - iecj especialización para la magistratura director: roland
+arazi / acreditada res. coneau nº 089/10 fundesi@fundesi.com.ar | lucas.gillares@unsam.edu.ar
+instituto de investigaciones biotecnológicas - iib doctorado en biología molecular
+y biotecnología director: juan josé cazzulo / acreditada res. coneau
+nº 704/06 “a” sperini@iib.unsam.edu.ar maestría en microbiología molecular directora: mirta
+carlomagno / acreditada res. coneau nº 696/06 “b” maestria@anlis.gov.ar |
+nmendonca@anlis.gov.ar | carlomagno@anlis.gov.ar instituto de investigacion e ingeniería ambiental -
+3ia doctorado en ciencia y tecnología – mención química director:
+miguel blesa / acreditada res. coneau n° 116/03 “an” cicerone@unsam.edu.ar
+maestría en control de plagas y su impacto ambiental director:
+eduardo zerba / acreditada res. coneau n° 950/99 cvassena@citefa.gov.ar |
+hkuhn@citefa.gov.ar especialización en tecnologías e impacto ambiental de materiales plásticos
+directora: patricia eisenberg / presentada a acreditación 2010 giselam@inti.gov.ar |
+mariana@inti.gov.ar instituto de la calidad industrial - incalin maestría en
+calidad industrial director: héctor laiz / presentada a acreditación 2010
+nelidap@fibertel.com.ar especialización en calidad industrial director: joaquín valdés / acreditada
+res. coneau nº 85/01 "b" / presentada a re acreditación
+2010 nelidap@fibertel.com.ar especialización en calidad industrial en alimentos directora: nélida
+prola / acreditación res. coneau nº 880/05 “c” / presentada
+a re acreditación 2010 nelidap@fibertel.com.ar especialización en seguridad contra incendios
+en la edificación directora: geraldine charreau / carrera presentada a
+acreditación 2010 geral@inti.gob.ar instituto de tecnología nuclear dan beninson especialización
+en radioquímica y aplicaciones nucleares director: marcos cohen / carrera
+presentada a acreditación 2010 ksoco@cae.cnea.gov.ar especialización en reactores nucleares y
+su ciclo de combustible directora: carla notari / carrera presentada
+a acreditación 2010 daoud@cnea.gov.ar instituto sabato doctorado en ciencia y
+tecnología. mención física directora: ana maría llois / acreditada res.
+coneau n° 703/06 “a” isabato@cnea.gov.ar doctorado en ciencia y teconología.
+mención materiales directora: ana maría monti / acreditada res. coneau
+n° 803/99 “a” isabato@cnea.gov.ar maestría en ciencia y tecnología de
+materiales director: ricardo carranza / acreditada res. coneau n° 498/99
+“a” isabato@cnea.gov.ar especialización en ensayos no destructivos directores: alba obrutsky
+- maría i. lópez pumarega / carrera presentada a acreditación
+2010 isabato@cnea.gov.ar unsam - universidad nacional de san martín
+  { day
+= new  ; id =  ; eval("page" + id +
+" =  
+@import  ;
+  { day =
+new  ; id =  ; eval("page" + id + "
+=  
+inicio |
+contacto | webmail | soporte técnico | cómo llegar al
+campus miguelete cienciaytecnología economíaynegocios humanidades políticaygobierno unidad académica de las
+artes invest. e ing. ambiental instituto dan beninson cienciasdelarehabilitación.. investigacionesbiotecnológicas
+institutosabato calidadindustrial altosestudiossociales inst. tecnológico ferroviario inst. en ciencias jurídicas
+carreras cursos ingresoalaunsam alumnos autoridades historia sedes misiónyvalores plan estratégico
+foros institucionales observatorio de educación superior
+school
+of economics and business master’s degree in economics and development
+of tourism. specialization in economics and development of tourism school
+of humanities phd in social anthropology master’s degree in human
+rights and democratization in latin america and the caribbean master’s
+degree in human rights and social policies master’s degree in
+education, languages and media master’s degree in family studies master’s
+degree in latinamerican studies master´s degree in the teaching of
+experimental sciences and mathematics master’s degree in educational management specialization
+in international cooperation specialization in education, languages and media specialization
+in the teaching of experimental sciences and mathematics specialization in
+human rights and social policies specialization in family studies specialization
+in educational management school of politics and government phd in
+political science master’s degree in government audit master’s degree in
+local development master’s degree in public policies and development management
+specialization in electoral analysis and law specialization in public policies
+and management of development institute of high social studies -
+idaes phd in social   phd in sociology master’s degree in social anthropology master’s
+degree in political science master’s degree in history master’s degree
+in argentine and latin american art master’s degree in the
+sociology of culture and cultural analysis master’s degree in economic
+sociology master’s degree in clinical psychoanalysis master’s degree in solidarity
+economy specialization in cultural management and policies institute of industrial
+quality - incalin master’s degree in industrial quality specialization in
+industrial quality specialization in food industry quality specialization in building
+fire safety institute of rehabilitation and motion sciences - icrym
+specialization in acute and respiratory kinephysiatry. specialization in legal medicine
+institute for biotechnological research phd in molecular biology and biotechnology
+master’s degree in molecular microbiology institute for environmental research and
+engineering phd in science and technology, chemistry master’s degree in
+plague control and environmental impact specialization in environmental management specialization
+in the technology and environmental impact of plastics institute for
+nuclear technology dan beninson specialization in radiochemistry and nuclear applications
+specialization in nuclear reactors and fuel cycle institute sabato phd
+in science and technology, physics phd in science and technology,
+materials science master’s degree in materials science and technology specialization
+in non destructive tests institute of judicial studies specialization for
+the magistracy contact: internacionale@unsam.edu.ar unsam - universidad nacional de san
+martín -
+ ;   cooperación internacional: convocatoria abierta para
+acceder a becas 13/02/2012 colectivo unsam: servicio gratuito para toda
+la comunidad 13/02/2012 asociatividad: unsam en convenio con san antonio
+de areco 13/02/2012 el más leído 09/02/2012 introducción a la
+bibliografía material 07/02/2012 maestría en derechos humanos y democratización para
+américa latina 03/02/2012 continúa inscripción para algunas carreras del ciclo
+2012 01/02/2012 programa de capacitación docente 01/02/2012 receso de verano
+e inscripciones ciclo 2012 29/12/2011 unsam desarrollará tecnología para el
+uso de energía solar 29/12/2011 servicios activos durante el receso
+29/12/2011 autoevaluación: inicio de la segunda etapa 27/12/2011 unsam despidió
+el año en el campus miguelete 19/12/2011 autoevaluación: balance 2011
+16/12/2011 nuevo decano en economía y negocios 16/12/2011 oferta académica
+elija el tipo de búsqueda: por unidad académica por orden
+alfabético por nivel

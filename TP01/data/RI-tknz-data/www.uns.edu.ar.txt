@@ -1,0 +1,55 @@
+universidad nacional del sur martes, 07 de febrero de 2012
+englishportuguês nuestra universidad institucional departamentos académicos secretarías y otras dependencias
+escuelas dependientes docencia investigación uns y la comunidad administración y
+reglamentación calendario de eventos la uns en números alumnos oferta
+académica ingreso calendario académico graduados educación a distancia becas bibliotecas
+servicios himno para la uns //slideshow script - html.dynamico 2001
+//mas scripts y recursos para tu web en: //http://www.htmldynamico.cjb.net var
+slideshow_width=500//set image width var slideshow_height=180 //set image height var pause=7000
+//set pause between   var fadeimages=new   //set
+image paths. extend or contract array as needed fadeimages[0]="imagenes/presen_8/img_puerta_rondeau.jpg" fadeimages[1]="imagenes/presen_8/img_coro_rondeau.jpg"
+fadeimages[2]="imagenes/presen_8/img_rondeau_interno.jpg" fadeimages[3]="imagenes/presen_8/img_iapuco.jpg" fadeimages[4]="imagenes/presen_8/img_rector.jpg" fadeimages[5]="imagenes/presen_8/img_alem.jpg" ////no need to edit beyond here/////////////
+var preloadedimages=new     else   var curpos=10 var degree=10 var
+curcanvas="canvas0" var curimageindex=0 var nextimageindex=1  { if  {  { curpos+=10   if   tempobj.filters.alpha.opacity=curpos else  else{    ? "canvas0" : "canvas1" tempobj=ie4?   :
+  if   { tempobj.innerhtml='' nextimageindex=(nextimageindex'     window.onload=startit else   extensión
+- pregón 07/02/2012 se recibieron 41 proyectos de voluntariado la
+solidaridad universitaria está a la orden del día, y como
+prueba de ello basta ver que en su convocatoria 2011
+la secretaría de cultura y extensión universitaria recibió 41 proyectos
+en el marco del trabajo conjunto con otras entidades, dentro
+delas actividades de alumnos y docentes en temas sociales... actualidad
+- pregón 22/12/2011 la uns recomienda estudiar otras localizaciones para
+el dragado la comisión de especialistas de varias disciplinas creada
+meses atrás por el consejo superior universitario hizo conocer sus
+conclusiones sobre el dragado e instalación de una planta regasificadora
+en general cerri.... ciencia y tecnología- pregón 19/12/2011 convocatoria a
+interesados en participar del desarrollo de un biorreactor se invita
+a matemáticos, enfermeros, biólogos, bioquímicos y médicos recientemente graduados a
+integrar el equipo de desarrollo de un biorreactor 3d para
+células madre hematopoyéticas.... académica - pregón 30/11/2011 la uns organizará
+una escuela de verano sobre circuitos y chips 3d será
+en buenos aires, y participarán investigadores de varios países, integrantes
+de la sociedad de circuitos y   del instituto
+de ingenieros electricistas y  ... actualidad - pregón 23/12/2011 reencuentro de agronomía quienes hayan
+transitado por rondeau 29 como docentes, estudiantes y no docentes
+del departamento de agronomía entre 1956 y 1980 podrán reencontrarse
+en una jornada que tendrá lugar el 21 de abril
+próximo en el mencionado centro histórico cultural. ... académica -
+pregón 20/12/2011 maestría plider y especialización en turismo rural y
+comunitario el departamento de geografía y turismo informa que se
+encuentran abierta las inscripciones para estas propuestas de posgrado. más
+informes en el teléfono 4595144, correo: posgradodgyt@uns.edu.ar ... política -
+pregón 16/12/2011 abrió el período de aportes al plan estratégico
+de la uns los miembros de la comunidad universitaria que
+quieran sumar sus ideas o sugerencias podrán hacerlo hasta el
+29 de febrero, a través de la web.... actualidad -
+pregón 07/11/2011 el micro de tv de la universidad en
+la última nota del año, las máximas autoridades de la
+uns realizan un balance de lo ocurrido en el 2011
+y saludan a la comunidad de la ciudad y la
+región.... noticias universitarias difusión interna concursos personal llamados a licitación
+emergencias enlaces de interés universidad nacional del sur avenida colón
+80 - bahía   - pcia buenos aires - república
+argentina   - 4595000 acerca de este sitio carreras de
+grado del departamento- universidad nacional del sur this page uses
+frames, but your browser doesn't support them.

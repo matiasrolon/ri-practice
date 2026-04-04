@@ -1,0 +1,10 @@
+guia de carreras universitarias 2012 - argentina - departamento de
+informacion universitaria#overlay, #capa_espera  .barra-superior {background:  .ei-cuadro-col-tit, .ei-ml-columna,
+.ei-filtro-columna {background:  .ei-barra-sup, .ci-botonera {background:    apex_solicitud_tipo='web'var toba_espera=0; procesando...procesando. por favor aguarde...
+¿qué puedo estudiar? ¿dónde?esta guía contiene información actualizada de todas
+las carreras universitarias de pregrado, grado, y posgrado del país
+y de las instituciones donde se cursan.dicha información ha sido
+suministrada por las instituciones universitarias, quienes son las responsables de
+la misma.encontrarán distintas opciones de búsqueda y los datos de
+contacto de las instituciones.ingresarwindow.toba_prefijo_vinculo = "/aplicacion.php?ah=4f330bed50721&ai=ciie_ofertas||14000020";window.toba_hilo_item = [ 'ciie_ofertas',14000020 ]window.toba_qs_zona
+= '';//---------------- creando objeto js_ci_14000041 -------------- window.js_ci_14000041 = new   ;//-----------------------------------------------------------------  ;

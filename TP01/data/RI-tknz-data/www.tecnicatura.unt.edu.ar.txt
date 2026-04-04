@@ -1,0 +1,127 @@
+/* override colors */ /* general settings */     /* typeography */ a:link,         /*
+headers */ h1, h2, h3, h4, h5,     /* layout / placement */    
+      /* content */ /* regular entry */
+#content .entry   #content .entry   #content .entry   #content .entry   #content .entry .blog_date, #content .static .blog_date,
+#content .comment   /* static entry
+*/ #content .static   #content .static   #content .static   /* comment entry */ #content .comment
+  #content
+.comment  
+#content .comment   /* sidebar */   #sidebar .menu_body   #sidebar .menu_body
+  #sidebar .menu_body   #sidebar .menu_body   #sidebar
+  #sidebar
+  tecnicatura
+superior en gestión universitaria - universidad nacional de tucumán tecnicatura
+superior en gestión universitaria - universidad nacional de tucumán mesas
+examinadoras dispuesta para los días 14, 15 y 16 de
+diciembre del corriente año lunes, diciembre 5, 2011, 10:28 mesas
+examinadoras dispuesta para los días 14, 15 y 16 de
+diciembre del corriente año. cabe destacar que las fechas mencionadas
+de mesas examinadoras serán dependientes con fechas anteriores, es decir
+si un alumno se inscribe para rendir un módulo x
+en una mesa y está ausente o reprobado no podrá
+presentarse en ese mimo módulo en la fecha siguiente. las
+dependencias de mesas serán establecidas por la dirección de alumnos
+y posteriormente autorizadas por la sub secretaría académica. las fechas
+de exámenes y las fechas dependientes se detallan a continuación:
+fechas de exámenes 14/12/2011 dependiente de la mesa del 21/10/1115/12/2011
+dependiente de la mesa del 21/10/11 y 14/12/201116/12/2011 dependiente de
+la mesa del 21/10/11; 14/12/11 y   |enlace permanente mesas de examen octubre 2011 miércoles, octubre
+19, 2011, 13:26 planeamiento y administracionviernes 21/10/11 a las 16.00hsinstituto
+técnicoplaneamiento estrategico aplicado a la universidadviernes 21/10/11 a las 16.00hsinstituto
+técnicogestion de costos y presupuestosviernes 21/10/11 a las 16.00hsinstituto técnico
+estructura organizacion y control internoviernes 21/10/11 a las 16.00hsinstituto técnico
+mantenimientoviernes 21/10/11 a las 19.30hsinstituto técnico comportamiento organizacionalviernes 21/10/11 a
+las 14.00hspuna informatica iiilunes 24/10/11 a las 14.00hscentro de capacitaciónayacucho
+476 1º   |enlace permanente mesas
+de examen octubre 2011 jueves, octubre 13, 2011, 11:01 fecha
+de examen: 21/10/11fecha de inscripcion: desde el 13/10/11 hasta el
+18/10/11 en la oficina de sección alumnos de la tecnicatura
+de 9.00hs a   |enlace permanente
+tramite de certificado final de estudios miércoles, octubre 5, 2011,
+19:43 se comunica a los egresados de la tecnicatura superior
+en gestion universitaria que deben pasar por la oficina de
+direcciÓn alumnos para realizar los trÁmites para emisiÓn de certificado
+final de estudios.direcciÓn alumnos-------------------------------------------------------------aranceles a pagar para realizar trÁmites de
+egresados$15 diploma de tecnicaturas$30 legalizaciÓn ante los ministerios de educaciÓn
+y del interior$ 5 legalizaciÓn de certificado final de estudios$
+4,60 legalizaciÓn de certificados de estudios completosse les comunica a
+los egresados que ya iniciaron el trámite de sus diplomas
+y no pagaron los $15 y los $4,60, deberán pagarlos
+antes de retirar sus constancias.dirección  
+|enlace permanente trámite de egresados viernes, septiembre 30, 2011, 11:40
+se informa a los alumnos de la tecnicatura superior en
+gestión universitaria que completaron sus estudios y cumplen con el
+100% de avance en su carrera, deberán retirar la solicitud
+de diploma en la oficina de dirección alumnos de la
+tecnicatura a partir del día 30/09/11 en los horarios de
+09:00 hs a 12:30 hs. el trámite es personal y
+deberá iniciarse por mesa de entradas con la solicitud de
+diploma, mas una foto ¾ perfil derecho fondo celeste, pagos
+de aranceles en tesorería y el libre deuda de la
+biblioteca central de la   |enlace
+permanente taller de integracion-pasantias domingo, septiembre 18, 2011, 20:57 los
+alumnos inscriptos para cursar el taller de integración-pasantías deberán concurrir
+a la primera clase el dia miércoles 28/09/11 de 15.00hs
+a 17.00hs en el instituto  
+|enlace permanente mesas de examen setiembre 2011 jueves, septiembre 15,
+2011, 20:56 gestión de costos y presupuestoviernes 16/09/11 a las
+16.00hsinstituto técnicoestructura organización y control internoviernes 16/09/11 a las 16.00hsinstituto
+técnicogestión administrativaviernes 16/09/11 a las 16.00hsinstituto técnicoplaneamiento y administraciónviernes 16/09/11
+a las 16.00hsinstituto técnicoestadística descriptivaviernes 16/09/11 a las 16.00hsinstituto técnicotécnicas
+del lenguaje iviernes 16/09/11 a las 18.00hsinstituto técnicoinformática i, ii
+y iiilunes 19/09/11 a las 14.00hssala de capacitaciónayacucho 476 1º
+pisoriesgo de trabajomartes 20/09/11 a las 19.00hsinstituto   |enlace permanente acto de finalización de la primera
+cohorte de la carrera técnico superior en gestión universitaria martes,
+septiembre 6, 2011,   |enlace permanente
+licenciatura en gestión universitaria lunes, septiembre 5, 2011, 11:23 gracias
+a vanesa teresa elsa, aquí tenemos una copia de la
+resolución nº 1874/2011 en la que se aprueba la creación
+de la licenciatura en gestión  
+|enlace permanente recuperación seminario, mesas de examen, taller integrador domingo,
+septiembre 4, 2011, 20:32 recuperación seminariolos alumnos que deben recuperar
+la exposición del seminario, lo podrán hacer el día jueves
+08/09/11 de 15.00 hs a 17.00hs en la casa del
+estudiante. mesas de examen setiembre 2011fecha de inscripción: durante la
+semana del 05/09/11 al 09/09/11 de 08.00 hs a 13.00hs
+en la oficina de sección alumnos de la tecnicatura.fecha de
+examen: 16/09/11 taller de  los alumnos interesados en realizar
+el taller de integración del ciclo general que se dictó
+en 2º año, deberán realizar su inscripción en la oficina
+de sección alumnos de la tecnicatura durante la semana del
+05/09/11 al 09/09/11 de 08.00hs a 13.00hs, para comenzar el
+cursado del mismo. |enlace permanente orientaciones: mantenimiento, asistencial y recursos
+técnicos lunes, agosto 15, 2011, 12:38 universidad nacional de tucumantecnicatura
+superior en gestion universitariaorientaciones: mantenimiento, asistencial y recursos técnicoscronograma de
+exposiciÓn de los trabajos de seminarioel cronograma de la exposición
+del seminario está disponible en formato pdf. para consultarlo hacer
+click aquí.la exposición será en la casa del estudiante, aula
+8, el día 16 de agosto a partir de las
+  |enlace permanente orientación: administración económica
+financiera sábado, agosto 13, 2011, 15:34 universidad nacional de tucumantecnicatura
+superior en gestion universitariaorientacion administracion economico-financieracronograma de exposiciÓn de los
+trabajos de seminarioestimados alumnos: se adjunta en pdf el cronograma
+de exposición de los trabajos de seminario del día martes
+16 de agosto en la casa del estudiante. les ruego
+estar   minutos antes del horario asignado.atte. prof. lic.
+marcelo e. medina   |enlace permanente
+| 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |
+siguiente>
+>> enlaces principalcontacta conmigoestadísticasconsultar estado académicoproyecto
+carrera tecnicatura gestión universitariareglamento alumnosestructura curricularprogramas de las asignaturas de
+la carrerapresentaciones de las asignaturasentrar calendario « diciembre 2011 »
+domlunmarmiéjueviesáb1234567891011121314151617181920212223242526272829303107/02/12 orientación administración académicanotas examen orientación administración académicamesas examinadoras dispuesta
+para los días 14, 15 y 16 de diciembre del
+corriente añoorientación administración académicainicio de clases archivo ver archivos 2011
+diciembre mesas examinadoras dispuesta para los días 14, 15 y
+16 de diciembre del corriente año 05/12/11 octubre septiembre agosto
+julio junio mayo abril marzo febrero 2010 diciembre noviembre octubre
+septiembre agosto búsqueda búsqueda conteos totales total: 5,690hoy: 77ayer: 44
+Últimos artículos mesas examinadoras dispuesta para los días 14, 15
+y 16 de diciembre del corriente añomesas de examen octubre
+2011mesas de examen octubre 2011tramite de certificado final de estudiostrámite
+de egresadostaller de integracion-pasantiasmesas de examen setiembre 2011acto de finalización
+de la primera cohorte de la carrera técnico superior en
+gestión universitarialicenciatura en gestión universitariarecuperación seminario, mesas de examen, taller
+integrador universidad nacional de tucumán - secretaría académica - subsecretaría
+académica -   424 7752 int. 7275 - página
+generada en 0.1857 segundos|site views: 5690    ;  ;   {   ga.type = 'text/javascript'; ga.async = true; ga.src   + '.google-analytics.com/ga.js';     ;

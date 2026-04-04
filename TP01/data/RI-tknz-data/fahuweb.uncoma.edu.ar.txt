@@ -1,0 +1,47 @@
+bienvenidos !!
+window.addevent('domready',
+ {new  );}); window.addevent('domready',   {new  );});  ); inicioinstitucionalacadémicaextensióninvestigaciónautoridadesnovedades this joomla template is equiped with
+javascript. your browser does not support javascript! please enable it
+for maximum experience. thank you. dpto de desarrollo web -
+joomla 1.5oferta académicarequisitos de ingreso 2012cronograma jquery.preloadimages              
+.cycle({fx: 'all',timeout: 4000, continuous: 0,speed: 1000,speedin: null, speedout: null,next: '#slideshowboxnext',prev:
+'#slideshowboxprev',pager: '#slideshowboxgallery',pagerevent: 'click', pageranchorbuilder:   { var src =
+ ,before: null,after: null,shuffle: null,random: 0,fit: 0,containerresize: 1,pause: 1,pauseonpagerhover:
+0,autostop: 0,delay: 0,nowrap: 0,randomizeeffects: 1,rev: 0});}// if gallery is offelse
+{  );};});/* ]]> */jt
+slideshow module  ; bienvenidos !!ï»¿ lunes, 22 de febrero de
+2010 11:57administradorhas ingresado a la universidad nacional del comahue, a
+la universidad pública, gratuita y laica; ingresaste a la facultad
+de humanidades, queremos felicitarte por haber elegido la educación pública.ingresantes
+2012la actividad de la facultad de humanidades se concentra en
+cuatro departamentos, filosofí, geografí, historia y letras, que dictan las
+carreras de profesorado y licenciatura en las mismas áreas. las
+actividades académicas de grado se llevan adelante en el asentamiento
+neuquén, como en el centro regional  , en antena universitaria de chos
+  y el asentamiento  . desde hace más de diez años, la
+facultad propicia la apertura de sus carreras en diversas localidades
+para fortalecer el desarrollo cultural y educativo regional, misión expresa
+en el estatuto de la universidad nacional del comahue. además,
+ha estado siempre atenta a las preocupaciones del medio para
+planificar y actualizar su oferta académica tradicional.los estudiantes que ingresan
+a la facultad son recibidos por el área ingreso y
+permanencia, área que desarrolla una amplia actividad para facilitar la
+identificación de los jóvenes con la cultura académica.en los últimos
+años, se ha promovido también la formación de postgraduados en
+las siguientes especialidades:especialización contenidos educativos de geografíesp. en municipio y
+desarrollo territorialesp. en historia regionalesp. en historia contemporáneaesp. en historia
+de las mujeres y de géneroesp. en literaturas hispanoamericana del
+s. xxdocentes, graduados externos y estudiantes desarrollan además una intensa
+labor de investigación y de extensión: más de veinticinco proyectos
+evaluados y en curso de investigación sobre temas diversos y
+varios proyectos de divulgación y de extensión que atienden problemáticas
+culturales, patrimoniales y educativas.con el curso de nuestra historia, la
+actividad investigativa y extensionista se ha fortalecido ampliamente, se ha
+propiciado de firma de convenios a nivel regional, nacional e
+internacional que incorporan a especialistas de reconocida trayectoria en los
+diez centros de estudios que se han fundado.la producción cientÃ­fica,
+además, se ve reflejada permanentemente en las cuatro publicaciones periódicas
+que producen los departamentos: la revista páginas de filosofí, el
+boletÃ­n geográfico, la revista de historia y la revista de
+lengua y   copyright © 2009 youtravel.all rights reservedcustom design by
+youjoomla.comrss | css valid | xhtml valid | top  ;

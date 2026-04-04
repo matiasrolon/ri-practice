@@ -1,0 +1,14 @@
+facultad de medicina - universidad
+nacional del nordestepagina de inicio facu medicina   institucional ofertas académicas secretarías departamento
+estudio departamento biblioteca inicio carrera de medicin carrera de lic.
+en enfermería carrera de lic. en kinesiología y fisiatría comité
+de bioética proceso de certificación y recertificación novedades //translucent scroller-
+by dynamic drive//for full source code and more dhtml scripts,
+visit http://www.dynamicdrive.com//this credit must stay intact for usevar scroller_width='200px'var scroller_height='50px'var
+bgcolor='#ffffcc'var pause=3000 //set pause between  var scrollercontent=new  //define
+scroller contents. extend or contract array as neededscrollercontent[0]=' posgrados
+2012'scrollercontent[1]=' receso anual administrativo'scrollercontent[2]=' llamado a concurso ayudante
+alumno'scrollercontent[3]=' convenio banco hipotacario'////no need to edit beyond here/////////////var
+ie4=document.allvar   else   var
+ var degree=10var curcanvas="canvas0"var curindex=0var nextindex=1  crossobj.filters.alpha.opacity=100else   ?
+"canvas0" : "canvas1"tempobj=ie4?   :  tempobj.innerhtml=scrollercontent[curindex]nextindex=(nextindex

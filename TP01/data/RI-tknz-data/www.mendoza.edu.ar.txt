@@ -1,0 +1,24 @@
+portal educativo de la provincia de mendoza -  {
+ {   desc = plugins["shockwave flash 2.0"] ? plugins["shockwave flash 2.0"].description
+: desc;   flashver = -1; else{
+      flashver =   // webtv has flash player 4 or lower
+-- too low for video else if  
+flashver = 4.0;    { if
+  _uacct =
+"ua-166332-1";      
+td        
+docentes
+institucional jóvenes niños comunidad destacados noticias d.g.e. servicios programas escolares
+vínculos institucionales escuelas en la red proyectos escolares   + proyectos certámenes escolares   + certámenes
+efemérides   buscar en efemérides por contenidos ej: creador de
+la bandera... + efemérides    ; +
+noticias noticias de las escuelas    ; +
+noticias noticias departamentales    ; + noticias universidades consulta
+de escuelas normas y resoluciones direcciones y teléfonos calendario escolar
+actos escolares s.i.e. - sistema de infraestructura escolar capacitación y
+perfeccionamiento docente oferta educativa de educación superior trámites de gobierno
+formularios de gestión administrativa ley de responsabilidad fiscal canales rss
+mapa del sitio webmail d.g.e. cursos y eventos + eventos
+congresos   + congresos sitios recomendados mendozaargentina.com.ar webmaster@mendoza.edu.ar
+copyright 2002 - todos los derechos reservados - términos de
+uso y privacidad - mapa del sitio

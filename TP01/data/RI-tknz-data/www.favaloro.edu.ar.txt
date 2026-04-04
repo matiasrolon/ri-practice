@@ -1,0 +1,710 @@
+universidad favaloro
+ { // valido para
+enviar   if   error_str+="debe completar su apellido\n"; if
+  error_str+="debe completar su email\n"; if   error_str+="debe ingresar su consulta\n";   {
+ else{  
+  ga.type = 'text/javascript'; ga.async
+= true; ga.src   + '.google-analytics.com/ga.js';  
+el contenido de esta página requiere una versión más reciente
+de adobe flash player. home contacto ubicación mapa del sitio
+espíritu e historia autoridades la universidad y la fundación favaloro
+ex alumnos perfil de los egresados extensión universitaria | carrera
+de medicinacarrera de kinesiología y fisiatríacarrera de licenciatura en nutricióncarrera
+de psicologíacarrera de enfermeríacarrera de ciclo de licenciatura en  carrera de ingenieríacarrera de ingeniería biomédicacarrera de
+ingeniería en física médicacarrera de lic. en cs. biológicas |
+bienvenida maestrías carreras de especialista cursos de posgradopresenciales cursos de
+posgradoa distancia preguntas frecuentes | carreras de grado facultad de
+posgrado informes e inscripción información para colegios preguntas frecuentes |
+blog bolsa de trabajo extensión universitaria | cursos de posgradoa
+distancia   {  ); el contenido de esta página
+requiere una versión más reciente de adobe flash player. el
+contenido de esta página requiere una versión más reciente de
+adobe flash player.  {  ); }); visitanos
+también en: "a los jóvenes les pido que entiendan que
+lo material es temporario, lo que perdurará para siempre serán
+los ideales y entre ellos la gran convocatoria debería ser:
+educación y desarrollo científico en busca de una sociedad en
+la que la equidad social sea prioritario". dr. rené g.
+favaloro, tel aviv, israel, 1995 #charlas-informativas {background: #dfdfdf   #aviso-importante {background: #ddf3ff   jornadas
+abiertas jornada abierta sobre la carrera de biología los esperamos
+el jueves 16 de febrero de 2012 a las 17
+hs, aula   para participar escribinos
+a: coordinacionbiologia@favaloro.edu.ar --------------------- si querésinformación sobrela carrera de nutrición ::
+ingreso ciclo 2012comunicate al 4378-1171/1176 o escribinos a: info_fcm_nut@favaloro.edu.ar ---------------------
+vení a conocernos!!! si querés visitar nuestra universidad, comunicáte con
+nosotros todo el año al 4378-1171 o escribínos a  . --------------------- ¡nuevo blog de sobre
+la lic. en ciencias biológicas! http://www.biologiafavaloro.blogspot.com/ ---------------------- avisos importantes horario
+de verano para inscripciones: durante el mes de enero: de
+09.00 a 18.00hs durante febrero: de 09.00 a 19.00hs .......................................
+calificacionesingreso 2012 ver las calificaciones. ....................................... factura electrónica: nueva modalidad
+informamos que a partir del mes de julio de 2011
+entrará en vigencia la modalidad de factura electrónica... ver lainformación
+completa.
+home | medicina |kinesiología
+y fisiatría |licenciatura en nutrición |psicología |enfermería |ciclo de licenciatura
+en   |ingeniería |ingeniería biomédica |ingeniería
+en física médica |lic. en cs. biológicas | admisión |
+novedades | biblioteca copyright © 2012 universidad favaloro - sede
+universitaria: solís   caba, argentina /   4378-1100
+universidad favaloro - supcid -
+historia
+ { // valido para enviar   if   error_str+="debe completar su
+email\n"; if   error_str+="debe ingresar su consulta\n";   {  else{  
+   ;  ;   {   ga.async = true; ga.src   + '.google-analytics.com/ga.js';     ; el contenido de esta página requiere
+una versión más reciente de adobe flash player. home contacto
+ubicación mapa del sitio espíritu e historia autoridades la universidad
+y la fundación favaloro ex alumnos perfil de los egresados
+extensión universitaria | carrera de medicinacarrera de kinesiología y fisiatríacarrera
+de licenciatura en nutricióncarrera de psicologíacarrera de enfermeríacarrera de ciclo
+de licenciatura en  carrera de ingenieríacarrera
+de ingeniería biomédicacarrera de ingeniería en física médicacarrera de lic.
+en cs. biológicas | bienvenida maestrías carreras de especialista cursos
+de posgradopresenciales cursos de posgradoa distancia preguntas frecuentes | carreras
+de grado facultad de posgrado informes e inscripción información para
+colegios preguntas frecuentes | blog bolsa de trabajo extensión universitaria
+| cursos de posgradoa distancia   {  ); basica
+autoridades clínica proyectos historia futuro visitanos también en: secretaría universitaria
+para la ciencia, la investigación y el   |
+historia en 1978 el dr. rené g. favaloro le encomendó
+al actual rector de la universidad favaloro, dr. ricardo pichel,
+la creación del departamento de investigación y docencia de la
+fundación que presidía. el mismo fue integrado, en la búsqueda
+de un enfoque interdisciplinario, por investigadores básicos de distinta   lo que constituyó un aporte original
+al desarrollo científico de la institución. el ddi creció, se
+publicaron numerosos artículos en revistas con referato internacional y se
+establecieron importantes colaboraciones a nivel internacional. en 1992, conjuntamente con
+la creación del instituto universitario de ciencias   la investigación desarrollada hasta esa fecha en el
+ddi se agrupa en el instituto de investigación en ciencias
+ . tanto el departamento de investigación y docencia como
+el iicb son los antecesores de la actual secretaría universitaria
+para la ciencia, la investigación y el desarrollo y representan
+la voluntad expresa del dr. favaloro de que la creación
+de conocimiento a través de la investigación científica es inseparable
+de su transmisión es un proceso de enseñanza de real
+excelencia académica.
+home | medicina
+|kinesiología y fisiatría |licenciatura en nutrición |psicología |enfermería |ciclo de
+licenciatura en   |ingeniería |ingeniería biomédica
+|ingeniería en física médica |lic. en cs. biológicas | admisión
+| novedades | biblioteca copyright © 2012 universidad favaloro -
+sede universitaria: solís   caba, argentina /  
+4378-1100
+universidad favaloro
+ { // valido
+para enviar   if   error_str+="debe completar su apellido\n";
+if   error_str+="debe completar su email\n"; if   error_str+="debe ingresar su consulta\n";  
+{  else{  
+    {   ga.src   + '.google-analytics.com/ga.js';   el contenido de esta página requiere una versión más
+reciente de adobe flash player. home contacto ubicación mapa del
+sitio espíritu e historia autoridades la universidad y la fundación
+favaloro ex alumnos perfil de los egresados extensión universitaria |
+carrera de medicinacarrera de kinesiología y fisiatríacarrera de licenciatura en
+nutricióncarrera de psicologíacarrera de enfermeríacarrera de ciclo de licenciatura en
+ carrera de ingenieríacarrera de ingeniería biomédicacarrera
+de ingeniería en física médicacarrera de lic. en cs. biológicas
+| bienvenida maestrías carreras de especialista cursos de posgradopresenciales cursos
+de posgradoa distancia preguntas frecuentes | carreras de grado facultad
+de posgrado informes e inscripción información para colegios preguntas frecuentes
+| blog bolsa de trabajo extensión universitaria | cursos de
+posgradoa distancia   {  ); visitanos también en: la
+universidad espíritu e historia autoridades la universidad y la fundación
+favaloro ex-alumnos perfiles de egresados carreras de grado medicinakinesiología y
+fisiatríalicenciatura en nutriciónpsicologíaenfermeríaciclo de licenciatura en  ingenieríaingeniería biomédicaingeniería en física médicalic. en cs. biológicas facultad de
+posgrados maestrías carreras de especialistas cursos de posgrado prescenciales cursos
+de posgrado a distancia preguntas frecuentes admisión e informes carreras
+de grado facultad de posgrado informes testimonios de alumnos preguntas
+frecuentes novedades blog foro de estudiantes educación a distancia cursos
+de posgrado
+home | medicina
+|kinesiología y fisiatría |licenciatura en nutrición |psicología |enfermería |ciclo de
+licenciatura en   |ingeniería |ingeniería biomédica
+|ingeniería en física médica |lic. en cs. biológicas | admisión
+| novedades | biblioteca copyright © 2012 universidad favaloro -
+sede universitaria: solís   caba, argentina /  
+4378-1100
+universidad favaloro - supcid
+ {
+// valido para enviar   if   error_str+="debe completar
+su apellido\n"; if   error_str+="debe completar su email\n";
+if   error_str+="debe ingresar su consulta\n";   {  else{  
+   ;   {   ga.async = true; ga.src   + '.google-analytics.com/ga.js';   el contenido de esta página requiere una
+versión más reciente de adobe flash player. home contacto ubicación
+mapa del sitio espíritu e historia autoridades la universidad y
+la fundación favaloro ex alumnos perfil de los egresados extensión
+universitaria | carrera de medicinacarrera de kinesiología y fisiatríacarrera de
+licenciatura en nutricióncarrera de psicologíacarrera de enfermeríacarrera de ciclo de
+licenciatura en  carrera de ingenieríacarrera de
+ingeniería biomédicacarrera de ingeniería en física médicacarrera de lic. en
+cs. biológicas | bienvenida maestrías carreras de especialista cursos de
+posgradopresenciales cursos de posgradoa distancia preguntas frecuentes | carreras de
+grado facultad de posgrado informes e inscripción información para colegios
+preguntas frecuentes | blog bolsa de trabajo extensión universitaria |
+cursos de posgradoa distancia   {  ); basica autoridades
+clínica proyectos historia futuro visitanos también en: secretaría universitaria para
+la ciencia, la investigación y el   el consejo
+de investigación y   está a cargo de la
+evaluación de la calidad y méritos de proyectos de investigación
+y desarrollo de la universidad favaloro, mixtos y asociados. objetivos
+generales la secretaría universitaria para la ciencia, la investigación y
+el   tiene como objetivo primario promover el desarrollo
+de las investigaciones científicas y de los emprendimientos tecnológicos en
+la universidad favaloro. la supcid opina sobre las grandes orientaciones
+y supervisa la coherencia de la política científica, en particular
+en lo que concierne a la creación de laboratorios y
+programas. asimismo selecciona los principios y pone en marcha los
+mecanismos de evaluación de la calidad de la investigación y
+de los investigadores. son atribuciones de la supcid: ser una
+instancia de reflexión y de elaboración de la política científica;
+estudiar la situación y las perspectivas de desarrollo de la
+investigación y la tecnología; son objeto de promoción por parte
+de la supcid: los proyectos de investigación científica y tecnológica;
+la formación de recursos humanos; la cooperación en materia de
+investigación y de formación con otros centros de reconocida trayectoria
+nacional e internacional novedades: beca en medicina molecular de la
+embajada de italia vea aquí requisitos y formulario la documentación
+debe presentarse antes del 02 de mayo.
+home | medicina |kinesiología y fisiatría |licenciatura en
+nutrición |psicología |enfermería |ciclo de licenciatura en   |ingeniería |ingeniería biomédica |ingeniería en física médica |lic.
+en cs. biológicas | admisión | novedades | biblioteca copyright
+© 2012 universidad favaloro - sede universitaria: solís  
+caba, argentina /   4378-1100
+universidad favaloro - facultad de posgrados
+ { // valido para
+enviar   if   error_str+="debe completar su apellido\n"; if
+  error_str+="debe completar su email\n"; if   error_str+="debe ingresar su consulta\n";   {
+ else{  
+  ga.type = 'text/javascript'; ga.async
+= true; ga.src   + '.google-analytics.com/ga.js';  
+el contenido de esta página requiere una versión más reciente
+de adobe flash player. home contacto ubicación mapa del sitio
+espíritu e historia autoridades la universidad y la fundación favaloro
+ex alumnos perfil de los egresados extensión universitaria | carrera
+de medicinacarrera de kinesiología y fisiatríacarrera de licenciatura en nutricióncarrera
+de psicologíacarrera de enfermeríacarrera de ciclo de licenciatura en  carrera de ingenieríacarrera de ingeniería biomédicacarrera de
+ingeniería en física médicacarrera de lic. en cs. biológicas |
+bienvenida maestrías carreras de especialista cursos de posgradopresenciales cursos de
+posgradoa distancia preguntas frecuentes | carreras de grado facultad de
+posgrado informes e inscripción información para colegios preguntas frecuentes |
+blog bolsa de trabajo extensión universitaria | cursos de posgradoa
+distancia   {  ); bienvenida maestrías carreras de especialista
+cursos de posgradopresenciales cursos de posgradoa distancia preguntas frecuentes bolsa
+de trabajo visitanos también en:     facultad
+de posgrado. carreras de especialización cardiología-carrera de especializaciÓn en cardiologÍa
+ -carrera de especializaciÓn en electrofisiologÍa cardÍaca  enfermería-carrera de
+especializaciÓn en enfermerÍa en cuidados  ginecología, endocrinología y metabolismo-
+carrera de especializaciÓn en endocrinologÍa ginecolÓgica y de la reproducciÓn
+ kinesiología y fisiatría-carrera de especializaciÓn en kinesiologÍa cardio-respiratorÍa  -carrera de especializaciÓn en kinesiologÍa del deporte  medicina-especializaciÓn en
+medicina crÍtica y terapia intensiva  medicina del trabajo-carrera de
+especializaciÓn en medicina del trabajo  nutrición-carrera de especializaciÓn en
+nutriciÓn con orientaciÓn en  odontología-carrera de especializaciÓn en ortodoncia
+  requisitos de inscripción personal requisitos de inscripción por
+correo postal o terceros
+home
+| medicina |kinesiología y fisiatría |licenciatura en nutrición |psicología |enfermería
+|ciclo de licenciatura en   |ingeniería
+|ingeniería biomédica |ingeniería en física médica |lic. en cs. biológicas
+| admisión | novedades | biblioteca copyright © 2012 universidad
+favaloro - sede universitaria: solís   caba, argentina /
+  4378-1100
+universidad favaloro
+- facultad de posgrados
+ { // valido para enviar   if   error_str+="debe completar su apellido\n"; if  
+error_str+="debe completar su email\n"; if   error_str+="debe ingresar
+su consulta\n";   {  else{  
+   ;  ;   {  
+  el contenido de
+esta página requiere una versión más reciente de adobe flash
+player. home contacto ubicación mapa del sitio espíritu e historia
+autoridades la universidad y la fundación favaloro ex alumnos perfil
+de los egresados extensión universitaria | carrera de medicinacarrera de
+kinesiología y fisiatríacarrera de licenciatura en nutricióncarrera de psicologíacarrera de
+enfermeríacarrera de ciclo de licenciatura en  carrera de ingenieríacarrera de ingeniería biomédicacarrera de ingeniería en física
+médicacarrera de lic. en cs. biológicas | bienvenida maestrías carreras
+de especialista cursos de posgradopresenciales cursos de posgradoa distancia preguntas
+frecuentes | carreras de grado facultad de posgrado informes e
+inscripción información para colegios preguntas frecuentes | blog bolsa de
+trabajo extensión universitaria | cursos de posgradoa distancia   {
+ ); bienvenida maestrías carreras de especialista cursos de posgradopresenciales
+cursos de posgradoa distancia preguntas frecuentes bolsa de trabajo visitanos
+también en:     facultad de posgrado. maestrías
+gestión en salud-maestrÍa en gerencia y administraciÓn de sistemas y
+servicios de salud  ingeniería-maestrÍa en ingenierÍa biomÉdica  neurociencias,
+psiquiatría y psicología ii-maestrÍa en psiconeurofarmacologÍa  maestrÍa en   requisitos de inscripción personal requisitos de inscripción por correo
+postal o terceros
+home |
+medicina |kinesiología y fisiatría |licenciatura en nutrición |psicología |enfermería |ciclo
+de licenciatura en   |ingeniería |ingeniería
+biomédica |ingeniería en física médica |lic. en cs. biológicas |
+admisión | novedades | biblioteca copyright © 2012 universidad favaloro
+- sede universitaria: solís   caba, argentina /   4378-1100
+universidad favaloro
+ { //
+valido para enviar   if   error_str+="debe completar su
+apellido\n"; if   error_str+="debe completar su email\n"; if
+  error_str+="debe ingresar su consulta\n";   {  else{  
+  ga.async = true; ga.src   + '.google-analytics.com/ga.js';   el contenido de esta página requiere una versión
+más reciente de adobe flash player. home contacto ubicación mapa
+del sitio espíritu e historia autoridades la universidad y la
+fundación favaloro ex alumnos perfil de los egresados extensión universitaria
+| carrera de medicinacarrera de kinesiología y fisiatríacarrera de licenciatura
+en nutricióncarrera de psicologíacarrera de enfermeríacarrera de ciclo de licenciatura
+en  carrera de ingenieríacarrera de ingeniería
+biomédicacarrera de ingeniería en física médicacarrera de lic. en cs.
+biológicas | bienvenida maestrías carreras de especialista cursos de posgradopresenciales
+cursos de posgradoa distancia preguntas frecuentes | carreras de grado
+facultad de posgrado informes e inscripción información para colegios preguntas
+frecuentes | blog bolsa de trabajo extensión universitaria | cursos
+de posgradoa distancia   {  ); visitanos también en:
+home | medicina |kinesiología y
+fisiatría |licenciatura en nutrición |psicología |enfermería |ciclo de licenciatura en
+  |ingeniería |ingeniería biomédica |ingeniería en
+física médica |lic. en cs. biológicas | admisión | novedades
+| biblioteca copyright © 2012 universidad favaloro - sede universitaria:
+solís   caba, argentina /   4378-1100
+universidad favaloro - admisión para carreras
+de grado
+ { // valido para enviar   if   error_str+="debe completar
+su email\n"; if   error_str+="debe ingresar su consulta\n";
+  {  else{  
+   ;  ;   {   ga.type = 'text/javascript'; ga.async = true; ga.src   + '.google-analytics.com/ga.js';     ; el contenido de esta página
+requiere una versión más reciente de adobe flash player. home
+contacto ubicación mapa del sitio espíritu e historia autoridades la
+universidad y la fundación favaloro ex alumnos perfil de los
+egresados extensión universitaria | carrera de medicinacarrera de kinesiología y
+fisiatríacarrera de licenciatura en nutricióncarrera de psicologíacarrera de enfermeríacarrera de
+ciclo de licenciatura en  carrera de
+ingenieríacarrera de ingeniería biomédicacarrera de ingeniería en física médicacarrera de
+lic. en cs. biológicas | bienvenida maestrías carreras de especialista
+cursos de posgradopresenciales cursos de posgradoa distancia preguntas frecuentes |
+carreras de grado facultad de posgrado informes e inscripción información
+para colegios preguntas frecuentes | blog bolsa de trabajo extensión
+universitaria | cursos de posgradoa distancia   {  );
+carreras de grado facultad de posgrado informes preguntas frecuentes visitanos
+también en:  {   carreras de grado medicina
+  #carrera_6   #carrera_6   #carrera_6   #carrera_6   #carrera_6   carrera de medicinainscripción
+cualquier consulta sobre las carreras de grado,carreras y cursos de
+posgrado puede efectuarse en la oficina de informes e inscripción:
+entre ríos 495 esq. venezuela, ciudad autónoma de buenos aires.
+horario de atención: lunes a viernes de 9.00 a 19.00hs
+inscripción al ciclo lectivo de grado 2012 1° llamado a
+examen: viernes 26 de agosto de 2011, 9:00 hs. 2°
+llamado a examen: viernes 16 de diciembre de 2011, 9:00
+ 
+3° llamado a examen: viernes 24 de febrero de 2012,
+9:00   sistema de admisión para esta carrera es necesario rendir
+un examen de ingreso obligatorio de dos partes: parte i.
+examen escrito se evalúan las aptitudes y conocimientos adquiridos en
+materias afines con la carrera: medicina: biología, física y química.
+en el momento de la inscripción se le entregará al
+aspirante un cd con el programa y el material de
+estudio   de las asignaturas correspondientes. los alumnos pueden consultar con
+los docentes especializados todas sus dudas a través del correo
+electrónico. parte ii. entrevistas y comprensión de textos en el
+transcurso de las entrevistas se procura identificar el perfil del
+alumno en cuanto a las dimensiones; profesionalidad, actualidad y bioética.
+además, mediante la exposición oral de un texto se busca
+evaluar no sólo la capacidad de interpretar y transmitir conocimientos,
+sino también la vocación y motivación para la carrera elegida.
+el texto que se expondrá se entrega con antelación y
+la presentación se hace en una entrevista personal con autoridades
+y profesores de la carrera. la nota final del aspirante
+y su correspondiente ubicación en el orden de mérito surgirá
+de la aplicación de un sistema de porcentajes predeterminados por
+las autoridades académicas para cada una de las evaluaciones. requisitos
+de inscripción en el examen de ingreso para las carreras
+de grado 1 - abonar el costo de la inscripción:
+verificar costo en la sección de   la
+modificación de estos aranceles queda sujeta a las resoluciones que
+dicte la autoridad competente y/o a las reglamentaciones y/o decisiones
+que el consejo superior de la universidad favaloro disponga. 2
+- el postulante deberá presentar: fotocopia doble faz del título
+secundario legalizado, constancia de alumno regular o constancia de título
+secundario en trámite. nota: recuerde que para que el título
+secundario tenga validez debe estar certificado por el ministerio del
+interior. original y fotocopia de la primera y segunda hoja
+del dni, original y fotocopia de la partida de nacimiento
+2 fotos 4x4 al momento de la inscripción, el alumno
+o su padre y/o   deberá firmar una declaración jurada en
+la que dará fe de que la documentación presentada es
+verdadera. importante: para la inscripción es necesario cumplir con todos
+los requisitos y tener estudios secundarios completos. los alumnos que
+aún estén cursando el último año del ciclo secundario serán
+inscriptos con carácter provisorio hasta que demuestren por medio de
+documentación legal la finalización de los estudios del ciclo antes
+del 31 de marzo del año siguiente a la finalización
+de los estudios  
+#carrera_9   #carrera_9   #carrera_9   #carrera_9
+  #carrera_9   carrera de kinesiología y fisiatríainscripción
+cualquier consulta sobre las carreras de grado,las carreras y cursos
+de posgrado puede efectuarse en la oficina de informes e
+inscripción:entre ríos 495 esq. venezuela, ciudad autónoma de buenos aires.
+horario de atención: lunes a viernes de 9.00 a 19.00hs
+inscripción al ciclo lectivo de grado 2012 1° llamado a
+examen: viernes 26 de agosto de 2011, 9hs. 2° llamado
+a examen: viernes 16 de diciembre de 2011,   3° llamado
+a examen: viernes 24 de febrero de 2012,   sistema de
+admisión para esta carrera es necesario rendir un examen de
+ingreso obligatorio de dos partes: parte i. examen escrito se
+evalúan las aptitudes y conocimientos adquiridos en materias afines con
+la carrera elegida: kinesiología y fisiatría: biología y física en
+el momento de la inscripción se le entregará al aspirante
+un cd con el programa y el material de estudio
+ 
+de las asignaturas correspondientes. los alumnos pueden consultar con los
+docentes especializados todas sus dudas a través del correo electrónico.
+parte ii. exposición oral mediante la exposición oral de un
+texto se busca evaluar no sólo la capacidad de interpretar
+y transmitir conocimientos, sino también la vocación y motivación para
+la carrera elegida. el texto que se expondrá se entrega
+con antelación y la presentación se hace en una entrevista
+personal con autoridades y profesores de las respectivas carreras. la
+nota final del aspirante y su correspondiente ubicación en el
+orden de mérito surgirá de la aplicación de un sistema
+de porcentajes predeterminados por las autoridades académicas para cada una
+de las evaluaciones. requisitos de inscripción en el examen de
+ingreso para las carreras de grado 1 - abonar el
+costo de la inscripción: verificar precio en la sección de
+  la modificación de estos aranceles queda sujeta a las
+resoluciones que dicte la autoridad competente y/o a las reglamentaciones
+y/o decisiones que el consejo superior de la universidad favaloro
+disponga. 2 - el postulante deberá presentar: fotocopia doble faz
+del título secundario legalizado, constancia de alumno regular o constancia
+de título secundario en trámite. nota: recuerde que para que
+el título secundario tenga validez debe estar certificado por el
+gobierno de la ciudad de buenos aires, el ministerio del
+interior o el de educación, según corresponda. original y fotocopia
+de la primera y sgunda hoja del dni, original y
+fotocopia de la partida de nacimiento 2 fotos 4x4 al
+momento de la inscripción, el alumno o su padre y/o
+  #carrera_21   #carrera_21
+  #carrera_21   #carrera_21  
+#carrera_21   carrera de licenciatura en nutricióninscripción cualquier consulta sobre las
+carreras de grado,las carreras y cursos de posgrado puede efectuarse
+en la oficina de informes e inscripción:entre ríos 495 esq.
+venezuela, ciudad autónoma de buenos aires. horario de atención: lunes
+a viernes de 9.00 a 19.00 inscripción al ciclo lectivo
+de grado 2012 1° llamado a examen: viernes 16 de
+diciembre de 2011, 9:00 hs. 2° llamado a examen: viernes
+24 de febrero de 2012, 9:00   sistema de admisión para esta carrera es necesario
+rendir un examen de nivelación, no vinculante, que comprende dos
+partes: parte i. examen escrito se evalúan las aptitudes y
+conocimientos adquiridos en materias afines con la carrera: nutrición: biología
+y química. en el momento de la inscripción se le
+entregará al aspirante un cd con el programa y el
+material de estudio   de las asignaturas correspondientes. los alumnos pueden
+consultar con los docentes especializados todas sus dudas a través
+del correo electrónico. parte ii. entrevistas y comprensión de textos
+en el transcurso de las entrevistas se procura identificar el
+perfil del alumno en cuanto a las dimensiones; profesionalidad, actualidad
+y bioética. además, mediante la exposición oral de un texto
+se busca evaluar no sólo la capacidad de interpretar y
+transmitir conocimientos, sino también la vocación y motivación para la
+carrera elegida. el texto que se expondrá se entrega con
+antelación y la presentación se hace en una entrevista personal
+con autoridades y profesores de la carrera. requisitos de inscripción
+en el examen de ingreso para las carreras de grado
+1 - abonar el costo de la inscripción: verificar precio
+en la sección de   la modificación de estos aranceles
+queda sujeta a las resoluciones que dicte la autoridad competente
+y/o a las reglamentaciones y/o decisiones que el consejo superior
+de la universidad favaloro disponga. 2 - el postulante deberá
+presentar: fotocopia doble faz del título secundario legalizado, constancia de
+alumno regular o constancia de título secundario en trámite. nota:
+recuerde que para que el título secundario tenga validez debe
+legalizado por el ministerio del interior. original y fotocopia de
+la primera y segunda hoja del dni, original y fotocopia
+de la partida de   2 fotos 4x4 al momento de
+la inscripción, el alumno o su padre y/o   #carrera_8   #carrera_8  
+#carrera_8   #carrera_8   #carrera_8   carrera
+de psicologíainscripción cualquier consulta sobre las carreras de grado, las
+carreras y cursos de posgrado puede efectuarse en la oficina
+de informes e inscripción: entre ríos 495 esq. venezuela, ciudad
+autónoma de buenos aires. horario de atención:lunes a viernes de
+9.00 a 19.00hs inscripción al ciclo lectivo de grado 2012
+1° llamado a examen: viernes 26 de agosto de 2011,
+9hs. 2° llamado a examen: viernes 16 de diciembre de
+2011,   3° llamado a examen: viernes 24 de febrero de
+2012,   sistema de admisión para esta carrera los aspirantes deberán
+rendir un examen escrito no eliminatorio de biología, por medio
+del cual se evalúan los conocimientos previos en el área.
+también realizarán una comprensión de texto y una entrevista personal.
+la nota final del aspirante y su correspondiente ubicación en
+el orden de mérito surgirá de la aplicación de un
+sistema de porcentajes predeterminados por las autoridades académicas para cada
+una de las evaluaciones. requisitos de inscripción en el examen
+de ingreso para las carreras de grado 1 - abonar
+el costo de la inscripción: verificar precio en la sección
+de   la modificación de estos aranceles queda sujeta a
+las resoluciones que dicte la autoridad competente y/o a las
+reglamentaciones y/o decisiones que el consejo superior de la universidad
+favaloro disponga. 2 - el postulante deberá presentar: fotocopia doble
+faz del título secundario legalizado, constancia de alumno regular o
+constancia de título secundario en trámite. nota: recuerde que para
+que el título secundario tenga validez debe estar certificado por
+el gobierno de la ciudad de buenos aires, el ministerio
+del interior o el de educación, según corresponda. original y
+fotocopia de la primera y segunda hoja del dni, original
+y fotocopia de la partida de nacimiento 2 fotos 4x4
+al momento de la inscripción, el alumno o su padre
+y/o   #carrera_10   #carrera_10  
+#carrera_10   #carrera_10   #carrera_10   carrera
+de enfermeríainscripción cualquier consulta sobre las carreras de grado,carreras y
+cursos de posgrado puede efectuarse en la oficina de informes
+e inscripción: entre ríos495esq. venezuela, ciudad autónoma de buenos aires.
+horario de atencion: lunes a viernes de 9.00 a 19.00hs
+inscripción al ciclo lectivo de grado 2012 sistema de admisión
+para ingresar aesta carrera sólo es necesario efectuar una entrevista
+personal previa.fecha de entrevista:viernes 3 y miércoles 29 de febrero
+de 2012,a las 10hs o a las 15hs-horario a combinar
+en el momento de la inscripción-. requisitos de inscripción en
+el examen de ingreso para las carreras de grado 1
+- abonar el costo de la inscripción: verificar precio en
+la sección de   la modificación de estos aranceles queda sujeta
+a las resoluciones que dicte la autoridad competente y/o a
+las reglamentaciones y/o decisiones que el consejo superior de la
+universidad favaloro disponga. 2 - el postulante deberá presentar: fotocopia
+doble faz del título secundario legalizado, constancia de alumno regular
+o constancia de título secundario en trámite. nota: recuerde que
+para que el título secundario tenga validez debe estar certificado
+por el gobierno de la ciudad de buenos aires, el
+ministerio del interior o el de educación, según corresponda. original
+y fotocopia de la primera y segunda hoja del dni,
+original y fotocopia de la partida de nacimiento 2 fotos
+4x4 al momento de la inscripción, el alumno o su
+padre y/o   deberá firmar una declaración jurada en la que
+dará fe de que la documentación presentada es verdadera. importante:
+para la inscripción es necesario cumplir con todos los requisitos
+y tener estudios secundarios completos. los alumnos que aún estén
+cursando el último año del ciclo secundario serán inscriptos con
+carácter provisorio hasta que demuestren por medio de documentación legal
+la finalización de los estudios del ciclo antes del 31
+de marzo del año siguiente a la finalización de los
+estudios secundarios. la inscripción en el concurso de admisión implica
+la aceptación de las normas establecidas por la universidad favaloro
+para el proceso de selección y la renuncia a todo
+reclamo administrativo o legal. no se aceptarán recomendaciones ni influencias
+de ninguna naturaleza. por el contrario, de existir, serán motivo
+de exclusión del postulante, previa notificación a sus padres sobre
+la identidad del recomendante. con respecto al artículo 7 de
+la ley de educación superior, la universidad favaloro se atiene
+a lo normado por el mismo; por lo tanto, quién
+desee cursar sus estudios superiores en la universidad favaloro deberá
+tener sus estudios secundarios completos. ciclo de licenciatura en   #carrera_19   #carrera_19
+  #carrera_19   #carrera_19  
+#carrera_19   carrera de ciclo de licenciatura en  inscripción cualquier consulta sobre las carreras de grado, carreras
+y cursos de posgrado puede efectuarse en la oficina de
+informes e inscripción: entre ríos 495 esq. venezuela, ciudad autónoma
+de buenos aires. horario de atencion: lunes a viernes de
+9.00 a 19.00hs inscripción al ciclo lectivo de grado 2012
+sin examen de ingreso. requisitos de inscripción en el examen
+de ingreso para las carreras de grado requisitos de inscripción
+para el ciclo de licenciatura 1 - abonar el costo
+de la inscripción: verificar precio en la sección de aranceles
+la modificación de estos aranceles queda sujeta a las resoluciones
+que dicte la autoridad competente y/o a las reglamentaciones y/o
+decisiones que el consejo superior de la universidad favaloro disponga.
+2 - el postulante deberá presentar: fotocopia doble faz del
+título secundario legalizado, constancia de alumno regular o constancia de
+título secundario en trámite. nota: recuerde que para que el
+título secundario tenga validez debe estar certificado por el gobierno
+de la ciudad de buenos aires oel ministeriode educación, según
+corresponda y por el ministerio del interior. título de enfermero/a
+expedido por universidades públicas o privadas, o instituciones no universitarias
+reconocidas oficialmente, con una duración no menor a  
+años y una carga horaria mínima de 1.600 horas. nota:
+la fotocopia del título de   argentino
+o extranjero debe presentarse con la correspondiente convalidación o reválida
+certificada por el ministerio de educación. original y fotocopia de
+la primera y segunda hoja del dni, original y fotocopia
+de la partida de nacimiento 2 fotos 4x4 al momento
+de la inscripción, el alumno o su padre y/o   #carrera_14   #carrera_14
+  #carrera_14   #carrera_14  
+#carrera_14   carrera de ingenieríainscripción cualquier consulta sobre las carreras de
+grado y las carreras y cursos de posgrado puede efectuarse
+en la oficina de informes e inscripción, entre ríos495esq. venezuela,
+ciudad autónoma de buenos aires. horario de atención: lunes a
+viernes de 9.00 a 19.00hs inscripción al ciclo lectivo de
+grado   1° llamado a examen: viernes 26 de
+agosto de 2011, 9hs. 2°llamado a examen: viernes 16 de
+diciembre de 2011,   3° llamado a examen: viernes 24 de
+febrero de 2012,   inscripción al ciclo lectivo de grado 2011:
+ingreso en el 2do. cuatrimestre viernes 8 de julio de
+2011 a las 10hs. sistema de admisión para esta carrera
+es necesario rendir un examen de ingreso obligatorio de dos
+partes: parte i. examen escrito se evalúan las aptitudes y
+conocimientos adquiridos en materias afines con la carrera: ingeniería biomédica
+e ingeniería en física médica: física y química. en el
+momento de la inscripción se le entregará al aspirante un
+cd con el programa y el material de estudio  servir como introducción y primera parte de
+la asignatura cálculo i que se dicta durante el 1er
+cuatrimestre de primer año. la nota final del aspirante y
+su correspondiente ubicación en el orden de mérito surgirá de
+la aplicación de un sistema de porcentajes predeterminados por las
+autoridades académicas para cada una de las evaluaciones. requisitos de
+inscripción en el examen de ingreso para las carreras de
+grado 1 - abonar el costo de la inscripción: verificar
+precio en la sección de   la modificación de estos
+aranceles queda sujeta a las resoluciones que dicte la autoridad
+competente y/o a las reglamentaciones y/o decisiones que el consejo
+superior de la universidad favaloro disponga. 2 - el postulante
+deberá presentar: fotocopia doble faz del título secundario legalizado, constancia
+de alumno regular o constancia de título secundario en trámite.
+nota: recuerde que para que el título secundario tenga validez
+debe estar certificado por el gobierno de la ciudad de
+buenos aires, el ministerio del interior o el de educación,
+según corresponda. original y fotocopia de la primera y segunda
+hoja del dni, original y fotocopia de la partida de
+nacimiento 2 fotos 4x4 al momento de la inscripción, el
+alumno o su padre y/o   #carrera_11   #carrera_11   #carrera_11   #carrera_11   #carrera_11   carrera de ingeniería
+biomédicainscripción inscripción al ciclo lectivo de grado 2012 1° llamado:
+viernes 26 de agosto de 2011, 9hs. 2° llamado: viernes
+16 de diciembre de 2011,   3° llamado: viernes 24 de
+febrero de 2012,   sistema de admisión para esta carrera es
+necesario rendir un examen de ingreso obligatorio de dos partes:
+parte i. examen escrito se evalúan las aptitudes y conocimientos
+adquiridos en materias afines con la carrera: ingeniería biomédica e
+ingeniería en física médica: física y química. en el momento
+de la inscripción se le entregará al aspirante un cd
+con el programa y el material de estudio   #carrera_12   #carrera_12
+  #carrera_12   #carrera_12  
+#carrera_12   carrera de ingeniería en física médicainscripción inscripción al ciclo
+lectivo de grado 2012 1° llamado a examen: viernes 26
+de agosto de 2011, 9hs. 2° llamado a examen: viernes
+16 de diciembre de 2011,   3° llamado a examen: viernes
+24 de febrero de 2012,   sistema de admisión para esta
+carrera es necesario rendir un examen de ingreso obligatorio de
+dos partes: parte i. examen escrito se evalúan las aptitudes
+y conocimientos adquiridos en materias afines con la carrera: ingeniería
+biomédica e ingeniería en física médica: física y química. en
+el momento de la inscripción se le entregará al aspirante
+un cd con el programa y el material de estudio
+  #carrera_7   #carrera_7   #carrera_7   #carrera_7   #carrera_7   carrera de lic. en cs. biológicasinscripción cualquier
+consulta sobre las carreras de grado, carreras y cursos de
+posgrado puede efectuarse en la oficina de informes e inscripción:
+entre ríos 495 esq. venezuela, ciudad autónoma de buenos aires.
+horario de atención:lunes a viernes de 09:00 a 19:00hs. inscripción
+al ciclo lectivo de grado   1° llamado a
+examen: viernes 26 de agosto de 2011, 9hs. 2° llamado
+a examen: viernes 16 de diciembre de 2011,   3° llamado
+a examen: viernes 24 de febrero de 2012,   inscripción al
+ciclo lectivo de grado 2011: ingreso en el 2do. cuatrimestre
+viernes 8 de julio de 2011 a las 10hs. sistema
+de admisión* para esta carrera los aspirantes deberán rendir un
+examen escrito no eliminatorio de biología, por medio del cual
+se evalúan los conocimientos previos en el área, además de
+una entrevista personal. *es posible incorporarse a la carrera en
+el mes de agosto de cada  .
+la nota final del aspirante y su correspondiente ubicación en
+el orden de mérito surgirá de la aplicación de un
+sistema de porcentajes predeterminados por las autoridades académicas para cada
+una de las evaluaciones. requisitos de inscripción en el examen
+de ingreso para las carreras de grado 1 - abonar
+el costo de la inscripción: verificar precio en la sección
+de   la modificación de estos aranceles queda sujeta a
+las resoluciones que dicte la autoridad competente y/o a las
+reglamentaciones y/o decisiones que el consejo superior de la universidad
+favaloro disponga. 2 - el postulante deberá presentar: fotocopia doble
+faz del título secundario legalizado, constancia de alumno regular o
+constancia de título secundario en trámite. nota: recuerde que para
+que el título secundario tenga validez debe estar certificado por
+el gobierno de la ciudad de buenos aires, el ministerio
+del interior o el de educación, según corresponda. original y
+fotocopia de la primera y segunda hoja del dni, original
+y fotocopia de la partida de nacimiento 2 fotos 4x4
+al momento de la inscripción, el alumno o su padre
+y/o   deberá firmar una declaración jurada en la que dará
+fe de que la documentación presentada es verdadera. importante: para
+la inscripción es necesario cumplir con todos los requisitos y
+tener estudios secundarios completos. los alumnos que aún estén cursando
+el último año del ciclo secundario serán inscriptos con carácter
+provisorio hasta que demuestren por medio de documentación legal la
+finalización de los estudios del ciclo antes del 31 de
+marzo del año siguiente a la finalización de los estudios
+secundarios. la inscripción en el concurso de admisión implica la
+aceptación de las normas establecidas por la universidad favaloro para
+el proceso de selección y la renuncia a todo reclamo
+administrativo o legal. no se aceptarán recomendaciones ni influencias de
+ninguna naturaleza. por el contrario, de existir, serán motivo de
+exclusión del postulante, previa notificación a sus padres sobre la
+identidad del recomendante. con respecto al artículo 7 de la
+ley de educación superior, la universidad favaloro se atiene a
+lo normado por el mismo; por lo tanto, quién desee
+cursar sus estudios superiores en la universidad favaloro deberá tener
+sus estudios secundarios completos. aranceles de exámenesde ingreso medicina $
+1143 .- kinesiología $ 1143.- nutrición $  
+ingeniería $   psicología $  
+enfermería $   biología $     $ 1259.- licenciatura en  
+$ 635.- aranceles anuales: matrícula + 11 cuotas
+home | medicina |kinesiología y fisiatría |licenciatura
+en nutrición |psicología |enfermería |ciclo de licenciatura en   |ingeniería |ingeniería biomédica |ingeniería en física médica
+|lic. en cs. biológicas | admisión | novedades | biblioteca
+copyright © 2012 universidad favaloro - sede universitaria: solís   caba, argentina /   4378-1100
+universidad favaloro - admisión para la facultad de
+posgrados
+ { // valido para enviar   if   error_str+="debe completar su
+email\n"; if   error_str+="debe ingresar su consulta\n";   {  else{  
+   ;  ;   {   ga.async = true; ga.src   + '.google-analytics.com/ga.js';     ; el contenido de esta página requiere
+una versión más reciente de adobe flash player. home contacto
+ubicación mapa del sitio espíritu e historia autoridades la universidad
+y la fundación favaloro ex alumnos perfil de los egresados
+extensión universitaria | carrera de medicinacarrera de kinesiología y fisiatríacarrera
+de licenciatura en nutricióncarrera de psicologíacarrera de enfermeríacarrera de ciclo
+de licenciatura en  carrera de ingenieríacarrera
+de ingeniería biomédicacarrera de ingeniería en física médicacarrera de lic.
+en cs. biológicas | bienvenida maestrías carreras de especialista cursos
+de posgradopresenciales cursos de posgradoa distancia preguntas frecuentes | carreras
+de grado facultad de posgrado informes e inscripción información para
+colegios preguntas frecuentes | blog bolsa de trabajo extensión universitaria
+| cursos de posgradoa distancia   {  ); carreras
+de grado facultad de posgrado informes preguntas frecuentes visitanos también
+en:  {   facultad de posgrado la actividad
+académica desarrollada en el área de posgrado contribuye a mantener
+uno de los principios fundacionales de la universidad favaloro: proveer
+educación continua con una sólida formación científica, humanística y ética.
+los graduados de las distintas vertientes relacionadas con la medicina
+encuentran aquí una variada oferta: desde carreras de especialista y
+maestrías con reconocimiento de la coneau hasta cursos de posgrado
+y de actualización con modalidades de cursada tanto presencial como
+a distancia, a los que se suman también los seminarios,
+jornadas y talleres. nuestros cursos maestrías carreras de especialista cursos
+de posgrado presenciales cursos de posgrado a distancia
+home | medicina |kinesiología y fisiatría |licenciatura
+en nutrición |psicología |enfermería |ciclo de licenciatura en   |ingeniería |ingeniería biomédica |ingeniería en física médica
+|lic. en cs. biológicas | admisión | novedades | biblioteca
+copyright © 2012 universidad favaloro - sede universitaria: solís   caba, argentina /   4378-1100
+universidad favaloro - información para colegios
+ { // valido
+para enviar   if   error_str+="debe completar su apellido\n";
+if   error_str+="debe completar su email\n"; if   error_str+="debe ingresar su consulta\n";  
+{  else{  
+    {   ga.src   + '.google-analytics.com/ga.js';   el contenido de esta página requiere una versión más
+reciente de adobe flash player. home contacto ubicación mapa del
+sitio espíritu e historia autoridades la universidad y la fundación
+favaloro ex alumnos perfil de los egresados extensión universitaria |
+carrera de medicinacarrera de kinesiología y fisiatríacarrera de licenciatura en
+nutricióncarrera de psicologíacarrera de enfermeríacarrera de ciclo de licenciatura en
+ carrera de ingenieríacarrera de ingeniería biomédicacarrera
+de ingeniería en física médicacarrera de lic. en cs. biológicas
+| bienvenida maestrías carreras de especialista cursos de posgradopresenciales cursos
+de posgradoa distancia preguntas frecuentes | carreras de grado facultad
+de posgrado informes e inscripción información para colegios preguntas frecuentes
+| blog bolsa de trabajo extensión universitaria | cursos de
+posgradoa distancia   {  ); carreras de grado facultad
+de posgrado informes preguntas frecuentes visitanos también en:  {
+  información para colegios la universidad favaloro cuenta con
+un programa de introducción a las carreras universitarias que dicta,
+especialmente dirigido a estudiantes que cursan los últimos años del
+secundario. en el marco de este programa introductorio, los docentes
+de las distintas carreras realizan visitas a los colegios en
+las que tratan una amplia gama de temáticas de nivel
+universitario especialmente adaptadas al interés de los estudiantes secundarios. las
+charlas duran aproximadamente una hora.el área de interés,la fecha y
+el horariose acuerdan con anticipación. las instituciones interesadas pueden solicitar
+el temario y acordar la visita enviando un mail a
+inscripciones@favaloro.edu.ar
+home | medicina |kinesiología
+y fisiatría |licenciatura en nutrición |psicología |enfermería |ciclo de licenciatura
+en   |ingeniería |ingeniería biomédica |ingeniería
+en física médica |lic. en cs. biológicas | admisión |
+novedades | biblioteca copyright © 2012 universidad favaloro - sede
+universitaria: solís   caba, argentina /   4378-1100

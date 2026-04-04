@@ -1,0 +1,18 @@
+it works! this is the default web page for this
+server. the web server software is running but no content
+has been added, yet. ausa2011conv2 - autentificación de usuarios procesando...
+procesando. por favor aguarde... versión 1.0.0 ingresar nuevo usuario autentificación
+de usuarios usuario clave sistemas de consultas periodo convocatoria primer
+semestre 2011 cit - implementación y desarrollo - citdesarrollado por
+siu 2002-2012 tha2010 - autentificación de usuarios procesando... procesando. por
+favor aguarde... versión 1.0.0 autentificación de usuarios importante- si es
+la primera vez que ingresa, haga clic en nuevo usuario
+para obtener una clave.- si ya generó su usuario y
+contraseña consignelos y haga clic en ingresar.- en caso de
+no recordar la clave, haga clic en olvide mi contraseña
+para recuperarla.     nuevo usuario ingresar olvide
+mi contraseña desarrollado por siu 2002-2012 intv3 - autentificación de
+usuarios procesando... procesando. por favor aguarde... versión 1.0.0 ingresar nuevo
+usuario autentificación de usuarios usuario clave sistemas de consultas periodo
+convocatoria convocatorias 2012 consultar cit - implementación y desarrollo -
+citdesarrollado por siu 2002-2012

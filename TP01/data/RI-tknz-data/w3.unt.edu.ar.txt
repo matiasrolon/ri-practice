@@ -1,0 +1,148 @@
+universidad nacional de tucumán consulta de estado de trámites de
+tÃ­tulos :: universidad nacional de tucumán :: tucumán :: argentina
+/* see license.txt for terms of usage */     .firebugrulerh { position: absolute; top: -15px;
+left: 0; width: 100%; height: 14px; background:   .firebugrulerv { position: absolute; top: 0; left: -15px;
+width: 14px; height: 100%; background:  
+.overflowrulerx >   .overflowrulery >   /* * * * * *
+* * * * * * * * * *
+* * * * * * * * * *
+* * * * * * * * * *
+* * * * * * * * * *
+* * */           /*.firebughighlightgroup    */   .firebuglayoutlineleft,   .firebuglayoutlinetop,           inicio | contacto historia organización
+autoridades secretarís consejo superior gestión inicio::certificado de trabajo consulta de
+estado de trámites de tÃ­tulos // ingrese el número de documento de
+la persona que desea consultar el trámite de tÃ­tulos // webmail recibo de sueldo liq. de ganancias capacit.
+empleados red de bibliotecas dirección general de informática - rectorado
+copyright 2008 - universidad nacional de   ayacucho 491
+tel.: +54 381 4247752   san miguel de tucumán,
+tucumán - argentina  
+instituto de arqueología y museo u.n.t. san martín  
+san miguel de tucumán teléfono/fax:   423 3962 e-mail:
+iarqueo@unt.edu.ar con la colaboración de: fundaciÓn tiempos webmasters: rendace &
+cordomí. comisión informática iam 2007. e-mail: comunicacionesiam@yahoo.com iesglo tabla de
+contenidos introducción miembros investigación publicaciones convenios transferencia servicios software actas
+de la v reunión argentinade sedimentología en venta aquí instituto
+de estratigrafía y geología sedimentaria globallaboratorio de sedimentología de la
+facultad de ciencias naturalese instituto miguel lillouniversidad nacional de tucumán
+miguel lillo 205, san miguel de  , tucumán, república
+argentina.teléfono - fax: + 54-381-4321165 e-mail: iesglo@satlink.com página diseñada por
+el geólogo emilio flores ivaldimantenimiento ing. suchultima modificación: 25-oct-2005 introducción
+el instituto de estratigrafía y geología sedimentaria   estudia
+las cuencas sedimentarias procurando establecer las relaciones entre la tectónica
+y la sedimentación y los posteriores cambios producidos por la
+interacción entre la sedimentación la sobre carga y la tectónica
+sinsedimentaria. es además una escuela de formación de  
+en temas estratigráficos, que colaboran en el desarrollo de nuevas
+metodologías de análisis tanto en micro- como en macroescala. el
+iesglo está dedicado a la investigación de las cuencas sedimentarias,
+sus mecanismos iniciales y formas de relleno. en ese aspecto
+se trabaja en varias líneas de investigación desde los estudios
+estratigráficos y de correlación con auxilio de información de subsuelo
+y simulación de modelos de relleno usando la imagen producida
+por las líneas sísmicas.en los estudios estratigráficos se procura obtener
+información de campo con un máximo de detalle, en cuanto
+a litologías y estructuras que se complementa con observaciones arquitecturales.simultaneamente
+a la descripción de detalle se obtienen muestras para análisis
+petrográficos y estudios petrológicos, de proveniencia y de espacio poral,
+por un lado y por otro de los materiales finos
+para estudios de argilominerales.se toman muestras especiales de tobas o
+rocas volcánicas que tienen la finalidad de obtener dataciones radiométricas
+y de calcretos para estudios de geoquímica asociados a paleoambientes.
+volver a tablade contenidos miembros del instituto los miembros del
+instituto son los siguientes: dr. gerardo e. bossi director dra.
+analía ahumada dr. sergio georgieffdra. lucía ibáñez geólogo igor gavriloff
+dra. maria del milagro vergelcv en preparación geóloga maría eugenia
+vides geólogo estaban pieroni geólogo sebastián moyano geóloga florencia segovia
+ingeniero víctor eduardo suchtécnico enrique burgos novedades: becarios y doctorandos:
+florencia segovia, sebastián moyano, esteban pieroni, víctor eduardo such. asociados
+en el programa ciunt: igor gavriloff, florencia segovia, sebastián moyano,
+esteban pieroni, víctor eduardo such. interdisciplinaridadel grupo trabaja en base
+a aportes independientes de cuatro áreas disciplinarias: tectónica, geología sedimentaria
+- estratigrafía, mineralogía de arcillas y petrología - proveniencia, que
+usan metodologías completamente diferentes y se complementan en el análisis
+paleogeográfico y de relleno de la cuenca. volver a tablade
+contenidos programas y proyectos de investigación project summary available here
+el grupo ha recibido soporte económico para realizar los trabajos
+en el terciario de tucumán y catamarca, mediante subsidios del
+  "tectónica y sedimentación del terciario del noroeste
+argentino"desde 1983 hasta 1990 y luego mediante proyectos pid 3159300
+del conicet, de 1990 a 1992 y el pid 331160092
+de conicet entre 1993 y 1995 y el programa del
+ciunt "estratigrafía tectónica y sedimentación de las cuencas neógenas de
+tucumán y catamarca" de 1995 a 1997 inclusive. 1. ciunt
+  programa: análisis de las cuencas terciarias nordpampeanas.proyecto:
+estratigrafía, facies y paleogeografía en las cuencas terciarias norpampeanas. 2.
+conicet   proyecto: tectónica y sedimentación de las
+cuencas terciarias de tucumán y  .resumen unificado de los planes de trabajo
+palabras clave estratigrafía; análisis de cuencas; neógeno; geología sedimentaria analizar
+la historia de relleno de las cuencas neógenas de las
+sierras  ,
+utilizando varios caminos de aproximación. en primer lugar estudiar con
+detalle las áreas aflorantes aún no  , donde se realizarán estudio estratigráficos,
+paleocorrientes, petrológicos y mineralógicos en segundo lugar, ajustar la correlación
+regional entre diferentes cuencas mediante un plan ambicioso de dataciones
+de tobas mediante el método de ar-ar y uso colateral
+de información paleontológica de nuestros materiales estudiados por otros. también
+se pretende determinar el sistema regional de dispersión mediante análisis
+de paleocorrientes, facies y arquitectura. la historia tectónica de la
+formación de la cuenca y su posterior evolución. resultados esperados
+las cuencas neógenas de las sierras norpampeanas permiten establecer un
+modelo de sedimentación por abovedamiento debido al empuje de la
+precordillera riojana y el bloque de la puna, que crearon
+en su borde oeste una cuenca de antepaís, por flexión
+del borde del basamento cristalino y un gran  
+sobre la parte central de las sierras pampeanas. el modelo
+gravímetrico es una superficie de 2° grado con máxima elevación
+coincidente con la actitud de los bloques expresada por la
+penellanura: los bloques occidentales están volcados al oeste y los
+orientales al este, con un eje de bloques subhorizontales que
+pasa diagonalmente por la sierra de ambato-mazán, sierra de capillitas
+y se hunde en el campo del arenal para entrar
+por el valle de santa maría.     neógenas se
+formaron durante la fase de extensión de la corteza superficial
+y rellenan una serie de hemigrabenes cuya conectividad no se
+puede definir. por otra parte, la paleogeografía regional fue muy
+baja durante el   y comenzó a
+crecer con la inversión tectónica durante el plioceno. existen regiones
+con afloramientos que no han sido estudiadas y cuyo conocimiento
+se completará en este proyecto, tal es el caso del
+borde oriental y sectores internos de la sierra de fiambalá,
+sector del cerro pampa y sierra de belén. volver a
+tablade contenidos convenios el iesglo tiene convenios de trabajo con
+universidades extranjeras como ser la universidad de barcelona, la universidad
+  y la university of south  .se ha
+realizado un convenio con la state university of south   para disponer del programa sedpak para simulación de relleno
+cuencal. aplicaciones realizadas en usa por g.e.bossi serán continuadas en
+nuestro laboratorio. volver a tablade contenidos actividades detransferencia se atendieron
+varias pasantías de geólogos de otras universidades, tal es el
+caso de maría camacho, dos en 1995 y dos en
+1996, para realizar estudios de difractometría de rayos-x con muestras
+del proyecto cerámico de la provincia de jujuy, argilominerales y
+facies. el geólogo roberto torrá de la universidad del noroeste,
+realizó dos pasantías una 1996 y otra 1997, para perfeccionarse
+en paleocorrientes, análisis textural y difractometría de rayos-x y geoestadística.
+la geóloga cristina paredes, realizó una pasantía en 1997, para
+realizar entrenamiento en arquitectura aluvial, minerales pesados y paleocorrientes. en
+este momento se encuentra entre nosotros un pasante de la
+universidad complutense de madrid, la geóloga raquel mayoral que realiza
+estudios de facies en ambiente de sabkha en la formación
+río salí. [tabla de contenidos|introducción|miembros|investigación|publicaciones|convenios][transferencia|servicios|software|venta actas v reunión|project summary|home page
+unt] dirección del iesglomiguel lillo 205, san miguel de  tucumán, república argentinateléfono/fax: + 54-381-4321165 e-mail: iesglo@satlink.com diseño y mantenimiento
+de esta página: geólogo emilio flores ivaldi, ing. víctor such
+insue
+|||||||||| insue ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| instituto superior de entomología "dr.
+abraham willink" unt unt >>publicaciones|líneas de investigación|extensión y transferencia|infraestructura y
+equipamiento|investigadores extranjeros << facultad de ciencias naturales e instituto miguel
+lillo universidad nacional de tucumán insue miguel lillo 205. 4000
+tucumán. república argentina -tel. 054-381-423 0056 fax: 054-381-423 5291 e-mail:
+instlillo@infovia.com.ar - www.unt.edu.ar/fcsnat/insue e-mail << autoridades >> 0381 - 4230056
+autoridades directora dra. mercedes lizarralde de grosso. director sustituto dr.
+eduardo domínguez. secretario dr. guillermo claps. consejo de direccion dra.
+mercedes l. de grosso, dr. eduardo dominguez, ph d pablo
+goloboff, dr. fernando navarro, dr. sergio ovruski. el funcionamiento del
+insue se rige por un estatuto aprobado por resolución n°
+299-85, de la facultad de ciencias naturales e instituto miguel
+lillo de la universidad nacional de tucumán. las autoridades son
+elegidas por los integrantes del instituto y designadas por el
+decano de la fac. de ciencias naturales e instituto miguel
+lillo. volver act_y_reun docencia_insue integrantes otras_instituciones proyectos_insue tesis_insue hist_insue act_y_reun

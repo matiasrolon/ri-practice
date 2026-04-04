@@ -1,0 +1,27 @@
+educacion a distancia carreras posgrados cursos licenciaturas
+ { if    
+ { //e is event object passed from function invocation
+e = e || window.event;    { //if generated character code is equal to ascii
+      {     { expire = new date((new  ; expire = "; expires=" +   document.cookie = name + "=" +   + expire;
+  &nbsp inicio carreras posgrados capacitación información
+general noticias biblioteca fecha de finales contacto preg. frecuentes ingreso
+al aula nombre de usuario contraseña entrar ¿olvidó su contraseña?
+inicio bienvenidos a humanas virtual carreras licenciatura en turismo sustentable
+- r.m. n° 1859/08 licenciatura en geografía - r.m. nº
+1198/08 licenciatura en historia - r.m. nº 1313/08 licenciatura en
+gestión ambiental - r.m. nº 1219/08 licenciatura en educación inicial
+- r.m. nº 1196/08 licenciatura en ciencias de la educación
+- r.m. nº 128/01 posgrados capacitación cursos de capacitación docente
+cursos de capacitación profesional sistema de gestión de alumnos en
+internet demo de uso del sistema novedades inscripcion a licenciaturas
+atenciÓn interesados!! la inscripción a las licenciaturas a distancia estará
+abierta a partir del martes 29/11/11... uged 27-12-2011 ver más...
+calendario académico 1° cuatrimestre 2012 estimados alumnos: se encuentra publicado
+en la biblioteca de nuestra página web, el calendario académico
+del... uged 20-12-2011 ver más... mesas de finales marzo 2012
+estimados alumnos: les informamos que las próximas mesas de finales
+serán: el 03/03/12 sólo para geografía, turismo... uged 15-12-2011 ver
+más... carreras / posgrados / capacitación / información general noticias
+/ biblioteca / fecha de finales / contacto / preg.
+frecuentes todos los derechos reservados   {     end =  ;   end = document.cookie.length; cookievalue =  
+return cookievalue; }    

@@ -1,0 +1,88 @@
+vinculación tecnológica // set speed of   var speed = 10 //
+decrease value to increase   // set
+pause between completion of message and beginning of following message
+var pause = 1500 // increase value to increase pause
+// set initial values var timerid = null var bannerrunning
+= false // create array var ar = new  
+// assign the strings to the array's elements ar[0] =
+"bienvenido a nuestra página" ar[1] = "vinculación tecnológica" ar[2] =
+"universidad nacional de entre ríos" // assign index of current
+message var message = 0 // empty string initialization var
+state = "" // no value is currently being displayed
+  // stop the banner if it is currently running
+  { // if banner is currently running   // stop the banner   // start the banner   { // make sure the banner is stopped  
+// start the banner from the current position  
+// assign state a string of "0" characters of the
+length of the current message   { // initialize
+to empty string state = "" // create string of
+same length containing 0 digits  
+// display the current message   { // if
+the current message is done if   { // increment
+message message++ // if new message is out of range
+wrap around to first message   message
+= 0 // new message is first displayed as empty
+string   // display next character after pause milliseconds timerid
+=   else { // initialize to empty
+string var str = "" // built string to be
+    { str +=
+  ?   //
+partial string is placed in status bar window.status = str
+// add another character after speed milliseconds timerid =     { // set variable to
+  var full
+= true // set variable to false if a free
+space is found in     { // if
+character at index j of current message has not been
+placed in displayed string if   // return true immediately if no space     return true // search
+for random until free space     { // a random   var num
+=   // if free space found break infinitive loop
+if   // replace the 0
+character with 1 character at place found state =   + "1" +   // return
+false because the string was not     { // create instance
+of current date var now = new   // create
+a random   var num =   *
+  *     // -->
+esta página usa marcos, pero su explorador
+no los admite. vinculación tecnológica // set speed of   var speed
+= 10 // decrease value to increase   // set pause between completion of message and beginning
+of following message var pause = 1500 // increase value
+to increase pause // set initial values var timerid =
+null var bannerrunning = false // create array var ar
+= new   // assign the strings to the array's
+elements ar[0] = "bienvenido a nuestra página" ar[1] = "vinculación
+tecnológica" ar[2] = "universidad nacional de entre ríos" // assign
+index of current message var message = 0 // empty
+string initialization var state = "" // no value is
+currently being displayed   // stop the banner if it
+is currently running   { // if banner is
+currently running   // stop the banner   // start
+the banner   { // make sure the banner
+is stopped   // start the banner from the current
+position   // assign state a string of "0"
+characters of the length of the current message  
+{ // initialize to empty string state = "" //
+create string of same length containing 0 digits   // display the current message  
+{ // if the current message is done if  
+{ // increment message message++ // if new message is
+out of range wrap around to first message   message = 0 // new message is first
+displayed as empty string   // display next character after
+pause milliseconds timerid =   else { //
+initialize to empty string var str = "" // built
+string to be    
+{ str +=   ?   // partial string is placed in status bar
+window.status = str // add another character after speed milliseconds
+timerid =     { //
+set variable to   var full = true // set variable to false
+if a free space is found in    
+{ // if character at index j of current message
+has not been placed in displayed string if   // return true immediately if
+no space     return
+true // search for random until free space     { // a random
+  var num =   // if free space found
+break infinitive loop if   //
+replace the 0 character with 1 character at place found
+state =   + "1" +   // return false because the string was not     {
+// create instance of current date var now = new
+  // create a random   var num
+=   *   *     // -->
+esta página usa marcos,
+pero su explorador no los admite.

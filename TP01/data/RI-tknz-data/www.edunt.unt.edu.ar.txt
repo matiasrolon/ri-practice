@@ -1,0 +1,5 @@
+main
+// provide alternate content for browsers that do
+not support scripting // or for those that have scripting
+disabled. alternate html content should be placed here. this content
+requires the adobe flash player. get flash

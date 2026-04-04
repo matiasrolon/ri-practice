@@ -1,0 +1,10 @@
+orion application server orion application server 1.5.2 - up and
+running reading this means that the server is now up
+and running and you can start deploying your applications! for
+information e-mail info@orionserver.com for sales and licensing, e-mail sales@orionserver.com for
+bug reporting, visit bugzilla, www.orionserver.com/bugzilla/ you can get the latest
+version and current info here. browse the documentation or look
+at some of the jsp examples. if you haven't yet,
+remember to copy tools.jar to the orion/ root directory from
+your jdk install to enable using sun's javac compiler. frequently
+asked questions can be found here. ©1998-2000 evermind data

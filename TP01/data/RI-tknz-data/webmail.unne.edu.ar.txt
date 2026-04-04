@@ -1,0 +1,8 @@
+// correo :: bienvenidos a horde // bienvenidos a horde usuario contraseña idioma
+        bahasa indonesia bosanski   català Česky       dansk
+deutsch       español eesti euskara
+français galego   ‭hebrew   hrvatski Íslenska italiano       latviešu lietuvių   magyar
+nederlands norsk bokmål norsk nynorsk ‭persian   polski português português
+brasileiro românä   slovenčina slovenščina suomi svenska  
+  modo tradicional dinámico para móviles
+//

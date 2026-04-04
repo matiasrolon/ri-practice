@@ -1,5 +1,20 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+"""
+TP01 - Punto 1
+
+Uso:
+    python TP01_P1.py <path_dir_collection> <path_collection_stats>
+
+Parámetros:
+    path_dir_collection     Path del directorio con los documentos de la colección.
+    path_collection_stats   Archivo con las estadísticas de la colección (para comparar con los resultados).
+
+Ejemplo:
+    python TP01_P1.py
+    python TP01_P1.py ../collection_test/TestCollection 
+    python TP01_P1.py ../collection_test/TestCollection ../collection_test/collection_data.json
+"""
 
 import os
 import sys

@@ -1,0 +1,25 @@
+apache tomcat/4.1.24
+apache tomcat/4.1.24 administration tomcat administration tomcat manager
+documentation tomcat documentation tomcat online home page bug database users
+mailing list developers mailing list irc examples jsp examples servlet
+examples webdav capabilities miscellaneous sun's java server pages site sun's
+servlet site if you're seeing this page via a web
+browser, it means you've setup tomcat successfully. congratulations! as you
+may have guessed by now, this is the default tomcat
+home page. it can be found on the local filesystem
+at: $catalina_home/webapps/root/index.html where "$catalina_home" is the root of the tomcat
+installation directory. if you're seeing this page, and you don't
+think you should be, then either you're either a user
+who has arrived at new installation of tomcat, or you're
+an administrator who hasn't got his/her setup quite right. providing
+the latter is the case, please refer to the tomcat
+documentation for more detailed setup and administration information than is
+found in the install file. note: for security reasons, using
+the administration webapp is restricted to users with role "admin".
+the manager webapp is restricted to users with role "manager".
+users are defined in $catalina_home/conf/tomcat-users.xml. included with this release are
+a host of sample servlets and  , extensive  , and an introductory guide to developing web applications.
+tomcat mailing lists are available at the jakarta project web
+site: tomcat-user@jakarta.apache.org for general questions related to configuring and using
+tomcat tomcat-dev@jakarta.apache.org for developers working on tomcat thanks for using
+tomcat! copyright © 1999-2002 apache software foundation all rights reserved

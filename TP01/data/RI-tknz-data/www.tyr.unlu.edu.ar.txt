@@ -1,0 +1,88 @@
+objetivos | tyr @import "/cms/modules/node/node.css"; @import "/cms/modules/system/defaults.css"; @import "/cms/modules/system/system.css"; @import
+"/cms/modules/user/user.css"; @import "/cms/themes/glossyblue/style.css"; @import "/cms/themes/glossyblue/print.css"; "sea liberal en lo que
+acepta y conservador en lo que enví". jon postel unlu
+english objetivos sáb, 11/10/2007 - 13:54 el laboratorio de redes
+tiene como objetivo realizar investigación aplicada en áreas relacionadas con
+las redes de computadoras, sistemas distribuidos y recuperación de información
+en redes globales, en particular, internet. pretende ser un marco
+de integración entre investigadores, docentes y alumnos del área, que
+permita - además - diseñar, implementar y mantener soluciones tecnológicas
+dirigidas a la industria, conjuntamente con la divulgación cientÃ­fica y
+la producción de material docente. navegación objetivos envÃ­os recientes integrantes
+asignaturas investigación cursos, conferencias y seminarios publicaciones tesis y trabajos
+finales blog login distribuir envÃ­os recientes a blogs notas 2do
+parcialentregas de tps de laboratorioentregas de tpstp laboratorio #7tp laboratorio
+#6tp laboratorio #5actividad  tp laboratorio #4trabajo práctico 2tp laboratorio
+#3más theme & icons by n.design studiocopyright 2002-2007 - universidad
+nacional de luján - argentina objetivos | tyr @import "/cms/modules/node/node.css";
+@import "/cms/modules/system/defaults.css"; @import "/cms/modules/system/system.css"; @import "/cms/modules/user/user.css"; @import "/cms/themes/glossyblue/style.css"; @import "/cms/themes/glossyblue/print.css";
+"sea liberal en lo que acepta y conservador en lo
+que enví". jon postel unlu english objetivos sáb, 11/10/2007 -
+13:54 el laboratorio de redes tiene como objetivo realizar investigación
+aplicada en áreas relacionadas con las redes de computadoras, sistemas
+distribuidos y recuperación de información en redes globales, en particular,
+internet. pretende ser un marco de integración entre investigadores, docentes
+y alumnos del área, que permita - además - diseñar,
+implementar y mantener soluciones tecnológicas dirigidas a la industria, conjuntamente
+con la divulgación cientÃ­fica y la producción de material docente.
+navegación objetivos envÃ­os recientes integrantes asignaturas investigación cursos, conferencias y
+seminarios publicaciones tesis y trabajos finales blog login distribuir envÃ­os
+recientes a blogs notas 2do parcialentregas de tps de laboratorioentregas
+de tpstp laboratorio #7tp laboratorio #6tp laboratorio #5actividad  tp
+laboratorio #4trabajo práctico 2tp laboratorio #3más theme & icons by
+n.design studiocopyright 2002-2007 - universidad nacional de luján - argentina
+laboratorio de redes de datos - taller libre i: "introducción
+a la recuperación de información" universidad nacional de luján taller
+libre   - curso 2010 introducción a la recuperación
+de información en este taller se presentan los fundamentos teóricos
+y las aplicaciones relacionadas con la construcción de sistemas de
+información basados en documentos de texto y técnicas del área
+de recuperación de información. a partir del análisis de las
+características estadísticas del texto escrito se plantean estrategias y técnicas
+de representación y almacenamiento de tales objetos, los modelos de
+recuperación más importantes en la actualidad y métodos de procesamiento.
+de forma complementaria se plantea la evolución de la disciplina
+en ambientes distribuidos y la web. horarios jueves de 14
+a 20hs consultas por   o mail: todo el
+tiempo cronograma de clases semana   introducción y problemática
+taller programación ri trabajo práctico 1 semana   modelos
+clásicos de ri taller programación ri semana   modelos
+de lenguaje taller programación ri trabajo práctico 2 semana   análisis de textos práctica lemur toolkit trabajo práctico 3
+semana   sin   semana  
+estructuras de datos para ri programación semana   indexación
+y recuperación programación trabajo práctico 4 semana   evaluación
+de la recuperación trec-eval semana   presentación de papers
+práctica laboratorio trabajo práctico 5 semana   retroalimentación de
+la consulta práctica laboratorio semana   introducción a clasificación
+y clustering demos: bow y cluto presentación proyecto final trabajo
+práctico 6 semana   recuperación de información en la
+web crawling semana   motores de búsqueda análisis de
+enlaces trabajo práctico 7 semana   exámen parcial proyecto
+semana   recuperación de información distribuida proyecto semana   presentación de proyecto final y recuperatorio bibliografía básica modern
+information retrieval. r. baeza-yates, b. ribeiro-neto. addison-wesley,   introduction
+to information retrieval. c. manning, p. raghavan, h. schutze. cambridge
+university press.   information retrieval. algorithms and
+heuristics. d. a. grossman, o. frieder. kluwer, 1998. material provisto
+por el equipo docente. libro: “introducción a la recuperación de
+información. conceptos, modelos y algoritmos básicos”. gabriel h. tolosa y
+fernando r.a. bordignon. laboratorio de redes de datos. universidad nacional
+de   search engines: information retrieval in practice. w.
+b. croft. d. meltzer. t. strohman. addison-wesley, 2009. nuevo complementaria
+van rijsbergen, c. j. information retrieval. butterworth. 1979. recurso disponible
+en linea: http://www.dcs.gla.ac.uk/keith/preface.html managing gigabytes: compressing and indexing documents and
+images. 2ª edition. i.h. witten, a. moffat, t.c. bell. edit.
+morgan kaufmann, 1999. information retrieval interaction. peter ingwersen. london: taylor
+graham, 1992. recurso disponible en linea: http://www.db.dk/pi/iri/ information retrieval. data
+structures & algorithms. w. b. frakes, r. baeza-yates. edit. prentice-hall,
+1992. advances in information retrieval. 27th european conference on ir
+research, ecir 2005, santiago de compostela, spain, march 21-23, 2005,
+proceedings. mining the web. discovering knowledge from hypertext data. soumen
+chakrabarti. morgan-kaufmann publishers. 2003. evaluación existirá una evaluación parcial y
+un proyecto final de curso. se deben resolver y entregar
+en tiempo y forma todas las actividades propuestas por el
+equipo docente, ya sean teóricas o de laboratorio. además, se
+debe participar en una actividad de preparación y exposición de
+un tema grupal durante la cursada. docentes profesor adjunto mg.
+gabriel h. tolosa auxiliar a.s. pablo j. lavallén enlaces sigir
+(special interest group in information retrieval     international journal on digital
+libraries

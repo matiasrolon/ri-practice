@@ -1,0 +1,8 @@
+miel - materias interactivas en línea  .src =
+ .src =  }  .src =  .src
+=  }  {popupwin =   
+{popupwin =    /* image replacement */ .graphic, #prevbtn,   /* // image replacement   /* easy slider  #slider ul, #slider  #slider li{ /* define
+width and height of list  #prevbtn,   #prevbtn a, #nextbtn a{  #nextbtn a{
+ /* // easy slider */body, td, p,
+input,select,           acceso al campus virtual
+usuario clave   {  ); });

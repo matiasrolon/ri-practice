@@ -1,0 +1,99 @@
+untref virtual :: universidad nacional de tres de febrero ::
+  { return  
+  {   promoa[ 1 ] =
+"flashspots_2.html" ; promoa[ 2 ] = "flashspots_3.html" ;  
+  promoa[ 0
+] = "flashspots_1.html" ; promoa[ 1 ] = "flashspots_2.html" ;
+promoa[ 2 ] = "flashspots_3.html" ;        
+iframe2.height = altoconetenido + 5; }   { //v3.0
+  for (i=0;!x&&i
+ ; //end ac
+code  ; //end ac code recuerde que para
+obtener su título deberá acreditar los niveles de idioma inglés
+que especifica el plan de estudio de su carrera. más
+información estatuto reglamento de estudios reglamento de disciplina para alumnos
+solicitud de equivalencias trámite expedición de título solicitud de licencia
+solicitud de reincorporación requisitos de ingreso para mayores de 25
+años - secundario incompleto el trámite dura un cuatrimestre desde
+que presenta la documentación completa presentación de tesis nueva tecnicatura
+gestión de tasaciones, subastas y corretaje nuevos cursos: a partir
+de 2012, la untref - instituto del conflicto – programa
+de formación contínua lanzará cursos, seminarios y   abierta la inscripción al ciclo lectivo 2012
+inscripción al curso de ingreso para: • licenciatura en administración
+• licenciatura en higiene y seguridad del trabajo • licenciatura
+en historia • licenciatura en políticas y administración de la
+cultura • tecnicatura en gestión de tasaciones, subastas y corretaje
+hasta el 19 de enero de 2012 a partir del
+ciclo lectivo 2012, los aspirantes a ingresar a la licenciatura
+en higiene y seguridad del trabajo, deberán aprobar el curso
+de ingreso obligatorio, conformado por las siguientes materias: • físico/química
+• matemática • comunicación oral y escrita próximas fechas: febrero-marzo
+ . nueva diplomatura gestión de microfinanzas nueva especialización especialización
+en políticas y gestión migratoria internacional nueva tecnicatura gestión de
+tasaciones, subastas y corretajes nuevos cursos 2012 del instituto del
+conflicto la neutralidad del mediador: desarrollo de técnicas y  . diagnóstico, prevención y manejo del acoso entre   . seminario paradigmas científicos del siglo xxi. historia, fundamentos y
+prospectiva de la negociación. los actores en los conflictos. aportes
+sobre su diversidad. ¿cómo se estudia a distancia? clic aquí
+regularidad en los pagos les recordamos que: • para rendir
+finales se deben tener los pagos de la carrera al
+día. • se desactivará, sin previo aviso y en forma
+automática, el acceso de los alumnos que registren pagos pendientes.
+pagos con tarjeta visa para realizar los pagos con tarjeta
+visa, ingrese aquí sugerencia importante recomendamos que utilice para navegar
+el campus, el navegador mozilla firefox , descárguelo gratuitamente desde
+el siguiente link www.mozilla.com/firefox/ el equipo pedagógico de la untref
+virtual, en el marco de la secretaría de investigación de
+la untref, está desarrollando un proyecto de investigación científica. titulo
+del proyecto: "la cultura de la formación docente en la
+educación virtual: hacia la cultura de la colaboración. las competencias
+tecnológicas, comunicativas, didácticas y gestionales necesarias para el logro de
+una cultura colaborativa." directora: dra. graciela alicia esnaola  ; //end ac code  ; //end ac code
+ ; //end ac code  ; //end
+ac code  ; //end ac code  ; //end ac code  ; //end ac code
+ ; //end ac code  ; //end
+ac code  ; //end ac code  ; //end ac code  ; //end ac code
+     ;  ; untref virtual
+el inicio de la carrera
+estará sujeto a contar con una cantidad mínima de alumnos.
+en caso de que no se abra la carrera, se
+reintegrán los pagos realizados. untref virtual
+el inicio de la
+carrera estará sujeto a contar con una cantidad mínima de
+alumnos. en caso de que no se abra la carrera,
+se reintegrán los pagos realizados. untref virtual
+el inicio de
+la carrera estará sujeto a contar con una cantidad mínima
+de alumnos. en caso de que no se abra la
+carrera, se reintegrán los pagos realizados. untref virtual
+el inicio
+de la carrera estará sujeto a contar con una cantidad
+mínima de alumnos. en caso de que no se abra
+la carrera, se reintegrán los pagos realizados. untref virtual
+el
+inicio de la carrera estará sujeto a contar con una
+cantidad mínima de alumnos. en caso de que no se
+abra la carrera, se reintegrán los pagos realizados. untref virtual
+:: universidad nacional de tres de febrero ::
+  {      
+  iframe.height = altoconetenido +
+10; }   {     //end ac code presentación | plan
+de estudios | aranceles | inscripción | prácticas | finales
+reglamento de estudios manual del campus regularidad en los pagos
+les recordamos que para rendir finales se deben tener todos
+los pagos de la carrera al día y que se
+desactivará automáticamente el acceso al campus de todos los alumnos
+que registren pagos pendientes, sin previo aviso. sugerencia importante recomendamos
+que utilice para navegar el campus, el navegador mozilla firefox
+2.0, descárguelo gratuitamente desde el siguiente link www.mozilla.com/firefox/ a partir
+del ciclo lectivo 2012, los aspirantes a ingresar a la
+licenciatura en higiene y seguridad del trabajo,deberán aprobar elcurso de
+ingresoobligatorio conformado por las siguientes materias: 1- físico/química 2- matemática
+3- comunicación oral y escrita próxima fecha: febrero-marzo  
+importante podrán realizar el curso de ingreso los alumnos que
+estén cursando el último año del secundario. una vez aprobado
+el curso, para ingresar a la carrera deberán aprobar todas
+las materias del secundario antes del inicio del ciclo lectivo
+2012. inscripción: hasta el 19/01/2012 curso de ingreso: 01/02 al
+9/03/2012 fecha de examen final:ver calendario académico aranceles 2012:$ 537.-
+pagadero en 2 cuotas de $ 268,50.-  ;
+//end ac code

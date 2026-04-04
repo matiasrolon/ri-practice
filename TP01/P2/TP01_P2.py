@@ -1,119 +1,226 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+"""
+TP01 - Punto 2
+
+Uso:
+    python TP01_P2.py <dir_coleccion> [--stopwords <archivo_stopwords>]
+
+Parámetros:
+    dir_coleccion           Directorio con los documentos .txt de la colección.
+    --stopwords <archivo>   (Opcional) Archivo con palabras vacías a eliminar.
+
+Ejemplo:
+    python TP01_P2.py ../RI-tknz-data/
+    python TP01_P2.py ../RI-tknz-data/ --stopwords ../stopwords/spanish.txt
+
+Archivos generados:
+    terminos.txt    - Lista ordenada de términos con CF y DF.
+    estadisticas.txt - Estadísticas generales de la colección.
+    frecuencias.txt  - Top 10 más y menos frecuentes.
+"""
 
 import os
 import sys
-import json
 from os import listdir
-from os.path import join, isdir
-from tokenizer import tokenize
+from os.path import join, isdir, isfile
+from typing import List, Tuple
+from tokenizer import tokenize  # type: ignore[import]
+
+# ── Configuración ─────────────────────────────────────────────────────────────
+MIN_TERM_LEN = 2   # longitud mínima de un término (inclusive)
+MAX_TERM_LEN = 25  # longitud máxima de un término (inclusive)
+# ─────────────────────────────────────────────────────────────────────────────
+
+
+def load_stopwords(filepath: str) -> set:
+    """Carga las palabras vacías desde un archivo (una por línea)."""
+    stopwords = set()
+    with open(filepath, "r", encoding="utf-8", errors="ignore") as f:
+        for line in f:
+            word = line.strip().lower()
+            if word:
+                stopwords.add(word)
+    return stopwords
+
+
+def is_valid_term(term: str, stopwords: set) -> bool:
+    """Filtra un término por longitud y por pertenencia al listado de stopwords."""
+    if len(term) < MIN_TERM_LEN or len(term) > MAX_TERM_LEN:
+        return False
+    if term in stopwords:
+        return False
+    return True
+
+
+def parse_args():
+    """Parsea los argumentos de línea de comandos."""
+    dir_path = "../RI-tknz-data/"  # default path
+    stopwords_file = None
+
+    if len(sys.argv) < 2:
+        print("[INFO] No se pasaron parámetros. Se usará el directorio por defecto.")
+    else:
+        dir_path = sys.argv[1]
+        if "--stopwords" in sys.argv:
+            idx = sys.argv.index("--stopwords")
+            if idx + 1 < len(sys.argv):
+                stopwords_file = sys.argv[idx + 1]
+            else:
+                print("[ERROR] Se indicó --stopwords pero no se proporcionó el archivo.")
+                sys.exit(1)
+
+    return dir_path, stopwords_file
+
+
+def process_collection(dir_path: str, stopwords: set):
+    """
+    Procesa todos los documentos .txt del directorio.
+
+    Retorna:
+        cf          dict  {término: collection_frequency}
+        df          dict  {término: document_frequency}
+        doc_stats   list  [(tokens_count, terms_count), ...] por documento
+    """
+    cf = {}      # collection frequency
+    df = {}      # document frequency
+    doc_stats = []  # (token_count, term_count) por documento
+
+    files = sorted(f for f in listdir(dir_path) if f.endswith(".txt"))
+
+    for filename in files:
+        path = join(dir_path, filename)
+        with open(path, "r", encoding="utf-8", errors="ignore") as fh:
+            content = fh.read()
+
+        # Tokenización
+        raw_tokens = tokenize(content)
+        # Filtrado: aplicar restricciones de longitud y stopwords
+        valid_tokens = [t for t in raw_tokens if is_valid_term(t, stopwords)]
+        # Tokens del documento: todos los tokens crudos (antes del filtro de términos)
+        token_count = len(raw_tokens)
+        # Términos del documento: tokens válidos tras filtrado
+        term_count = len(valid_tokens)
+        # CF: frecuencia acumulada en la colección
+        for term in valid_tokens:
+            cf[term] = cf.get(term, 0) + 1
+        # DF: cada término (unico) suma 1 al documento
+        terms_in_doc = set(valid_tokens)
+        for term in terms_in_doc:
+            df[term] = df.get(term, 0) + 1
+
+        doc_stats.append((token_count, term_count))
+
+    return cf, df, doc_stats
+
+
+def write_terms(cf: dict, df: dict, output_dir: str):
+    """Genera terminos.txt con formato: <termino> <CF> <DF> ordenado alfabéticamente."""
+    path = join(output_dir, "terminos.txt")
+    sorted_terms = sorted(cf.keys())
+    with open(path, "w", encoding="utf-8") as f:
+        for term in sorted_terms:
+            f.write(f"{term} {cf[term]} {df[term]}\n")
+    print(f"[OK] terminos.txt generado ({len(sorted_terms)} términos).")
+    return path
+
+
+def write_statistics(cf: dict, df: dict, doc_stats: list, output_dir: str):
+    """Genera estadisticas.txt con las métricas solicitadas."""
+    path = join(output_dir, "estadisticas.txt")
+    # cantidad de documentos procesados
+    num_docs = len(doc_stats)
+    # cantidad total de tokens en la colección
+    total_tokens = sum(s[0] for s in doc_stats)
+    # cantidad total de terminos en la colección
+    total_terms_tokens = sum(s[1] for s in doc_stats)   # suma de tokens válidos
+    # cantidad de terminos UNICOS en la colección
+    num_unique_terms = len(cf)
+    # promedio de tokens por documento
+    avg_tokens = total_tokens / num_docs if num_docs else 0
+    # promedio de terminos por documento
+    avg_terms = total_terms_tokens / num_docs if num_docs else 0
+    # Largo promedio de un término (promedio de la longitud de cada término único)
+    avg_term_len = (
+        sum(len(t) for t in cf) / num_unique_terms if num_unique_terms else 0
+    )
+    # Documento más corto y más largo por tokens (crudos)
+    min_stats = min(doc_stats, key=lambda s: s[0])
+    max_stats = max(doc_stats, key=lambda s: s[0])
+    # Términos que aparecen sólo 1 vez (hapax legomena)
+    hapax = sum(1 for v in cf.values() if v == 1)
+    # Escribir estadísticas en el archivo
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(f"{num_docs}\n")
+        f.write(f"{total_tokens} {num_unique_terms}\n")
+        f.write(f"{avg_tokens:.2f} {avg_terms:.2f}\n")
+        f.write(f"{avg_term_len:.2f}\n") 
+        f.write(f"{min_stats[0]} {min_stats[1]} {max_stats[0]} {max_stats[1]}\n")
+        f.write(f"{hapax}\n")
+
+    print(f"[OK] estadisticas.txt generado.")
+    return path
+
+
+def write_frequencies(cf: "dict[str, int]", output_dir: str):
+    """Genera frecuencias.txt con los 10 más y 10 menos frecuentes."""
+    path = join(output_dir, "frecuencias.txt")
+
+    all_terms = sorted(cf.items(), key=lambda x: x[1], reverse=True)
+    n = len(all_terms)
+
+    top10 = list(all_terms[i] for i in range(min(10, n)))
+    bottom10 = list(reversed([all_terms[i] for i in range(max(0, n - 10), n)]))
+
+    with open(path, "w", encoding="utf-8") as f:
+        f.write("=== 10 términos más frecuentes ===\n")
+        for term, freq in top10:
+            f.write(f"{term} {freq}\n")
+        f.write("\n=== 10 términos menos frecuentes ===\n")
+        for term, freq in bottom10:
+            f.write(f"{term} {freq}\n")
+
+    print(f"[OK] frecuencias.txt generado.")
+    return path
+
 
 def main():
-    cont = 1
-    proccess_docs = 0
-    total_tokens_count = 0
-    df = {} # Document Frequency
-    all_terms = set()
-    
-    if len(sys.argv) < 2:
-        print('El usuario NO ha pasado argumentos suficientes. Se estableceran los valores por defecto')
-        dir_path = '../collection_test/TestCollection'
-        delete_sw = False
-        stop_words = []
-    else:    
-        dir_path = sys.argv[1]
-        
-        delete_sw = False
-        stop_words = []
-        if len(sys.argv) >= 3 and sys.argv[2].lower() == 'true': 
-            delete_sw = True
-            if len(sys.argv) >= 4:
-                path_sw = sys.argv[3]
-                if os.path.exists(path_sw):
-                    with open(path_sw, "r", encoding="utf-8", errors="ignore") as sw_file:
-                        stop_words = [line.strip() for line in sw_file.readlines()]
-                else:
-                    print(f"No se encontro el archivo de stopwords: {path_sw}")
+    dir_path, stopwords_file = parse_args()
 
-    print('Directorio a analizar    > ' + dir_path)
-    if not delete_sw:
-        print('No se Eliminaran palabras vacias.')        
+    # Validar directorio
+    if not isdir(dir_path):
+        print(f"[ERROR] '{dir_path}' no es un directorio válido.")
+        sys.exit(1)
+
+    # Cargar stopwords
+    stopwords = set()
+    if stopwords_file:
+        if not isfile(stopwords_file):
+            print(f"[ERROR] El archivo de stopwords '{stopwords_file}' no existe.")
+            sys.exit(1)
+        stopwords = load_stopwords(stopwords_file)
+        print(f"[INFO] Stopwords cargadas: {len(stopwords)} palabras desde '{stopwords_file}'.")
     else:
-        print('Se eliminaran palabras vacias.')
-    print('---------------------------------------------------')
-        
-    if isdir(dir_path):
-        l = listdir(dir_path)
-        for arch in l:
-            if arch.endswith('.txt'):   
-                path_arch = join(dir_path, arch)
-                with open(path_arch, "r", encoding="utf-8", errors="ignore") as file_arch:
-                    content = file_arch.read()
-                
-                # Tokenizamos
-                tokens_doc = tokenize(content)
-                
-                # Borramos stopwords
-                if delete_sw:
-                    tokens_doc = [t for t in tokens_doc if t not in stop_words]
-                
-                total_tokens_count += len(tokens_doc)
-                
-                # Extraemos y contamos tokens únicos para Document Frequency
-                terms_in_doc = set(tokens_doc)
-                all_terms.update(terms_in_doc)
-                
-                for term in terms_in_doc:
-                    df[term] = df.get(term, 0) + 1
-                    
-                cont += 1
-                proccess_docs += 1
-        
-        # Resultados pedidos para la consigna
-        print(f"\nLista de términos y su DF (Mostrando algunos de ejemplo):")
-        # Mostrar 10 como muestra para no llenar la consola si hay muchos
-        muestra_df = list(df.items())[:10]
-        for v in muestra_df:
-            print(f"   {v[0]}: {v[1]}")
-        print("   ...")
-        
-        print(f"\nCantidad de tokens: {total_tokens_count}")
-        print(f"Cantidad de términos: {len(all_terms)}")
-        print(f"Cantidad de documentos procesados: {proccess_docs}")
+        print("[INFO] No se eliminan palabras vacías.")
 
-        # Comparar con collection_data.json
-        print('\n--- COMPARACIÓN CON collection_data.json ---')
-        # Buscamos el json que se encuentre en '../collection_test/collection_data.json'
-        json_path = join(os.path.dirname(os.path.normpath(dir_path)), "collection_data.json")
-        if not os.path.exists(json_path):
-            json_path = join(dir_path, '../collection_data.json')
-            
-        if os.path.exists(json_path):
-            with open(json_path, 'r', encoding="utf-8") as f:
-                coll_data = json.load(f)
-                
-            coincidencias = 0
-            fallas = 0
-            for data in coll_data.get("data", []):
-                term = data["term"]
-                expected_df = data["df"]
-                actual_df = df.get(term, 0)
-                
-                if expected_df == actual_df:
-                    coincidencias += 1
-                else:
-                    fallas += 1
-                    print(f"Falla en el termino '{term}': DF calculado = {actual_df} | DF esperado = {expected_df}")
-            
-            if fallas == 0:
-                print(f"✔️ Todos los {coincidencias} terminos comparados coinciden exitosamente con su respectivo DF.")
-            else:
-                print(f"Terminos comparados exitosamente: {coincidencias}. Fallas: {fallas}.")
-        else:
-            print(f"No se pudo localizar el archivo collection_data.json en {json_path}")
-            
-    else:
-        print("El paramero pasado no corresponde a un directorio")
+    print(f"[INFO] MIN_TERM_LEN={MIN_TERM_LEN}, MAX_TERM_LEN={MAX_TERM_LEN}")
+    print(f"[INFO] Procesando colección en: {dir_path}\n")
 
-if __name__ == '__main__':
+    # Procesar colección
+    cf, df, doc_stats = process_collection(dir_path, stopwords)
+
+    if not doc_stats:
+        print("[WARN] No se encontraron archivos .txt en el directorio.")
+        sys.exit(0)
+
+    # Directorio de salida: mismo que el script
+    output_dir = os.path.dirname(os.path.abspath(__file__))
+
+    # Generar archivos de salida
+    write_terms(cf, df, output_dir)
+    write_statistics(cf, df, doc_stats, output_dir)
+    write_frequencies(cf, output_dir)
+    print("\n[INFO] Archivos generados en: ", output_dir)
+
+if __name__ == "__main__":
     main()

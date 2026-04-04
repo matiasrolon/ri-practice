@@ -1,0 +1,8 @@
+universidad nacional de san luis - carga de programas -
+ingreso al sistema universidad nacional de san luis - carga
+de programas ingreso al sistema ingrese su cuenta de email
+omitiendo @ y lo que le sigue. por ejemplo si
+su email es juan@unsl.edu.ar, debe ingresar solo juan
+*cuenta:
+*contraseña: *servidor: inter1/inter2 linux0 fices * denota campos obligatorios reporte
+de errores y sugerencias. dirección general de informática

@@ -1,0 +1,11 @@
+identificarse     #cont-logos   #cont-logos ul   #cont-logos  
+#cont-logos #logo-wichi, #cont-logos #logo-univ { background: #fff     #contenido h1 { padding: 0 0 5px 0; background:
+#fff  
+  #estructura-form label,
+#estructura-form   #estructura-form   #estructura-form tbody   #estructura-form #fila-usuario   #estructura-form #fila-password   #estructura-form tfoot
+  #contenido   //
+consultas web sobre información de gestión universidad nacional
+de mar del plata consorcio siu ingreso al sistema nombre
+clave si es la primera vez que ingresa deberá utilizar
+la clave que figura en el manual como "clave por
+defecto" base: siu

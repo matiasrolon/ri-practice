@@ -1,0 +1,412 @@
+  ga.type = 'text/javascript'; ga.async =
+true; ga.src  
++ '.google-analytics.com/ga.js';   facultad
+de ciencias jurÃ­dicas y sociales - unlp hs.graphicsdir = "http://www.jursoc.unlp.edu.ar/plugins/content/mavikthumbnails/mavikthumbnails/highslide/graphics/"
+hs.align = "center"; hs.transitions = ["expand", "crossfade"]; hs.outlinetype = "rounded-white";
+hs.fadeinout = true; hs.showcredits = false; //hs.dimmingopacity = 0.75; //
+add the controlbar  );   {  
+  document._artxjquerybackup = jquery;  ;   jquery = document._artxjquerybackup; inicioacadémicasecretarígabinete de orientación educativaenseñanzac.u.p.posgradosecretarícarrerasdoctoradosmaestrísespecializacionescapacitación docentenotas modelofechas
+de examenreglamentacionesextensiónsecretaríreglamentaciónprogramas y proyectosconsultorios jurÃ­dicosclÃ­nicas jurÃ­dicasniñez, derechos humanos y polÃ­ticas
+públicasfacilitacion restaurativa en conflictos juvenilescentro de asistencia jurÃ­dica para pacientes
+con hiv/sidaderechos de las personas con padecimientos mentales: perspectivas actualesarte
+y culturaen los medios...revista vÃ­nculoscontactoinvestigaciónsecretaríprograma de incentivosseminariosreglamentaciónoferta de seminariosinformación de
+interésbecasbecas unlplinks de interésgrupos de investigaciónestudiantilessecretarípasantísayudantes alumnosprácticas civiles y penales
+libresbecaspostergacionescooperación internacionaldirecciónconveniosmovilidad estudiantilboletinesreválidas y convalidaciones concurso docente - martilleros y
+corredores públicos se encuentra abierta la inscripción para la cobertura
+de cargos docentes para el año 2012 de las ...
+inscripción posgrado 2012 cursos, especializaciones, maestrías, doctorados - año a...
+inscripción becas estudiantiles desde el7 de noviembre y hasta el
+12 de diciembre, todos los estudiantes de la unlp que
+se encuentren en u... Â¿pensaste en compartir vivienda con estudiante
+extranjero? se encuentra abierta la inscripción al programa de alojamiento
+para alumnos de intercambio académi... concurso sobre derechos humanos en
+la unlp el instituto de derechos humanos de la facultad
+de cs. jurídicas y sociales y el instituto interamericano... convocatoria
+consultorios jurÃ­dicos gratuitos se encuentra abierta la inscripción para formar
+parte del pro... concurso docente - martilleros y corredores públicos
+inscripción posgrado 2012 inscripción becas estudiantiles Â¿pensaste en compartir vivienda
+con estudiante extranjero? concurso sobre derechos humanos en la unlp
+convocatoria consultorios jurÃ­dicos gratuitos   var object
+= new  , startitem:0,
+interval:5000, direction :'opacity', navitemheight:70, navitemwidth:360, navitemsdisplay:2, navpos:'right' } ); object.start(
+1,  ; usted está aquÃ­: inicio menu institucional autoridadesconsejo
+directivodocentescontacto institutos administración usuario contraseña recordarme Â¿olvido su contraseña? Â¿olvido
+su usuario? sexta campaña de donación de sangre | organizada
+junto al instituto de hemoterapia del ministerio de salud de
+la provincia de buenos aires, la secretaría de extensión universitaria
+realizará una nueva colecta de sangre que se llevará a
+cabo el jueves 16 de febrero de 8 a 12
+hs. en el aula 5 de la  . leer más... comenzó el curso
+para ingresantes | el 1 de febrero comenzó el dictado
+del "curso de adaptación universitaria" para los ingresantes del año
+2012 a la carrera de abogacía. leer más... seminarios: fecha de
+entrega trabajo de investigación   | se
+informa a directores, coordinadores, expositores y profesores de seminarios que
+la fecha para laentrega de los trabajos de investigación, del
+2º cuatrimestre de 2011, será al 17 de febrero de
+2012. leer más... designaciones docentes en la carrera de martillero público
+y corredor | se han resuelto los concursos abreviados de
+antecedentes de los docentes que dictarán las materias del tercer
+año de la tecnicatura. se adjunta la resolución nº 492
+para conocimiento de la comunidad académica. >> leer designaciones subsidio
+para reuniones cientÃ­ficas 2012 | la secretaría de ciencia y
+técnica informa la apertura del programa de subsidios 2012 para
+la organización de reuniones científicas con sede en la unlp.
+el presente programa fue aprobado por ambas comisiones de investigaciones
+de la universidad. leer más... reforma del plan de estudio |
+el consejo directivo –a instancias de proyecto del decano y
+la secretaria de asuntos académicos- aprobó el 8 de junio
+de 2.011 la resolución 198/11 por la que se creó
+un programa para el análisis, debate y formulación de propuestas
+para la reforma del plan de estudios de la carrera
+de procuración, abogacía y escribanía. leer más... la universidad nacional de
+la plata proveerá información al portal infojus | así lo
+acordaron hoy el ministro de justicia, julio alak, y el
+decano de la facultad de derecho platense, hernán gómez. leer más...
+convocatoria consultorios jurÃ­dicos gratuitos | desde el miércoles 1º de
+febrero se encuentra abierta la convocatoria de aspirantes para formar
+parte del programa "consultorios jurídicos gratuitos" dependiente de esta secretaría.
+leer más... programa de subsidios para viajes y/o estadís. | desde
+el día miércoles 8 de febrero hasta las 12 hs.
+del día jueves 8 de marzo de 2012 se abre
+la inscripción al programa de subsidios para viajes y/o estadías,
+siendo este plazo improrrogable. el presente llamado cubrirá gastos para
+las actividades a iniciar en el período comprendido desde el
+1º de julio de 2012 al 30 de junio de
+2013. leer más... apertura de servicios 2012 | les queremos recordar
+la apertura de todos los servicios de la biblioteca para
+el año 2012. 1/2 sala de lectura. 6/2 curso para
+nuevos socios. 13/2 devolución de los préstamos de verano. 14/2
+devolución de los préstamos de verano. 15/2 comienzo de los
+préstamos por 15 días y los préstamos especiales. 22/2 hemeroteca
+y referencia virtual por chat. los esperamos festejos por recibidas
+| en estos días volvemos a encontrarnos ante el hecho
+del festejo de familiares, amigos y estudiantes universitarios en ocasión
+de su recibida. leer más... encuesta académica obligatoria | se informa
+a los alumnos/as de la facultad de ciencias jurídicas y
+sociales, que ya se encuentra disponible en el sistema siu
+guaraní la encuesta académica con carácter obligatorio y anónimo, que
+deberá ser confeccionada previamente a la inscripción de cursadas para
+el primer cuatrimestre del año 2.012 o en el mismo
+momento de su inscripción.- nuevo número de la revista anales
+de la facultad | ponemos a disposición de la comunidad
+académica, el número 41 de la revista anales de la
+facultad de ciencias jurídicas y  , de reciente aparición
+y con próxima entrega de la editorial la ley s.a.
+en las próximas semanas todos los docentes titulares y adjuntos
+podrán retirar un ejemplar en soporte papel de la revista,
+en sala de profesores de la unidad  . para ver la revista de
+forma on -line ingrese a la sección publicaciones. buscar... alumnos
+siu guaraní inscripciones 2012 cátedras virtuales calendario 2012 carreras publicaciones
+biblioteca webmail pjn scba banco nación unlp 48 e/ 6
+y 7   la plata - argentina   423-6701/06
+-© 2011 área de informática y comunicación visual - fcjys
+- unlp     {   ga.src   + '.google-analytics.com/ga.js';   hs.outlinetype = "rounded-white"; hs.fadeinout = true; hs.showcredits =
+false; //hs.dimmingopacity = 0.75; // add the controlbar  );
+hs.graphicsdir = "http://www.jursoc.unlp.edu.ar/plugins/content/mavikthumbnails/mavikthumbnails/highslide/graphics/" hs.align = "center"; hs.transitions = ["expand", "crossfade"];
+hs.outlinetype = "rounded-white"; hs.fadeinout = true; hs.showcredits = false; //hs.dimmingopacity
+= 0.75; // add the controlbar  ); hs.graphicsdir =
+"http://www.jursoc.unlp.edu.ar/plugins/content/mavikthumbnails/mavikthumbnails/highslide/graphics/" hs.align = "center"; hs.transitions = ["expand", "crossfade"]; hs.outlinetype =
+"rounded-white"; hs.fadeinout = true; hs.showcredits = false; //hs.dimmingopacity = 0.75;
+// add the controlbar  ); hs.graphicsdir = "http://www.jursoc.unlp.edu.ar/plugins/content/mavikthumbnails/mavikthumbnails/highslide/graphics/" hs.align
+= "center"; hs.transitions = ["expand", "crossfade"]; hs.outlinetype = "rounded-white"; hs.fadeinout
+= true; hs.showcredits = false; //hs.dimmingopacity = 0.75; // add
+the controlbar  ); window.addevent('domready',   {  );  ); }); hs.graphicsdir = "http://www.jursoc.unlp.edu.ar/plugins/content/mavikthumbnails/mavikthumbnails/highslide/graphics/" hs.align = "center";
+hs.transitions = ["expand", "crossfade"]; hs.outlinetype = "rounded-white"; hs.fadeinout = true;
+hs.showcredits = false; //hs.dimmingopacity = 0.75; // add the controlbar
+ ); window.addevent('domready',   {  );  ); }); hs.graphicsdir = "http://www.jursoc.unlp.edu.ar/plugins/content/mavikthumbnails/mavikthumbnails/highslide/graphics/" hs.align = "center"; hs.transitions =
+["expand", "crossfade"]; hs.outlinetype = "rounded-white"; hs.fadeinout = true; hs.showcredits =
+false; //hs.dimmingopacity = 0.75; // add the controlbar  );
+window.addevent('domready',   {  );  ); });
+hs.graphicsdir = "http://www.jursoc.unlp.edu.ar/plugins/content/mavikthumbnails/mavikthumbnails/highslide/graphics/" hs.align = "center"; hs.transitions = ["expand", "crossfade"];
+hs.outlinetype = "rounded-white"; hs.fadeinout = true; hs.showcredits = false; //hs.dimmingopacity
+= 0.75; // add the controlbar  ); window.addevent('domready',  
+{  );  ); }); hs.graphicsdir =
+"http://www.jursoc.unlp.edu.ar/plugins/content/mavikthumbnails/mavikthumbnails/highslide/graphics/" hs.align = "center"; hs.transitions = ["expand", "crossfade"]; hs.outlinetype =
+"rounded-white"; hs.fadeinout = true; hs.showcredits = false; //hs.dimmingopacity = 0.75;
+// add the controlbar  ); hs.graphicsdir = "http://www.jursoc.unlp.edu.ar/plugins/content/mavikthumbnails/mavikthumbnails/highslide/graphics/" hs.align
+= "center"; hs.transitions = ["expand", "crossfade"]; hs.outlinetype = "rounded-white"; hs.fadeinout
+= true; hs.showcredits = false; //hs.dimmingopacity = 0.75; // add
+the controlbar  ); hs.graphicsdir = "http://www.jursoc.unlp.edu.ar/plugins/content/mavikthumbnails/mavikthumbnails/highslide/graphics/" hs.align = "center";
+hs.transitions = ["expand", "crossfade"]; hs.outlinetype = "rounded-white"; hs.fadeinout = true;
+hs.showcredits = false; //hs.dimmingopacity = 0.75; // add the controlbar
+ ); window.addevent('domready',   {  );  ); }); hs.graphicsdir = "http://www.jursoc.unlp.edu.ar/plugins/content/mavikthumbnails/mavikthumbnails/highslide/graphics/" hs.align = "center"; hs.transitions =
+["expand", "crossfade"]; hs.outlinetype = "rounded-white"; hs.fadeinout = true; hs.showcredits =
+false; //hs.dimmingopacity = 0.75; // add the controlbar  );
+window.addevent('domready',   {  );  ); });
+hs.graphicsdir = "http://www.jursoc.unlp.edu.ar/plugins/content/mavikthumbnails/mavikthumbnails/highslide/graphics/" hs.align = "center"; hs.transitions = ["expand", "crossfade"];
+hs.outlinetype = "rounded-white"; hs.fadeinout = true; hs.showcredits = false; //hs.dimmingopacity
+= 0.75; // add the controlbar  );  
+{     document._artxjquerybackup =
+jquery;  ;   jquery = document._artxjquerybackup; inicioacadémicasecretarígabinete de orientación
+educativaenseñanzac.u.p.posgradosecretarícarrerasdoctoradosmaestrísespecializacionescapacitación docentenotas modelofechas de examenreglamentacionesextensiónsecretaríreglamentaciónprogramas y proyectosconsultorios jurÃ­dicosclÃ­nicas jurÃ­dicasniñez, derechos
+humanos y polÃ­ticas públicasfacilitacion restaurativa en conflictos juvenilescentro de asistencia
+jurÃ­dica para pacientes con hiv/sidaderechos de las personas con padecimientos
+mentales: perspectivas actualesarte y culturaen los medios...revista vÃ­nculoscontactoinvestigaciónsecretaríprograma de incentivosseminariosreglamentaciónoferta
+de seminariosinformación de interésbecasbecas unlplinks de interésgrupos de investigaciónestudiantilessecretarípasantísayudantes alumnosprácticas
+civiles y penales libresbecaspostergacionescooperación internacionaldirecciónconveniosmovilidad estudiantilboletinesreválidas y convalidaciones concurso docente
+- martilleros y corredores públicos se encuentra abierta la inscripción
+para la cobertura de cargos docentes para el año 2012
+de las ... inscripción posgrado 2012 cursos, especializaciones, maestrías, doctorados
+- año a... inscripción becas estudiantiles desde el7 de noviembre
+y hasta el 12 de diciembre, todos los estudiantes de
+la unlp que se encuentren en u... Â¿pensaste en compartir
+vivienda con estudiante extranjero? se encuentra abierta la inscripción al
+programa de alojamiento para alumnos de intercambio académi... concurso sobre
+derechos humanos en la unlp el instituto de derechos humanos
+de la facultad de cs. jurídicas y sociales y el
+instituto interamericano... convocatoria consultorios jurÃ­dicos gratuitos se encuentra abierta la
+inscripción para formar parte del pro... concurso docente - martilleros
+y corredores públicos inscripción posgrado 2012 inscripción becas estudiantiles Â¿pensaste
+en compartir vivienda con estudiante extranjero? concurso sobre derechos humanos
+en la unlp convocatoria consultorios jurÃ­dicos gratuitos     object.start( 1,  ; usted está aquÃ­: inicio
+carreras menu institucional autoridadesconsejo directivover actasver resolucionesdocentesencuestascontacto institutos administración usuario
+contraseña recordarme Â¿olvido su contraseña? Â¿olvido su usuario? carreras que
+pueden estudiarse en la facultad | titulo de abogado habilita
+para intervenir en juicios, asistiendo a las partes interesadas mediante
+el patrocinio o representándolas directamente en los casos en los
+que se otorgue poder suficiente. igualmente pueden desarrollar las mismas
+tareas de patrocinio y representación en expedientes y actuaciones de
+la administración pública. otras incumbencias contemplan: el asesoramiento en todo
+asunto que requiera opinión  . permite desempeñar cargos
+en la función  , la docencia universitaria y la investigación científica. habilita para
+actuar como mediador o conciliador. >>ver plan de estudio titulo
+de escribano el título de escribano se obtiene con la
+aprobación de la totalidad de las asignaturas que comprenden el
+plan de estudios de la carrera de abogacía de esta
+ , más la cursación y aprobación de la práctica notarial
+y registral. el título es habilitante para el acceso a
+la función notarial, pero sujeto a los requisitos que, además
+del título, imponen las leyes orgánicas del notariado de cada
+jurisdicción. titulo de procurador faculta para intervenir en los juicios
+o procesos, bajo patrocinio de un abogado, cuando así lo
+indique la ley, así como presentar escritos para impulsar o
+activar el procedimiento, interponer recursos de apelación, y demás escritos
+de mero trámite. puede intervenir sin dirección letrada en los
+juicios ejecutivos y de desalojo, en tanto y en cuanto
+no haya controversia entre las partes. técnico superior universitario de
+martillero público y corredor título de validez nacional, reconocido oficialmente
+por el ministerio de educación, ciencia y tecnología. permite efectuar
+ventas en remates particulares, oficiales y judiciales de cualquier clase
+de bienes muebles e inmuebles, incluidos semovientes, acciones y títulos
+no cotizables en bolsa, marcas y patentes. poner en relación
+a dos o más partes para la conclusión de negocios
+sin estar ligado a ninguna de ellas por relaciones de
+colaboración, subordinación o representación. no obstante una de las partes
+podrá encomendarles que la represente en los actos de ejecución
+del contrato mediado. actuar como auxiliar de la justicia en
+la ejecución de sentencias de remates y como perito tasador.
+técnico gestión de recursos para instituciones universitarias la capacitación de
+pre-grado está dirigida a los trabajadores no docentes de la
+universidad nacional de la plata que se desempeñan en cualquier
+actividad y oficio, y que se encuentran encuadrados en el
+escalafón 2213/87. aspira a que los egresados desarrollen competencias que
+les permitan asistir a las áreas académicas y de gestión,
+en los aspectos técnicos y administrativos pertinentes. >>ver plan de
+estudio buscar... alumnos siu guaraní inscripciones 2012 cátedras virtuales calendario
+2012 carreras publicaciones biblioteca webmail pjn scba banco nación unlp
+48 e/ 6 y 7   la plata -
+argentina   423-6701/06 -© 2011 área de informática y comunicación
+visual - fcjys - unlp    ;  ;   {   ga.async = true; ga.src   + '.google-analytics.com/ga.js';     ; facultad de cs. jurÃ­dicas y sociales
+window.addevent('domready',   {  );  ); });
+hs.graphicsdir = "http://www.jursoc.unlp.edu.ar/plugins/content/mavikthumbnails/mavikthumbnails/highslide/graphics/" hs.align = "center"; hs.transitions = ["expand", "crossfade"];
+hs.outlinetype = "rounded-white"; hs.fadeinout = true; hs.showcredits = false; //hs.dimmingopacity
+= 0.75; // add the controlbar  ); window.addevent('domready',  
+{  );  ); }); hs.graphicsdir =
+"http://www.jursoc.unlp.edu.ar/plugins/content/mavikthumbnails/mavikthumbnails/highslide/graphics/" hs.align = "center"; hs.transitions = ["expand", "crossfade"]; hs.outlinetype =
+"rounded-white"; hs.fadeinout = true; hs.showcredits = false; //hs.dimmingopacity = 0.75;
+// add the controlbar  ); hs.graphicsdir = "http://www.jursoc.unlp.edu.ar/plugins/content/mavikthumbnails/mavikthumbnails/highslide/graphics/" hs.align
+= "center"; hs.transitions = ["expand", "crossfade"]; hs.outlinetype = "rounded-white"; hs.fadeinout
+= true; hs.showcredits = false; //hs.dimmingopacity = 0.75; // add
+the controlbar  ); hs.graphicsdir = "http://www.jursoc.unlp.edu.ar/plugins/content/mavikthumbnails/mavikthumbnails/highslide/graphics/" hs.align = "center";
+hs.transitions = ["expand", "crossfade"]; hs.outlinetype = "rounded-white"; hs.fadeinout = true;
+hs.showcredits = false; //hs.dimmingopacity = 0.75; // add the controlbar
+ ); window.addevent('domready',   {  );  ); }); hs.graphicsdir = "http://www.jursoc.unlp.edu.ar/plugins/content/mavikthumbnails/mavikthumbnails/highslide/graphics/" hs.align = "center"; hs.transitions =
+["expand", "crossfade"]; hs.outlinetype = "rounded-white"; hs.fadeinout = true; hs.showcredits =
+false; //hs.dimmingopacity = 0.75; // add the controlbar  );
+window.addevent('domready',   {  );  ); });
+hs.graphicsdir = "http://www.jursoc.unlp.edu.ar/plugins/content/mavikthumbnails/mavikthumbnails/highslide/graphics/" hs.align = "center"; hs.transitions = ["expand", "crossfade"];
+hs.outlinetype = "rounded-white"; hs.fadeinout = true; hs.showcredits = false; //hs.dimmingopacity
+= 0.75; // add the controlbar  );  
+{     document._artxjquerybackup =
+jquery;  ;   jquery = document._artxjquerybackup; inicioacadémicasecretarígabinete de orientación
+educativaenseñanzac.u.p.posgradosecretarícarrerasdoctoradosmaestrísespecializacionescapacitación docentenotas modelofechas de examenreglamentacionesextensiónsecretaríreglamentaciónprogramas y proyectosconsultorios jurÃ­dicosclÃ­nicas jurÃ­dicasniñez, derechos
+humanos y polÃ­ticas públicasfacilitacion restaurativa en conflictos juvenilescentro de asistencia
+jurÃ­dica para pacientes con hiv/sidaderechos de las personas con padecimientos
+mentales: perspectivas actualesarte y culturaen los medios...revista vÃ­nculoscontactoinvestigaciónsecretaríprograma de incentivosseminariosreglamentaciónoferta
+de seminariosinformación de interésbecasbecas unlplinks de interésgrupos de investigaciónestudiantilessecretarípasantísayudantes alumnosprácticas
+civiles y penales libresbecaspostergacionescooperación internacionaldirecciónconveniosmovilidad estudiantilboletinesreválidas y convalidaciones concurso docente
+- martilleros y corredores públicos se encuentra abierta la inscripción
+para la cobertura de cargos docentes para el año 2012
+de las ... inscripción posgrado 2012 cursos, especializaciones, maestrías, doctorados
+- año a... inscripción becas estudiantiles desde el7 de noviembre
+y hasta el 12 de diciembre, todos los estudiantes de
+la unlp que se encuentren en u... Â¿pensaste en compartir
+vivienda con estudiante extranjero? se encuentra abierta la inscripción al
+programa de alojamiento para alumnos de intercambio académi... concurso sobre
+derechos humanos en la unlp el instituto de derechos humanos
+de la facultad de cs. jurídicas y sociales y el
+instituto interamericano... convocatoria consultorios jurÃ­dicos gratuitos se encuentra abierta la
+inscripción para formar parte del pro... concurso docente - martilleros
+y corredores públicos inscripción posgrado 2012 inscripción becas estudiantiles Â¿pensaste
+en compartir vivienda con estudiante extranjero? concurso sobre derechos humanos
+en la unlp convocatoria consultorios jurÃ­dicos gratuitos     object.start( 1,  ; usted está aquÃ­: inicio
+menu institucional autoridadesconsejo directivover actasver resolucionesdocentesencuestascontacto institutos administración usuario contraseña
+recordarme Â¿olvido su contraseña? Â¿olvido su usuario? artÃ­culos noticias header
+noticias académica noticias postgrado noticias extensión noticias investigación noticias estudiantiles
+noticias cooperación noticias biblioteca información académica información posgrado doctorados maestrias
+especializaciones información estudiantiles información extensión información investigación noticias institucional información
+coop. internacional información institucional información institutos instituto de derechos del
+niño información instituto de derecho notarial y registral información instituto
+de derecho social información instituto de integración lationoamericana información instituto
+de polÃ­tica y gestión pública información instituto de relaciones internacionales
+información instituto de cultura jurÃ­dica información instituto de derechos humanos
+información información alumnos información biblioteca servicios contacto experiencias cooperacion internacional
+publicaciones seminarios derecho civil derecho   derecho de
+las obligaciones y responsabilidad civil derecho de los contratos derecho
+de consumidores y usuarios derechos reales derecho de familia derecho
+sucesorio derecho polÃ­tico y constitucional derecho polÃ­tico derecho constitucional derecho
+público provincial derecho municipal derecho comercial derecho  
+tÃ­tulos de crédito y contratos comerciales derecho societario derecho   derecho de seguros derecho bancario derecho de
+la navegación, aeronáutico y espacial derecho agrario y de los
+recursos naturales medio ambiente derecho de minerí y energí derecho
+laboral y de la seguridad social derecho internacional público derecho
+de los tratados internacionales derechos humanos derecho a la integración
+mercosur unión europea derecho de la infancia derecho internacional privado
+economí polÃ­tica derecho de las finanzas públicas y derecho financiero
+derecho tributario derecho financiero derecho notarial y registral sociologí jurÃ­dica
+filosofí del derecho derecho administrativo derecho   contratos
+administrativos y servicios públicos régimenes de control de la administración
+pública derecho penal derecho   derecho   derecho procesal derecho procesal civil derecho procesal penal derecho
+comparado información seminarios noticias docentes instituto derecho penal buscar... alumnos
+siu guaraní inscripciones 2012 cátedras virtuales calendario 2012 carreras publicaciones
+biblioteca webmail pjn scba banco nación unlp 48 e/ 6
+y 7   la plata - argentina   423-6701/06
+-© 2011 área de informática y comunicación visual - fcjys
+- unlp     {   ga.src   + '.google-analytics.com/ga.js';   hs.outlinetype = "rounded-white"; hs.fadeinout = true; hs.showcredits =
+false; //hs.dimmingopacity = 0.75; // add the controlbar  );
+window.addevent('domready',   {  );  ); });
+hs.graphicsdir = "http://www.jursoc.unlp.edu.ar/plugins/content/mavikthumbnails/mavikthumbnails/highslide/graphics/" hs.align = "center"; hs.transitions = ["expand", "crossfade"];
+hs.outlinetype = "rounded-white"; hs.fadeinout = true; hs.showcredits = false; //hs.dimmingopacity
+= 0.75; // add the controlbar  ); hs.graphicsdir =
+"http://www.jursoc.unlp.edu.ar/plugins/content/mavikthumbnails/mavikthumbnails/highslide/graphics/" hs.align = "center"; hs.transitions = ["expand", "crossfade"]; hs.outlinetype =
+"rounded-white"; hs.fadeinout = true; hs.showcredits = false; //hs.dimmingopacity = 0.75;
+// add the controlbar  ); hs.graphicsdir = "http://www.jursoc.unlp.edu.ar/plugins/content/mavikthumbnails/mavikthumbnails/highslide/graphics/" hs.align
+= "center"; hs.transitions = ["expand", "crossfade"]; hs.outlinetype = "rounded-white"; hs.fadeinout
+= true; hs.showcredits = false; //hs.dimmingopacity = 0.75; // add
+the controlbar  ); hs.graphicsdir = "http://www.jursoc.unlp.edu.ar/plugins/content/mavikthumbnails/mavikthumbnails/highslide/graphics/" hs.align = "center";
+hs.transitions = ["expand", "crossfade"]; hs.outlinetype = "rounded-white"; hs.fadeinout = true;
+hs.showcredits = false; //hs.dimmingopacity = 0.75; // add the controlbar
+ ); window.addevent('domready',   {  );  ); }); hs.graphicsdir = "http://www.jursoc.unlp.edu.ar/plugins/content/mavikthumbnails/mavikthumbnails/highslide/graphics/" hs.align = "center"; hs.transitions =
+["expand", "crossfade"]; hs.outlinetype = "rounded-white"; hs.fadeinout = true; hs.showcredits =
+false; //hs.dimmingopacity = 0.75; // add the controlbar  );
+window.addevent('domready',   {  );  ); });
+hs.graphicsdir = "http://www.jursoc.unlp.edu.ar/plugins/content/mavikthumbnails/mavikthumbnails/highslide/graphics/" hs.align = "center"; hs.transitions = ["expand", "crossfade"];
+hs.outlinetype = "rounded-white"; hs.fadeinout = true; hs.showcredits = false; //hs.dimmingopacity
+= 0.75; // add the controlbar  ); window.addevent('domready',  
+{  );  ); }); hs.graphicsdir =
+"http://www.jursoc.unlp.edu.ar/plugins/content/mavikthumbnails/mavikthumbnails/highslide/graphics/" hs.align = "center"; hs.transitions = ["expand", "crossfade"]; hs.outlinetype =
+"rounded-white"; hs.fadeinout = true; hs.showcredits = false; //hs.dimmingopacity = 0.75;
+// add the controlbar  ); window.addevent('domready',   {  );
+ ); }); hs.graphicsdir = "http://www.jursoc.unlp.edu.ar/plugins/content/mavikthumbnails/mavikthumbnails/highslide/graphics/" hs.align
+= "center"; hs.transitions = ["expand", "crossfade"]; hs.outlinetype = "rounded-white"; hs.fadeinout
+= true; hs.showcredits = false; //hs.dimmingopacity = 0.75; // add
+the controlbar  ); hs.graphicsdir = "http://www.jursoc.unlp.edu.ar/plugins/content/mavikthumbnails/mavikthumbnails/highslide/graphics/" hs.align = "center";
+hs.transitions = ["expand", "crossfade"]; hs.outlinetype = "rounded-white"; hs.fadeinout = true;
+hs.showcredits = false; //hs.dimmingopacity = 0.75; // add the controlbar
+ ); hs.graphicsdir = "http://www.jursoc.unlp.edu.ar/plugins/content/mavikthumbnails/mavikthumbnails/highslide/graphics/" hs.align = "center"; hs.transitions =
+["expand", "crossfade"]; hs.outlinetype = "rounded-white"; hs.fadeinout = true; hs.showcredits =
+false; //hs.dimmingopacity = 0.75; // add the controlbar  );
+window.addevent('domready',   {  );  ); });
+hs.graphicsdir = "http://www.jursoc.unlp.edu.ar/plugins/content/mavikthumbnails/mavikthumbnails/highslide/graphics/" hs.align = "center"; hs.transitions = ["expand", "crossfade"];
+hs.outlinetype = "rounded-white"; hs.fadeinout = true; hs.showcredits = false; //hs.dimmingopacity
+= 0.75; // add the controlbar  ); window.addevent('domready',  
+{  );  ); }); hs.graphicsdir =
+"http://www.jursoc.unlp.edu.ar/plugins/content/mavikthumbnails/mavikthumbnails/highslide/graphics/" hs.align = "center"; hs.transitions = ["expand", "crossfade"]; hs.outlinetype =
+"rounded-white"; hs.fadeinout = true; hs.showcredits = false; //hs.dimmingopacity = 0.75;
+// add the controlbar  );   {   inicioacadémicasecretarígabinete de orientación educativaenseñanzac.u.p.posgradosecretarícarrerasdoctoradosmaestrísespecializacionescapacitación docentenotas
+modelofechas de examenreglamentacionesextensiónsecretaríreglamentaciónprogramas y proyectosconsultorios jurÃ­dicosclÃ­nicas jurÃ­dicasniñez, derechos humanos y
+polÃ­ticas públicasfacilitacion restaurativa en conflictos juvenilescentro de asistencia jurÃ­dica para
+pacientes con hiv/sidaderechos de las personas con padecimientos mentales: perspectivas
+actualesarte y culturaen los medios...revista vÃ­nculoscontactoinvestigaciónsecretaríprograma de incentivosseminariosreglamentaciónoferta de seminariosinformación
+de interésbecasbecas unlplinks de interésgrupos de investigaciónestudiantilessecretarípasantísayudantes alumnosprácticas civiles y
+penales libresbecaspostergacionescooperación internacionaldirecciónconveniosmovilidad estudiantilboletinesreválidas y convalidaciones concurso docente - martilleros
+y corredores públicos se encuentra abierta la inscripción para la
+cobertura de cargos docentes para el año 2012 de las
+... inscripción posgrado 2012 cursos, especializaciones, maestrías, doctorados - año
+a... inscripción becas estudiantiles desde el7 de noviembre y hasta
+el 12 de diciembre, todos los estudiantes de la unlp
+que se encuentren en u... Â¿pensaste en compartir vivienda con
+estudiante extranjero? se encuentra abierta la inscripción al programa de
+alojamiento para alumnos de intercambio académi... concurso sobre derechos humanos
+en la unlp el instituto de derechos humanos de la
+facultad de cs. jurídicas y sociales y el instituto interamericano...
+convocatoria consultorios jurÃ­dicos gratuitos se encuentra abierta la inscripción para
+formar parte del pro... concurso docente - martilleros y corredores
+públicos inscripción posgrado 2012 inscripción becas estudiantiles Â¿pensaste en compartir
+vivienda con estudiante extranjero? concurso sobre derechos humanos en la
+unlp convocatoria consultorios jurÃ­dicos gratuitos    
+object.start( 1,  ; usted está aquÃ­: inicio carreras menu
+institucional autoridadesconsejo directivover actasver resolucionesdocentesencuestascontacto institutos administración usuario contraseña recordarme
+Â¿olvido su contraseña? Â¿olvido su usuario? buscar... alumnos siu guaraní
+inscripciones 2012 cátedras virtuales calendario 2012 carreras publicaciones biblioteca webmail
+pjn scba banco nación unlp 48 e/ 6 y 7
+  la plata - argentina   423-6701/06 -© 2011
+área de informática y comunicación visual - fcjys - unlp
+  ga.type = 'text/javascript'; ga.async =
+true; ga.src  
++ '.google-analytics.com/ga.js';    ); });
+window.addevent('domready',   {  );  ); });
+hs.graphicsdir = "http://www.jursoc.unlp.edu.ar/plugins/content/mavikthumbnails/mavikthumbnails/highslide/graphics/" hs.align = "center"; hs.transitions = ["expand", "crossfade"];
+hs.outlinetype = "rounded-white"; hs.fadeinout = true; hs.showcredits = false; //hs.dimmingopacity
+= 0.75; // add the controlbar  ); window.addevent('domready',  
+{  );  ); }); hs.graphicsdir =
+"http://www.jursoc.unlp.edu.ar/plugins/content/mavikthumbnails/mavikthumbnails/highslide/graphics/" hs.align = "center"; hs.transitions = ["expand", "crossfade"]; hs.outlinetype =
+"rounded-white"; hs.fadeinout = true; hs.showcredits = false; //hs.dimmingopacity = 0.75;
+// add the controlbar  ); window.addevent('domready',   {  );
+ ); }); hs.graphicsdir = "http://www.jursoc.unlp.edu.ar/plugins/content/mavikthumbnails/mavikthumbnails/highslide/graphics/" hs.align
+= "center"; hs.transitions = ["expand", "crossfade"]; hs.outlinetype = "rounded-white"; hs.fadeinout
+= true; hs.showcredits = false; //hs.dimmingopacity = 0.75; // add
+the controlbar  ); hs.graphicsdir = "http://www.jursoc.unlp.edu.ar/plugins/content/mavikthumbnails/mavikthumbnails/highslide/graphics/" hs.align = "center";
+hs.transitions = ["expand", "crossfade"]; hs.outlinetype = "rounded-white"; hs.fadeinout = true;
+hs.showcredits = false; //hs.dimmingopacity = 0.75; // add the controlbar
+ ); hs.graphicsdir = "http://www.jursoc.unlp.edu.ar/plugins/content/mavikthumbnails/mavikthumbnails/highslide/graphics/" hs.align = "center"; hs.transitions =
+["expand", "crossfade"]; hs.outlinetype = "rounded-white"; hs.fadeinout = true; hs.showcredits =
+false; //hs.dimmingopacity = 0.75; // add the controlbar  );
+window.addevent('domready',   {  );  ); });
+hs.graphicsdir = "http://www.jursoc.unlp.edu.ar/plugins/content/mavikthumbnails/mavikthumbnails/highslide/graphics/" hs.align = "center"; hs.transitions = ["expand", "crossfade"];
+hs.outlinetype = "rounded-white"; hs.fadeinout = true; hs.showcredits = false; //hs.dimmingopacity
+= 0.75; // add the controlbar  ); window.addevent('domready',  
+{  );  ); }); hs.graphicsdir =
+"http://www.jursoc.unlp.edu.ar/plugins/content/mavikthumbnails/mavikthumbnails/highslide/graphics/" hs.align = "center"; hs.transitions = ["expand", "crossfade"]; hs.outlinetype =
+"rounded-white"; hs.fadeinout = true; hs.showcredits = false; //hs.dimmingopacity = 0.75;
+// add the controlbar  );   {   inicioacadémicasecretarígabinete de orientación educativaenseñanzac.u.p.posgradosecretarícarrerasdoctoradosmaestrísespecializacionescapacitación docentenotas
+modelofechas de examenreglamentacionesextensiónsecretaríreglamentaciónprogramas y proyectosconsultorios jurÃ­dicosclÃ­nicas jurÃ­dicasniñez, derechos humanos y
+polÃ­ticas públicasfacilitacion restaurativa en conflictos juvenilescentro de asistencia jurÃ­dica para
+pacientes con hiv/sidaderechos de las personas con padecimientos mentales: perspectivas
+actualesarte y culturaen los medios...revista vÃ­nculoscontactoinvestigaciónsecretaríprograma de incentivosseminariosreglamentaciónoferta de seminariosinformación
+de interésbecasbecas unlplinks de interésgrupos de investigaciónestudiantilessecretarípasantísayudantes alumnosprácticas civiles y
+penales libresbecaspostergacionescooperación internacionaldirecciónconveniosmovilidad estudiantilboletinesreválidas y convalidaciones concurso docente - martilleros
+y corredores públicos se encuentra abierta la inscripción para la
+cobertura de cargos docentes para el año 2012 de las
+... inscripción posgrado 2012 cursos, especializaciones, maestrías, doctorados - año
+a... inscripción becas estudiantiles desde el7 de noviembre y hasta
+el 12 de diciembre, todos los estudiantes de la unlp
+que se encuentren en u... Â¿pensaste en compartir vivienda con
+estudiante extranjero? se encuentra abierta la inscripción al programa de
+alojamiento para alumnos de intercambio académi... concurso sobre derechos humanos
+en la unlp el instituto de derechos humanos de la
+facultad de cs. jurídicas y sociales y el instituto interamericano...
+convocatoria consultorios jurÃ­dicos gratuitos se encuentra abierta la inscripción para
+formar parte del pro... concurso docente - martilleros y corredores
+públicos inscripción posgrado 2012 inscripción becas estudiantiles Â¿pensaste en compartir
+vivienda con estudiante extranjero? concurso sobre derechos humanos en la
+unlp convocatoria consultorios jurÃ­dicos gratuitos    
+object.start( 1,  ; usted está aquÃ­: inicio publicaciones menu
+institucional autoridadesconsejo directivover actasver resolucionesdocentesencuestascontacto institutos administración usuario contraseña recordarme
+Â¿olvido su contraseña? Â¿olvido su usuario? publicaciones | buscar... alumnos
+siu guaraní inscripciones 2012 cátedras virtuales calendario 2012 carreras publicaciones
+biblioteca webmail pjn scba banco nación unlp 48 e/ 6
+y 7   la plata - argentina   423-6701/06
+-© 2011 área de informática y comunicación visual - fcjys
+- unlp

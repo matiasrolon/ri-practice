@@ -45,3 +45,5 @@ htmlcov/
 
 # Mypy
 .mypy_cache/
+
+data/*

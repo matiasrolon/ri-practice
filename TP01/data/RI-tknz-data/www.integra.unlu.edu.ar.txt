@@ -1,0 +1,2 @@
+página principal de administración integrativa esta página usa marcos, pero
+su explorador no los admite.
