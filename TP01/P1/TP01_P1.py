@@ -11,9 +11,10 @@ Parámetros:
     path_collection_stats   Archivo con las estadísticas de la colección (para comparar con los resultados).
 
 Ejemplo:
+(parado en la carpeta del punto, asumiendo que se dejan las colecciones dentro de la carpeta 'data' en la raiz):
     python TP01_P1.py
-    python TP01_P1.py ../collection_test/TestCollection 
-    python TP01_P1.py ../collection_test/TestCollection ../collection_test/collection_data.json
+    python TP01_P1.py ../data/collection_test/TestCollection 
+    python TP01_P1.py ../data/collection_test/TestCollection ../data/collection_test/collection_data.json
 """
 
 import os

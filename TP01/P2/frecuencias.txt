@@ -1,23 +1,23 @@
 === 10 términos más frecuentes ===
-universidad 2215
-nacional 1427
-facultad 1222
-2012 1146
-ciencias 1030
-ar 995
-mas 953
-edu. 878
-educacion 845
-2011 814
+universidad 2257
+nacional 1448
+facultad 1261
+ciencias 1039
+mas 1031
+ar 998
+edu 883
+educacion 878
+investigacion 836
+argentina 797
 
 === 10 términos menos frecuentes ===
 target 1
+ddb 1
 sistemasgcyt 1
 ci-tabs-h-lista 1
 saspi 1
-3725 1
 espanolversion 1
 comunicacioneudem 1
+impresoagenda 1
 universidadenlace 1
 tvradio 1
-mediosenlace 1

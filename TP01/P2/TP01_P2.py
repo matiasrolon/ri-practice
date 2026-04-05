@@ -11,8 +11,9 @@ Parámetros:
     --stopwords <archivo>   (Opcional) Archivo con palabras vacías a eliminar.
 
 Ejemplo:
-    python TP01_P2.py ../RI-tknz-data/
-    python TP01_P2.py ../RI-tknz-data/ --stopwords ../stopwords/spanish.txt
+(parado en la carpeta del punto, asumiendo que se dejan las colecciones dentro de la carpeta 'data' en la raiz)
+    python TP01_P2.py ../data/RI-tknz-data/
+    python TP01_P2.py ../data/RI-tknz-data/ --stopwords ../data/stopwords/spanish.txt
 
 Archivos generados:
     terminos.txt    - Lista ordenada de términos con CF y DF.
