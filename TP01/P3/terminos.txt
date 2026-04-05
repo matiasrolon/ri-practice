@@ -1,0 +1,20 @@
+15413355 4525 220
+2021-12-09 2528 140
+D.A.S.M.I 3355 150
+Domingo Faustino Sarmiento 1000 1000
+EE.UU. 992 70
+Sra. 80 80
+U.S.A 173 30
+abc.def@mail-archive.com 1034 90
+botella 2280 200
+casa 301 20
+ftp://unlu.edu.ar 436 40
+http://www.tcpipguide.com/free/t_TCPIPProcessesMultiplexingandClientServerApplicati.htm 1990 110
+https://docs.google.com/document/d/1ninD55Cfbb_7PksDirN0XghzNHJZ_N93lheQzF1aOZY/edit?usp=sharing 1754 120
+https://www.labredes.unlu.edu.ar/tyr2022 374 50
+https://www.researchgate.net/publication/2360239 35634 1000
+https://www.youtube.com/watch?v=zKqUfwB84Zg 600 60
+lluvia 7788 320
+mratto@mail.unlu.edu.ar 1528 100
+tenis 2567 130
+ternero 6044 400
