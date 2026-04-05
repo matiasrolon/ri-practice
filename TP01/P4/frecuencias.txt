@@ -1,0 +1,23 @@
+=== 10 términos más frecuentes ===
+par 2843
+univers 2433
+nacional 1587
+cienci 1433
+carrer 1342
+estudi 1300
+com 1270
+facult 1266
+educ 1199
+investig 1154
+
+=== 10 términos menos frecuentes ===
+target 1
+ddb 1
+sistemasgcyt 1
+ci-tabs-h-l 1
+saspi 1
+espanolversion 1
+comunicacioneudem 1
+impresoagend 1
+universidadenlac 1
+tvradi 1

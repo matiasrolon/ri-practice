@@ -2,17 +2,14 @@ import re
 import unicodedata
 
 def translate(string):
-    replacements = (
-        ("á", "a"),
-        ("é", "e"),
-        ("í", "i"),
-        ("ó", "o"),
-        ("ú", "u"),
-        ("ü", "u")
+    """
+    Convierte caracteres acentuados a su forma no acentuada.
+    """
+    return (
+        unicodedata.normalize("NFD", string)
+        .encode("ascii", "ignore")
+        .decode("ascii")
     )
-    for a, b in replacements:
-        string = string.replace(a, b).replace(a.upper(), b.upper())
-    return string
 
 def tokenize(string):
     """

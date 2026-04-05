@@ -24,25 +24,31 @@ from os import listdir
 from os.path import join, isdir
 from tokenizer import tokenize
 
+
+def parse_args():
+    """Parsea argumentos posicionales. El segundo (stats json) es opcional."""
+    dir_path = '../collection_test/TestCollection'
+    json_path = None
+
+    if len(sys.argv) < 2:
+        print('El usuario NO ha pasado parametros. Se establecerán por defecto.')
+    elif len(sys.argv) < 3:
+        dir_path = sys.argv[1]
+    else:
+        dir_path = sys.argv[1]
+        json_path = sys.argv[2]
+
+    return dir_path, json_path
+
+
 def main():
     docs_count = 0
     total_tokens_count = 0
-    df = {} # Document Frequency
+    df = {}  # Document Frequency
     all_terms = set()
-    # valores de path por defecto
-    dir_path = '../collection_test/TestCollection'
-    json_path = '../collection_test/collection_data.json'
-    if len(sys.argv) < 2:
-        print('El usuario NO ha pasado parametros. Se establecerán por defecto')
-    elif len(sys.argv) < 3:
-        print('El usuario NO ha pasado un path para el archivo json de estadisticas de la coleccion. Se establece uno por defecto.')
-        dir_path = sys.argv[1]   
-    else:    
-        dir_path = sys.argv[1]
-        json_path = sys.argv[2] 
-    
+
+    dir_path, json_path = parse_args()
     print('Directorio a analizar: ' + dir_path)
-    print('Archivo json: ' + json_path)
 
     if isdir(dir_path):
         l = listdir(dir_path)
@@ -76,42 +82,39 @@ def main():
         print(f"> Cantidad de términos: {len(all_terms)}")
         print(f"> Cantidad de documentos procesados: {docs_count}")
 
-        # Comparar con collection_data.json
-        print('\n--- COMPARACIÓN CON collection_data.json ---')
-        # Buscamos el json que se encuentre en '../collection_test/collection_data.json'
-        json_path = join(os.path.dirname(os.path.normpath(dir_path)), "collection_data.json")
-        if not os.path.exists(json_path):
-            json_path = join(dir_path, '../collection_data.json')
-            
-        if os.path.exists(json_path):
-            with open(json_path, 'r', encoding="utf-8") as f:
-                coll_data = json.load(f)
-            
-            stats = coll_data.get("statistics", {})
-            if stats:
-                print(f"> Cantidad de tokens: {stats.get('num_tokens', 'N/A')}")
-                print(f"> Cantidad de términos: {stats.get('num_terms', 'N/A')}")
-                print(f"> Cantidad de documentos procesados: {stats.get('N', 'N/A')}\n")
-                
-            coincidences = 0
-            failures = 0
-            for data in coll_data.get("data", []):
-                term = data["term"]
-                expected_df = data["df"]
-                current_df = df.get(term, 0)
-                
-                if expected_df == current_df:
-                    coincidences += 1
-                else:
-                    failures += 1
-                    print(f"> Falla en el termino '{term}': DF calculado = {current_df} | DF esperado = {expected_df}")
-            
-            if failures == 0:
-                print(f"> Todos los {coincidences} terminos comparados coinciden exitosamente con su respectivo DF.")
+        # -----------------------------------------------------------------------
+        # Comparar con collection_data.json (solo si se pasó como argumento)
+        if json_path:
+            print('\n--- COMPARACIÓN CON collection_data.json ---')
+            if not os.path.exists(json_path):
+                print(f'> No se pudo localizar el archivo: {json_path}')
             else:
-                print(f"> Terminos comparados exitosamente: {coincidences}. Fallas: {failures}.")
-        else:
-            print(f"> No se pudo localizar el archivo collection_data.json en {json_path}")
+                with open(json_path, 'r', encoding="utf-8") as f:
+                    coll_data = json.load(f)
+
+                stats = coll_data.get("statistics", {})
+                if stats:
+                    print(f"> Cantidad de tokens: {stats.get('num_tokens', 'N/A')}")
+                    print(f"> Cantidad de términos: {stats.get('num_terms', 'N/A')}")
+                    print(f"> Cantidad de documentos procesados: {stats.get('N', 'N/A')}\n")
+
+                coincidences = 0
+                failures = 0
+                for data in coll_data.get("data", []):
+                    term = data["term"]
+                    expected_df = data["df"]
+                    current_df = df.get(term, 0)
+
+                    if expected_df == current_df:
+                        coincidences += 1
+                    else:
+                        failures += 1
+                        print(f"> Falla en el termino '{term}': DF calculado = {current_df} | DF esperado = {expected_df}")
+
+                if failures == 0:
+                    print(f"> Todos los {coincidences} terminos comparados coinciden exitosamente con su respectivo DF.")
+                else:
+                    print(f"> Terminos comparados exitosamente: {coincidences}. Fallas: {failures}.")
             
     else:
         print("> El paramero pasado no corresponde a un directorio")
