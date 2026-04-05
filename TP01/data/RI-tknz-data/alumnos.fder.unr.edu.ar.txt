@@ -1,6 +1,0 @@
-notice: undefined index: in /var/www/autogestion/library/language/language.php on line 35 notice: undefined
-index: in /var/www/autogestion/library/language/language.php on line 51 warning:   [function.include]: failed
-to open stream: no such file or directory in /var/www/autogestion/library/language/language.php
-on line 56 warning:   [function.include]: failed opening 'language//'   in /var/www/autogestion/library/language/language.php on line 56 notice: undefined index:
-in /var/www/autogestion/library/language/language.php on line 51 error: language file language//controller/login.php not
-found!

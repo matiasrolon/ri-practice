@@ -1,5 +1,0 @@
- top.document.location.href = this.document.location.href; guaraní3w: sistema de gestión de
-alumnos en internetesta página usa marcos, pero su explorador no
-los  top.document.location.href = this.document.location.href; guaraní3w: sistema de gestión
-de alumnos en internetesta página usa marcos, pero su explorador
-no los admite.

@@ -1,2 +1,0 @@
-squirrelmail versión 1.4.9a por el equipo de desarrollo de squirrelmail
-ingreso a squirrelmail nombre: contraseña:

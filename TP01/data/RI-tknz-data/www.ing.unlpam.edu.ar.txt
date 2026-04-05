@@ -1,5 +1,0 @@
-facultad de ingeniería - unlpam    
-   
-#borde_top{ background-image:  
-     ; try {      
-!window.jquery && document.write('

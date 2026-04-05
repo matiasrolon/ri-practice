@@ -1,1 +1,0 @@
-redireccionar página web location.href='http://www.uca.edu.ar/uca/index.php/home/index/es/universidad/facultades/rosario/cs-economicas';

@@ -1,9 +1,0 @@
-incentivos - autentificación de docentes#overlay, #capa_espera  .barra-superior {background:  .ei-cuadro-col-tit, .ei-ml-columna, .ei-filtro-columna {background:  .ei-barra-sup, .ci-botonera {background:
-  .caja-nuevo-usuario
-h3,  .caja-nuevo-usuario     apex_solicitud_tipo='web'  =
-[ 'incentivos',1000200 ]window.toba_qs_zona = '';//---------------- creando objeto js_ci_1000626 -------------- window.js_ci_1000626
-= new  ;//----------------
-creando objeto js_form_1000625_datos -------------- window.js_form_1000625_datos = new ei_formulario([ 'incentivos',1000625 ],
-'js_form_1000625_datos', new  , new  , new  ;js_form_1000625_datos.agregar_ef(new  ;js_form_1000625_datos.agregar_ef(new  ;js_form_1000625_datos.set_evento_implicito(new   ;//-----------------------------------------------------------------   ;//-----------------------------------------------------------------  ;olvidé mi
-usuario o clavenuevo usuariopara obtener una clave de acceso al
-sistema, presione el siguiente botón.nuevo usuariodesarrollado por  ;

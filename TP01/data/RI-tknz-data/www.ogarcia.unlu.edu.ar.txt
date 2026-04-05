@@ -1,5 +1,0 @@
-index of / index of / namelast modifiedsizedescription ia/22-mar-2004 10:27
-- se/19-mar-2004 15:26 - apache server at www.ogarcia.unlu.edu.ar port 80
-sistemas   esta página usa marcos, pero su explorador
-no los admite. inteligencia   esta página usa marcos,
-pero su explorador no los admite.

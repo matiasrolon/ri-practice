@@ -1,4 +1,0 @@
-cwcomdoc - consulta procesando... procesando. por favor aguarde... consulta búsqueda
-por código cudap buscar búsqueda por patrón patron fecha desde
-fecha hasta buscar búsqueda por número original número original buscar
-cancelar

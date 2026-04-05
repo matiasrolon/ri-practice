@@ -1,9 +1,0 @@
-documento sin título
- {  {      {    {   desc = plugins["shockwave
-flash 2.0"] ? plugins["shockwave flash 2.0"].description : desc;   flashver = -1; else{     flashver
-=   // webtv
-has flash player 4 or lower -- too low for
-video else if   flashver = 4.0;    { if  
-este host se encuentra
-cerrado podrá acceder a este sitio a través de el
-dominio www.magisterio.uncu.edu.ar
