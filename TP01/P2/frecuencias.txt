@@ -3,12 +3,12 @@ universidad 2257
 nacional 1448
 facultad 1261
 ciencias 1039
-mas 1031
 ar 998
 edu 883
 educacion 878
 investigacion 836
 argentina 797
+carreras 787
 
 === 10 términos menos frecuentes ===
 target 1

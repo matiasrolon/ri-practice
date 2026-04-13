@@ -11,7 +11,7 @@ Parámetros:
     --stopwords <file>        (Opcional) Archivo con palabras vacías a eliminar.
 
 Ejemplo:
-(parado en la carpeta del punto, y asumiendo que se dejan las colecciones dentro de la carpeta 'data' en la raiz)
+Asumiendo que se dejan las colecciones dentro de 'data' en la carpeta raiz, y una vez parado en la carpeta del punto (/P5)
     python TP01_P5.py ../data/vaswani/corpus/doc-text.trec
     python TP01_P5.py ../data/vaswani/corpus/doc-text.trec --stopwords ../data/stopwords/spanish.txt
 

@@ -1,23 +1,23 @@
 === 10 términos más frecuentes ===
-https://www.researchgate.net/publication/2360239 35634
-lluvia 7788
-ternero 6044
-15413355 4525
-D.A.S.M.I 3355
-tenis 2567
-2021-12-09 2528
-botella 2280
-http://www.tcpipguide.com/free/t_TCPIPProcessesMultiplexingandClientServerApplicati.htm 1990
-https://docs.google.com/document/d/1ninD55Cfbb_7PksDirN0XghzNHJZ_N93lheQzF1aOZY/edit?usp=sharing 1754
+universidad 2256
+nacional 1446
+facultad 1260
+2012 1104
+ciencias 1033
+educacion 877
+investigacion 833
+argentina 795
+carreras 786
+informacion 731
 
 === 10 términos menos frecuentes ===
-Sra. 80
-U.S.A 173
-casa 301
-https://www.labredes.unlu.edu.ar/tyr2022 374
-ftp://unlu.edu.ar 436
-https://www.youtube.com/watch?v=zKqUfwB84Zg 600
-EE.UU. 992
-Domingo Faustino Sarmiento 1000
-abc.def@mail-archive.com 1034
-mratto@mail.unlu.edu.ar 1528
+target 1
+sistemasgcyt 1
+ci-tabs-h-lista 1
+saspi 1
+3725 1
+espanolversion 1
+comunicacioneudem 1
+universidadenlace 1
+tvradio 1
+mediosenlace 1

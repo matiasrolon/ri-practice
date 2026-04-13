@@ -513,7 +513,6 @@ agustintitul 1 1
 ah 4 4
 aha 2 2
 ahendu 1 1
-ahi 19 3
 ahijun 1 1
 ahinc 1 1
 ahistor 1 1
@@ -652,7 +651,6 @@ alleg 1 1
 allegretti 1 1
 allegretticorre 1 1
 allend 1 1
-alli 22 17
 allianc 2 2
 allvar 1 1
 alma 18 4
@@ -673,7 +671,6 @@ alpeaanuev 1 1
 alpha 4 3
 alquam 1 1
 alquil 1 1
-alrededor 14 12
 alsin 4 2
 also 5 3
 alt 8 7
@@ -771,7 +768,6 @@ ambientaliz 1 1
 ambienterel 9 1
 ambit 103 53
 ambivalent 5 1
-ambos 17 9
 ambrogetti 1 1
 ambrosi 5 2
 ambul 1 1
@@ -938,7 +934,6 @@ anten 7 6
 anteoj 1 1
 antepais 1 1
 anteproyect 2 1
-anterior 115 43
 anteriordetenerreproduc 2 1
 anteriores 1 1
 anterioresact 5 1
@@ -1090,11 +1085,9 @@ apuntal 1 1
 aqu 25 15
 aquacalendari 1 1
 aquatic 1 1
-aquel 14 6
 aquell 131 40
 aquellosestudi 1 1
 aquellosprofesor 1 1
-aqui 130 74
 aquien 1 1
 aquin 1 1
 aquisi 1 1
@@ -1334,7 +1327,6 @@ asesorform 1 1
 asesori 4 4
 asfalt 1 1
 ashraf 1 1
-asi 158 57
 asidu 2 1
 asient 2 2
 asig 4 1
@@ -1430,7 +1422,6 @@ atraccion 1 1
 atract 6 5
 atractor 1 1
 atrap 4 2
-atras 21 10
 atrav 1 1
 atraves 3 3
 atravies 3 3
@@ -1474,7 +1465,6 @@ aulavirtual 1 1
 auler 1 1
 aulic 9 4
 aument 21 14
-aun 56 23
 aunqu 29 13
 aureli 1 1
 aus 2 2
@@ -1600,7 +1590,6 @@ ayal 3 3
 ayatol 1 1
 aybar 2 1
 ayel 5 2
-ayer 28 17
 ayerz 1 1
 ayl 1 1
 aylen 4 1
@@ -1935,7 +1924,6 @@ bich 2 1
 bidart 1 1
 bidimensional 1 1
 bielous 2 1
-bien 87 35
 bienal 4 3
 bienest 85 34
 bienestaranimal 1 1
@@ -2246,7 +2234,6 @@ bucetafech 2 1
 buch 1 1
 budapest 1 1
 budini 1 1
-buen 577 126
 buenoexcelent 16 1
 buf 2 1
 bufal 1 1
@@ -2621,7 +2608,6 @@ casem 1 1
 casepresident 1 1
 caser 2 2
 casey 5 1
-casi 22 14
 casill 11 6
 casiller 3 2
 casin 1 1
@@ -3558,7 +3544,6 @@ connect 1 1
 connot 1 1
 conoc 322 101
 conocen 1 1
-conocer 1 1
 conoci 4 3
 conosur 1 1
 conozc 6 6
@@ -3571,7 +3556,6 @@ consecucion 3 3
 consecuent 28 11
 consecut 6 5
 consegu 9 7
-conseguir 1 1
 consej 243 91
 consejer 11 7
 consejeri 1 1
@@ -4213,7 +4197,6 @@ d'angel 5 1
 d'enquet 1 1
 d'epinay 24 1
 d'oc 1 1
-da 46 22
 dab 5 2
 dabl 1 1
 dad 38 23
@@ -4241,7 +4224,6 @@ damianovich 2 1
 damnific 1 1
 damocl 1 1
 damsu 2 2
-dan 62 21
 danc 2 2
 dand 8 5
 danderyd 1 1
@@ -4258,7 +4240,6 @@ dantesc 1 1
 danz 9 7
 daoud 1 1
 dapoz 1 1
-dar 63 31
 dard 4 3
 dardenn 1 1
 dardotitul 1 1
@@ -4796,7 +4777,6 @@ dhm 1 1
 dhtml 10 6
 dhtml-menu-build 5 1
 di 91 24
-dia 136 56
 diabet 9 3
 diabl 1 1
 diacron 1 1
@@ -4813,7 +4793,6 @@ dialog 23 9
 dian 8 5
 diari 70 27
 diarr 2 2
-dias 99 47
 diaz 21 8
 dibuj 8 5
 dibujit 1 1
@@ -4837,7 +4816,6 @@ diegotitul 2 1
 dielectricosdirector 1 1
 dient 1 1
 dier 2 2
-dieron 6 6
 diesel 1 1
 diestr 1 1
 diet 2 2
@@ -4876,7 +4854,6 @@ digregori 2 1
 digresion 1 1
 dij 37 12
 dijer 4 2
-dijeron 1 1
 dilat 2 1
 dilem 5 2
 dillon 1 1
@@ -4898,7 +4875,6 @@ dinamit 1 1
 dinamiz 5 5
 dine 17 1
 diner 4 4
-dio 20 12
 diocesis 1 1
 dioguardi 1 1
 dionisi 12 3
@@ -5156,7 +5132,6 @@ dor 12 6
 dorig 1 1
 dorm 2 1
 dorronzor 2 1
-dos 226 82
 doscient 3 3
 dosif 1 1
 dosis 5 1
@@ -5536,7 +5511,6 @@ elkin 1 1
 elle 1 1
 elleipsis 1 1
 elliot 4 1
-ello 56 30
 ellul 1 1
 elm 1 1
 elobjet 1 1
@@ -6079,7 +6053,6 @@ estam 26 9
 estament 3 2
 estamp 1 1
 estampill 3 1
-estan 92 49
 estanc 1 1
 estanci 14 7
 estanciaestudi 1 1
@@ -6246,7 +6219,6 @@ evolut 1 1
 evolution 4 3
 evp 2 1
 ewolc 1 1
-ex 46 17
 ex-alumn 1 1
 exa 17 8
 exacerb 1 1
@@ -6770,9 +6742,7 @@ filters 4 3
 filtr 16 6
 filtrarlist 2 1
 fim 9 1
-fin 151 68
 finadit 1 1
-final 239 82
 finalescronogram 17 1
 finalescurs 2 1
 finalesmes 2 1
@@ -7291,7 +7261,6 @@ gendarmeri 1 1
 genealogi 2 1
 gener 211 65
 generacional 4 1
-general 366 128
 generalabogaciadministr 1 1
 generalcatedr 1 1
 generalitat 1 1
@@ -7566,7 +7535,6 @@ gramaj 2 1
 gramat 3 2
 gramatical 1 1
 gramofon 1 1
-gran 85 40
 granbuen 1 1
 grand 50 25
 grandi 1 1
@@ -7723,7 +7691,6 @@ hab 40 23
 haban 6 4
 habel 1 1
 habenari 1 1
-haber 3 3
 habi 55 19
 habil 13 9
 habilit 66 35
@@ -8057,7 +8024,6 @@ hous 1 1
 housing 2 1
 houston 3 1
 hov 25 5
-hoy 80 39
 hoyinaugur 1 1
 hoyuel 1 1
 hoyuelosc 2 1
@@ -8245,7 +8211,6 @@ igolnikow 1 1
 igor 3 2
 iguain 1 1
 iguainfech 2 1
-igual 40 20
 iguald 18 8
 igualitari 6 3
 ii 189 46
@@ -9014,7 +8979,6 @@ ip 8 5
 ipau 8 1
 ipgp 5 1
 ippoliti 1 1
-ir 82 38
 ira 3 2
 irag 1 1
 irak 4 1
@@ -9951,7 +9915,6 @@ ludov 1 1
 lueg 69 42
 lug 145 51
 lugan 1 1
-lugar 22 18
 lugon 2 1
 luh 2 2
 luis 154 57
@@ -10060,7 +10023,6 @@ majors 1 1
 majuan 1 1
 mak 3 2
 makinisti 3 1
-mal 14 7
 malag 2 2
 malamud 1 1
 malbec 1 1
@@ -10239,7 +10201,6 @@ marxist 4 2
 marz 183 60
 marzi 1 1
 marzocc 1 1
-mas 1065 175
 masacr 1 1
 masanet 1 1
 masc 5 3
@@ -10322,7 +10283,6 @@ maximiz 2 2
 maximotitul 1 1
 maximum 1 1
 may 237 70
-mayor 126 60
 mayoral 1 1
 mayori 22 20
 mayoritari 3 2
@@ -10409,7 +10369,6 @@ megaterremot 1 1
 meili 1 1
 meji 2 2
 mejic 1 1
-mejor 141 66
 mel 1 1
 melampsor 1 1
 melancol 4 1
@@ -10550,7 +10509,6 @@ mgt 3 1
 mgter 19 10
 mhm 15 1
 mhz 4 1
-mia 2 1
 miami 3 1
 micael 9 1
 micc 1 1
@@ -10660,7 +10618,6 @@ minucci 1 1
 minuci 2 2
 minuscul 1 1
 minut 18 9
-mio 6 2
 miocard 2 1
 miopi 1 1
 miqu 1 1
@@ -11442,7 +11399,6 @@ occident 6 1
 occidental 6 5
 oceanografi 1 1
 ochent 1 1
-ocho 23 10
 oci 2 2
 ocios 1 1
 ockham 3 1
@@ -11808,7 +11764,6 @@ pags 2 2
 paid 9 1
 paimec 2 2
 pair 2 2
-pais 224 74
 paisaj 20 11
 paisajist 1 1
 paj 1 1
@@ -11944,7 +11899,6 @@ participation 1 1
 particul 51 25
 particular 27 16
 partidari 3 2
-partir 4 3
 pas 221 78
 pasader 1 1
 pasaj 12 5
@@ -12092,7 +12046,6 @@ pentagram 1 1
 pente 13 1
 penucci 1 1
 peopl 1 1
-peor 5 2
 pep 1 1
 pepp 1 1
 pepsam 3 1
@@ -12433,7 +12386,6 @@ pobrez 9 6
 poc 43 17
 pocit 2 1
 pod 160 63
-poder 6 4
 poderosis 1 1
 podest 3 2
 podi 13 4
@@ -12814,7 +12766,6 @@ prigoyin 1 1
 prim 165 73
 primari 23 12
 primatologi 1 1
-primer 213 84
 primeraexclusivosefect 2 1
 primit 7 2
 primordial 20 5
@@ -13145,7 +13096,6 @@ puericultur 1 1
 pueril 1 1
 puert 59 32
 puertorriquen 1 1
-pues 18 8
 puest 40 17
 pueyrredon 4 2
 puig 1 1
@@ -14183,7 +14133,6 @@ saavedr 3 3
 sab 197 58
 sabadini 1 1
 sabat 10 7
-saber 11 7
 saberesy 1 1
 sabi 5 2
 sabiduri 2 1
@@ -14220,7 +14169,6 @@ sailearningconnection 1 1
 saint 5 4
 sakson 1 1
 sakubbi 1 1
-sal 74 33
 salamanc 1 1
 salamon 1 1
 salanuev 1 1
@@ -14460,14 +14408,12 @@ seguimient 19 14
 seguin 24 10
 seguir 2 2
 seguiri 1 1
-segun 90 40
 segund 161 59
 segundasimplestemporari 1 1
 segundocongres 1 1
 segur 146 51
 seidmann 1 1
 seillant 2 1
-seis 13 7
 sel 2 1
 selajp 2 1
 seleccion 166 57
@@ -14558,7 +14504,6 @@ septim 2 2
 sepulved 1 1
 sepym 1 1
 sequencing 1 1
-ser 390 102
 serafini 1 1
 serbal 1 1
 serbi 2 2
@@ -14649,7 +14594,6 @@ show 5 5
 showcredits 41 2
 shows 2 2
 shuffl 1 1
-si 320 96
 sial 11 3
 siat 2 1
 sibili 2 2
@@ -15385,7 +15329,6 @@ tair 3 2
 tais 1 1
 taiw 1 1
 tak 1 1
-tal 114 45
 taladriz 1 1
 talent 22 3
 taler 1 1
@@ -15405,7 +15348,6 @@ tamay 1 1
 tambi 231 79
 tambor 1 1
 tampoc 13 4
-tan 19 8
 tanatopolit 1 1
 tand 2 2
 tandil 50 14
@@ -15862,7 +15804,6 @@ tosc 1 1
 toscani 1 1
 tosoratti 1 1
 tossi 1 1
-total 65 26
 totalitar 1 1
 totalitari 1 1
 totaliz 3 2
@@ -15974,7 +15915,6 @@ transrectal 1 1
 transversal 9 3
 trap 2 1
 trapich 1 1
-tras 29 20
 trasc 1 1
 trascend 1 1
 trascendent 5 4
@@ -16019,7 +15959,6 @@ trelew 4 3
 tremend 3 1
 tren 1 1
 trepod 1 1
-tres 101 45
 trescient 1 1
 tri 3 3
 trialist 2 1
@@ -16198,7 +16137,6 @@ unach 1 1
 unainvestig 1 1
 unam 2 2
 unanim 2 1
-unas 3 3
 unavail 1 1
 unc 39 21
 uncategoriz 1 1
@@ -16404,15 +16342,12 @@ urss 1 1
 urtubey 1 1
 uruguay 45 16
 us 1 1
-usa 39 28
 usab 2 1
 usabil 2 2
 usad 2 2
 usag 1 1
 usam 1 1
-usan 1 1
 usand 12 10
-usar 17 15
 usarl 4 4
 usb 1 1
 use 13 8
@@ -16426,14 +16361,12 @@ usev 1 1
 ushuai 4 3
 using 6 4
 usl 7 1
-uso 108 54
 usos 5 4
 usp 2 1
 usp-t 2 1
 usp-tcompetitividadestudi 2 1
 uspt 2 1
 ustariz 1 1
-usted 107 35
 usual 3 3
 usualri 1 1
 usuari 246 98
@@ -16467,7 +16400,6 @@ uvt 9 3
 uvt-consultor 7 2
 uvtsuspension 1 1
 v-webmail 1 1
-va 41 13
 vacacion 15 10
 vacanci 2 1
 vacant 26 13
@@ -16505,7 +16437,6 @@ vallecit 1 1
 vallefin 1 1
 vallesi 1 1
 valley 1 1
-valor 115 40
 valoric 1 1
 valoriz 5 4
 valparais 1 1
@@ -16516,7 +16447,6 @@ valuacion 1 1
 valverd 1 1
 valzacchi 2 1
 vam 9 5
-van 21 11
 vanaglori 1 1
 vancul 4 2
 vaneduc 3 1
@@ -16628,7 +16558,6 @@ ventan 14 7
 ventv 1 1
 ventvel 1 1
 veo 1 1
-ver 373 95
 verac 1 1
 veracruzan 1 1
 veran 46 26
@@ -16637,7 +16566,6 @@ veraz 3 1
 verb 6 1
 verbigraci 1 1
 verd 53 14
-verdad 2 2
 verdader 22 8
 verdan 2 1
 verdug 1 1
@@ -16683,7 +16611,6 @@ veterinari 54 20
 veterinariasfacult 2 1
 vetust 2 1
 vexiologi 1 1
-vez 124 54
 vhosts 1 1
 vi 12 10
 via 35 24
@@ -16902,7 +16829,6 @@ vorticesdirector 1 1
 vos 19 6
 vot 27 9
 votacion 1 1
-voy 22 3
 voz 7 5
 vrillaud 1 1
 vrmu 8 2

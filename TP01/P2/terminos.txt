@@ -459,7 +459,6 @@ actualizar 10 10
 actualizara 1 1
 actualizaron 1 1
 actualizo 1 1
-actualmente 38 24
 actuan 4 4
 actuando 2 2
 actuar 12 8
@@ -475,7 +474,6 @@ acude 1 1
 acudieron 1 1
 acudir 2 1
 acuerdan 9 3
-acuerdo 118 30
 acuerdos 8 6
 acuicolas 2 1
 acuicultura 4 2
@@ -532,11 +530,9 @@ adecuarla 1 1
 adela 2 2
 adelantandose 1 1
 adelantarse 1 1
-adelante 26 18
 adelanto 1 1
 adelantos 6 2
 adelina 1 1
-ademas 120 55
 adenag 4 1
 adentramos 1 1
 adentro 5 1
@@ -931,14 +927,12 @@ agustintitulo 1 1
 ah 4 4
 aha 2 2
 ahendu 1 1
-ahi 19 3
 ahijuna 1 1
 ahinco 1 1
 ahistorica 1 1
 ahmadi 1 1
 ahogarlas 1 1
 ahon 1 1
-ahora 51 20
 ahorro 1 1
 ahumada 1 1
 ai 5 5
@@ -1103,8 +1097,6 @@ algorithms 2 1
 algoritmos 4 3
 alguien 18 2
 algun 23 13
-alguna 41 20
-alguno 16 12
 aliados 1 1
 alianza 6 3
 alianzas 2 2
@@ -1140,7 +1132,6 @@ allegar 1 1
 allegretti 1 1
 allegretticorreo 1 1
 allende 1 1
-alli 22 17
 alliance 2 2
 allvar 1 1
 alma 18 4
@@ -1167,7 +1158,6 @@ alpeaanuevo 1 1
 alpha 4 3
 alquamica 1 1
 alquiler 1 1
-alrededor 10 9
 alrededores 4 3
 alsina 4 2
 also 5 3
@@ -1294,7 +1284,6 @@ ambito 83 46
 ambitos 20 15
 ambivalencia 3 1
 ambivalente 2 1
-ambos 17 9
 ambrogetti 1 1
 ambrosi 5 2
 ambulancia 1 1
@@ -1537,7 +1526,6 @@ antenas 5 4
 anteojos 1 1
 antepais 1 1
 anteproyecto 2 1
-anterior 56 23
 anteriordetenerreproducir 2 1
 anteriores 55 21
 anterioresa 1 1
@@ -1665,7 +1653,6 @@ apdh 1 1
 apelacion 1 1
 apelar 1 1
 apellido 21 10
-apenas 2 2
 apendice 1 1
 apensaste 10 1
 apercibimiento 1 1
@@ -1788,7 +1775,6 @@ aprovecharan 1 1
 aprox 2 2
 aproximacion 9 6
 aproximaciones 1 1
-aproximadamente 12 6
 aproximado 2 2
 aproximarnos 2 2
 aprueba 6 6
@@ -1819,14 +1805,8 @@ aqua 21 12
 aquacalendario 1 1
 aquatic 1 1
 aque 2 1
-aquel 14 6
-aquella 3 1
-aquellas 22 16
-aquello 33 6
-aquellos 73 30
 aquellosestudiantes 1 1
 aquellosprofesores 1 1
-aqui 130 74
 aquienes 1 1
 aquino 1 1
 aquisi 1 1
@@ -2029,7 +2009,6 @@ arrepentirse 1 1
 arrepienta 1 1
 arresponsable 3 2
 arriaga 1 1
-arriba 22 8
 arricar 1 1
 arrigorriaga 1 1
 arritmias 2 1
@@ -2165,7 +2144,6 @@ asesori 1 1
 asesoria 3 3
 asfalto 1 1
 ashraf 1 1
-asi 149 52
 asia 9 6
 asiduo 2 1
 asiento 2 2
@@ -2343,7 +2321,6 @@ atractivos 2 2
 atractor 1 1
 atrapado 3 1
 atraparon 1 1
-atras 20 9
 atraso 1 1
 atraves 1 1
 atravesadas 1 1
@@ -2410,11 +2387,9 @@ aumentada 1 1
 aumentar 7 7
 aumento 7 6
 aumentos 3 2
-aun 53 22
 aunada 1 1
 aunar 1 1
 aunaron 1 1
-aunque 29 13
 aurelio 1 1
 ausa 2 2
 ausal 3 1
@@ -2591,7 +2566,6 @@ ayala 3 3
 ayatola 1 1
 aybar 2 1
 ayelen 5 2
-ayer 28 17
 ayerza 1 1
 ayl 1 1
 aylen 4 1
@@ -2673,7 +2647,6 @@ bajan 1 1
 bajar 11 9
 bajas 2 2
 bajisimo 1 1
-bajo 93 36
 bajon 1 1
 bajos 4 3
 bajour 1 1
@@ -2809,7 +2782,6 @@ basketball 1 1
 basquetbol 1 1
 basta 6 3
 bastan 2 2
-bastante 5 2
 bastardos 1 1
 bastarian 1 1
 baste 1 1
@@ -3025,7 +2997,6 @@ bichos 2 1
 bidart 1 1
 bidimensionales 1 1
 bielous 2 1
-bien 68 29
 bienal 4 3
 bienes 19 9
 bienesta 2 1
@@ -3322,7 +3293,6 @@ bremen 1 1
 brenda 8 3
 bretana 5 2
 bretania 1 1
-breve 19 9
 brevedad 1 1
 breves 10 7
 breviario 1 1
@@ -3409,12 +3379,7 @@ buch 1 1
 buco 1 1
 budapest 1 1
 budini 1 1
-buen 13 11
-buena 11 10
-buenas 6 4
-bueno 37 3
 buenoexcelente 16 1
-buenos 510 113
 bufalos 1 1
 buffa 1 1
 buffon 1 1
@@ -3512,7 +3477,6 @@ cache 1 1
 cacho 1 1
 cacopardo 4 1
 cad 1 1
-cada 245 71
 cadaveres 1 1
 cadaverica 1 1
 cadea 1 1
@@ -3945,7 +3909,6 @@ casem 1 1
 casepresidente 1 1
 caseros 2 2
 casey 5 1
-casi 22 14
 casilla 4 4
 casillas 7 2
 casillero 1 1
@@ -4212,7 +4175,6 @@ ceramica 2 2
 ceramicadirector 1 1
 ceramico 1 1
 ceramicos 1 1
-cerca 5 5
 cercana 5 2
 cercanas 1 1
 cercandolos 1 1
@@ -4481,10 +4443,6 @@ cierra 2 2
 cierran 1 1
 cierre 56 24
 cierres 1 1
-cierta 14 4
-ciertas 10 4
-cierto 12 1
-ciertos 10 4
 cietareasque 1 1
 cieu 1 1
 cif 4 1
@@ -4506,7 +4464,6 @@ cimentaciones 1 1
 cimentado 1 1
 cimientos 3 3
 cin 1 1
-cinco 39 22
 cincuenta 2 2
 cincuentenario 1 1
 cindeca 1 1
@@ -4612,7 +4569,6 @@ claras 1 1
 claridad 6 4
 clarin 13 6
 clarin-zurich 1 1
-claro 11 5
 claroline 6 1
 claros 3 2
 claroscuro 1 1
@@ -5477,7 +5433,6 @@ conmemorar 2 1
 conmemorativas 1 1
 conmemorativo 1 1
 conmemore 1 1
-conmigo 1 1
 conmiscerarse 1 1
 conmocion 1 1
 conmociona 1 1
@@ -5497,7 +5452,6 @@ conoce 8 6
 conocemos 1 1
 conocen 6 4
 conocenos 1 1
-conocer 46 31
 conocera 1 1
 conocerlo 1 1
 conocernos 1 1
@@ -5534,7 +5488,6 @@ consecutivo 2 2
 conseguida 1 1
 conseguidas 1 1
 conseguido 2 2
-conseguir 3 3
 conseguira 1 1
 conseguirla 1 1
 conseguirlo 1 1
@@ -5562,7 +5515,6 @@ conservas 1 1
 conservation 1 1
 conservatorio 2 2
 conserveros 1 1
-considera 17 10
 consideraba 3 1
 consideraban 3 2
 considerable 4 2
@@ -5594,9 +5546,6 @@ consignan 7 2
 consignando 1 1
 consignas 3 2
 consignelos 1 1
-consigo 1 1
-consigue 3 2
-consiguen 1 1
 consiguieron 1 1
 consiguio 1 1
 consiste 20 9
@@ -5816,7 +5765,6 @@ contextualizar 1 1
 contienda 1 1
 contiene 15 9
 contienen 2 1
-contigo 1 1
 contiguidad 3 1
 contiguo 1 1
 continental 7 6
@@ -6174,7 +6122,6 @@ cortos 5 2
 cory 1 1
 corzo 1 1
 cosa 18 6
-cosas 39 9
 cosecha 1 1
 cosechar 1 1
 cosechas 1 1
@@ -6312,7 +6259,6 @@ creia 1 1
 creible 2 1
 creimer 1 1
 cremas 3 1
-creo 51 20
 crespi 1 1
 crespo 2 2
 cresta 1 1
@@ -6434,17 +6380,14 @@ cuadrangular 1 1
 cuadras 1 1
 cuadro 32 9
 cuadros 1 1
-cuales 60 29
 cualesquiera 1 1
 cualidad 1 1
 cualidades 2 2
 cualitativa 1 1
 cualitativo 4 2
 cualitativos 4 4
-cualquier 55 26
 cualquiera 11 6
 cuan 1 1
-cuantas 1 1
 cuantica 7 3
 cuanticadirector 1 1
 cuanticas 1 1
@@ -6453,8 +6396,6 @@ cuantificacion 3 3
 cuantitativa 3 1
 cuantitativas 2 2
 cuantitativos 4 4
-cuanto 42 20
-cuantos 1 1
 cuarenta 1 1
 cuarta 1 1
 cuartango 1 1
@@ -6470,7 +6411,6 @@ cuatrimestrales 3 3
 cuatrimestre 88 25
 cuatrimestreaula 1 1
 cuatrimestres 1 1
-cuatro 53 29
 cuatrocientos 1 1
 cuba 11 6
 cubaculos 1 1
@@ -6497,7 +6437,6 @@ cuello 1 1
 cuenca 12 7
 cuencal 1 1
 cuencas 14 3
-cuenta 154 68
 cuentan 14 10
 cuentas 15 12
 cuenten 2 2
@@ -6692,7 +6631,6 @@ d'angelo 5 1
 d'enquete 1 1
 d'epinay 24 1
 d'oc 1 1
-da 46 22
 daba 3 1
 daban 1 1
 dabas 1 1
@@ -6701,7 +6639,6 @@ dada 6 5
 dadamia 1 1
 dadas 2 2
 dadivas 1 1
-dado 30 17
 dadores 1 1
 dafne 1 1
 dagitos 1 1
@@ -6725,7 +6662,6 @@ damnificado 1 1
 damocles 1 1
 damos 4 3
 damsu 2 2
-dan 26 13
 dana 2 1
 danadas 2 1
 danas 1 1
@@ -6749,7 +6685,6 @@ danza 6 4
 danzas 3 3
 daoud 1 1
 dapozo 1 1
-dar 43 25
 dara 19 8
 dardenne 1 1
 dardo 4 3
@@ -6808,7 +6743,6 @@ dealbergar 1 1
 dean 5 2
 dearaux 1 1
 deba 4 4
-debajo 3 2
 debamos 1 1
 deban 1 1
 debate 52 19
@@ -6817,9 +6751,7 @@ debates 15 5
 debatia 1 1
 debatiendo 2 2
 debatir 4 4
-debe 144 47
 debemos 5 1
-deben 37 20
 deber 7 5
 debera 89 32
 deberan 76 30
@@ -6833,7 +6765,6 @@ debia 3 3
 debian 5 2
 debida 2 2
 debidamente 8 6
-debido 18 16
 debiera 1 1
 debiese 1 1
 debiles 1 1
@@ -6877,7 +6808,6 @@ decimas 1 1
 decime 1 1
 decimo 1 1
 decimos 2 2
-decir 102 16
 decirle 3 1
 decirles 1 1
 decirlo 3 1
@@ -7023,7 +6953,6 @@ dejenos 1 1
 dejo 11 7
 dela 4 3
 delain 1 1
-delante 3 2
 delantero 2 1
 delas 1 1
 delatan 1 1
@@ -7085,7 +7014,6 @@ demando 1 1
 demante 1 1
 demarcacion 2 1
 demas 18 12
-demasiado 1 1
 dematematica 1 1
 dematti 1 1
 demergasso 2 2
@@ -7148,7 +7076,6 @@ dentales 1 1
 dentaria 1 1
 dentice 1 1
 dentista 2 1
-dentro 75 40
 dentrode 2 2
 denuncia 3 2
 denunciados 1 1
@@ -7571,7 +7498,6 @@ desprenderse 1 1
 despreocupacion 1 1
 desprofesionalizacion 1 1
 desprotegidos 2 2
-despues 55 22
 despuntar 1 1
 desquiciaba 1 1
 desquiciado 3 1
@@ -7689,7 +7615,6 @@ determino 1 1
 detiene 3 1
 detonante 1 1
 detransferencia 1 1
-detras 6 6
 detrayectorias 1 1
 detrimento 1 1
 dettler 1 1
@@ -7743,7 +7668,6 @@ dhm 1 1
 dhtml 10 6
 dhtml-menu-builder 5 1
 di 91 24
-dia 136 56
 diabetes 9 3
 diablo 1 1
 diacronia 2 1
@@ -7770,7 +7694,6 @@ diarias 2 2
 diario 51 22
 diarios 10 4
 diarreas 2 2
-dias 99 47
 diaz 21 8
 dibujaban 1 1
 dibujados 1 1
@@ -7780,12 +7703,9 @@ dibujo 4 3
 dic 54 5
 dicarlo 1 1
 diccionario 2 2
-dice 56 6
 dicema 1 1
-dicen 5 1
 dicha 26 13
 dichas 17 11
-dicho 38 17
 dichos 7 7
 diciembre 259 72
 diciendo 8 2
@@ -7827,7 +7747,6 @@ diegotitulo 2 1
 dielectricosdirector 1 1
 dientes 1 1
 diera 2 2
-dieron 6 6
 diesel 1 1
 diestra 1 1
 dieta 1 1
@@ -7844,8 +7763,6 @@ diferenciarla 1 1
 diferenciaron 1 1
 diferencias 17 7
 diferencio 1 1
-diferente 4 4
-diferentes 83 51
 differenciations 1 1
 different 1 1
 differents 2 1
@@ -7900,9 +7817,7 @@ digregorio 2 1
 digresion 1 1
 dije 4 1
 dijera 4 2
-dijeron 1 1
 dijimos 3 1
-dijo 30 12
 dilatada 2 1
 dilemas 5 2
 dillon 1 1
@@ -7930,7 +7845,6 @@ dinamizar 2 2
 dinea 17 1
 dinero 4 4
 dino 1 1
-dio 20 12
 diocesis 1 1
 dioguardi 1 1
 dionisiaca 1 1
@@ -8368,7 +8282,6 @@ dorigo 1 1
 dormir 1 1
 dormirse 1 1
 dorronzoro 2 1
-dos 226 82
 doscientas 1 1
 doscientos 2 2
 dosificacion 1 1
@@ -8780,7 +8693,6 @@ ejecutores 1 1
 ejemplar 4 4
 ejemplares 4 3
 ejemplaridad 1 1
-ejemplo 31 11
 ejemplos 8 5
 ejerce 9 3
 ejercemos 2 1
@@ -8932,7 +8844,6 @@ elkin 1 1
 elle 1 1
 elleipsis 1 1
 elliot 4 1
-ello 56 30
 ellul 1 1
 elm 1 1
 elobjetivo 1 1
@@ -8970,7 +8881,6 @@ embarazada 1 1
 embarazadas 6 3
 embarazo 6 1
 embarcacion 1 1
-embargo 27 12
 embed 2 1
 embedswf 1 1
 embeleso 1 1
@@ -9053,10 +8963,7 @@ emplea 1 1
 empleada 6 5
 empleado 8 3
 empleados 7 6
-emplean 1 1
 empleando 5 4
-emplear 5 4
-empleo 56 21
 empleos 37 13
 emplos 1 1
 employee 1 1
@@ -9136,7 +9043,6 @@ enciende 1 1
 encierra 2 1
 encierran 3 2
 encierro 2 2
-encima 5 3
 encinas 2 1
 enclavado 2 2
 enclave 1 1
@@ -9173,7 +9079,6 @@ encuadrados 1 1
 encuadre 2 2
 encubiertas 1 1
 encubrimiento 1 1
-encuentra 97 45
 encuentran 55 33
 encuentre 3 3
 encuentren 9 5
@@ -9254,7 +9159,6 @@ enfrentarla 1 1
 enfrentarlo 2 2
 enfrentarnos 1 1
 enfrentarse 2 2
-enfrente 3 1
 enganaron 1 1
 enganchan 1 1
 enganche 1 1
@@ -9376,7 +9280,6 @@ entomologiaforense 1 1
 entomologicas 2 1
 entonacion 1 1
 entonar 1 1
-entonces 93 12
 entorno 22 13
 entornos 6 4
 entornovirtual 1 1
@@ -9888,7 +9791,6 @@ estamentos 1 1
 estampado 1 1
 estampillado 1 1
 estampillados 2 1
-estan 92 49
 estancamiento 1 1
 estancia 8 5
 estanciaestudios 1 1
@@ -10179,7 +10081,6 @@ evolution 4 3
 evolutivo 1 1
 evp 2 1
 ewolcan 1 1
-ex 46 17
 ex-alumnos 1 1
 exa 17 8
 exacerbado 1 1
@@ -10223,7 +10124,6 @@ excepcion 8 3
 excepcional 1 1
 excepcionalmente 1 1
 excepciones 5 4
-excepto 3 3
 exceptuados 2 1
 excesiva 1 1
 excesivamente 1 1
@@ -10279,8 +10179,6 @@ exigira 1 1
 exilio 1 1
 exista 4 2
 existan 2 2
-existe 34 17
-existen 11 7
 existence 1 1
 existencia 26 10
 existencias 1 1
@@ -11006,9 +10904,7 @@ filtrarlistado 2 1
 filtro 10 1
 filtros 4 3
 fim 9 1
-fin 109 52
 finadito 1 1
-final 92 37
 finales 82 32
 finalescronograma 17 1
 finalescursadas 2 1
@@ -11778,7 +11674,6 @@ generado 5 5
 generador 4 3
 generadores 2 2
 generados 2 2
-general 318 117
 generalcatedras 1 1
 generales 39 23
 generalidades 2 1
@@ -12160,14 +12055,12 @@ gramajo 2 1
 gramatica 3 2
 gramatical 1 1
 gramofono 1 1
-gran 74 36
 grana 2 2
 granada 7 2
 granados 1 1
 granbuenos 1 1
 grand 1 1
 grande 26 11
-grandes 23 16
 grandi 1 1
 grands 2 1
 granel 1 1
@@ -12361,10 +12254,8 @@ haaretz 1 1
 habana 6 4
 habel 1 1
 habenaria 1 1
-haber 30 16
 haberes 3 3
 haberse 4 4
-habia 38 15
 habiamos 1 1
 habian 16 11
 habiendolo 2 2
@@ -12401,9 +12292,7 @@ habitual 5 4
 habituales 4 4
 habitualmente 1 1
 habitus 1 1
-habla 9 3
 hablamos 3 1
-hablan 2 1
 hablando 5 2
 hablante 5 1
 hablar 7 5
@@ -12417,19 +12306,11 @@ habra 7 3
 habran 2 2
 habria 7 3
 habrian 2 1
-hace 127 42
-hacemos 6 3
-hacen 18 9
-hacer 74 35
 hacerles 1 1
-hacerlo 14 10
 hacerse 3 3
-haces 1 1
 hacha 2 1
-hacia 81 40
 hacienda 11 4
 haciendas 1 1
-haciendo 19 13
 haciendola 1 1
 haciendolo 1 1
 haciendonos 1 1
@@ -12443,7 +12324,6 @@ haga 38 23
 hagaclick 1 1
 hagan 4 3
 hagase 1 1
-hago 3 2
 haidee 1 1
 haiti 3 1
 haji 1 1
@@ -12504,7 +12384,6 @@ hebreo 3 1
 hebrew 3 3
 hecatombe 1 1
 hecha 2 2
-hecho 41 16
 hechos 16 6
 hecht 1 1
 hectareas 2 2
@@ -12615,7 +12494,6 @@ hibridos 1 1
 hice 1 1
 hiciera 1 1
 hicieran 1 1
-hicieron 5 4
 hiciste 1 1
 hidalgo 1 1
 hidden 4 3
@@ -12715,7 +12593,6 @@ hito 5 2
 hitorica 1 1
 hitos 2 1
 hiv 8 3
-hizo 15 15
 hkuhn 1 1
 hlopez 1 1
 hm 4 1
@@ -12785,7 +12662,6 @@ horarias 1 1
 horario 72 37
 horarios 158 46
 horariose 1 1
-horas 164 39
 horco 3 3
 horda 5 1
 horde 3 2
@@ -12844,7 +12720,6 @@ house 1 1
 housing 2 1
 houston 3 1
 hover 25 5
-hoy 79 38
 hoya 1 1
 hoyinauguracion 1 1
 hoyuelos 1 1
@@ -13082,7 +12957,6 @@ igolnikow 1 1
 igor 3 2
 iguain 1 1
 iguainfecha 2 1
-igual 26 13
 igualdad 18 8
 iguales 8 4
 igualitaria 2 2
@@ -13403,7 +13277,6 @@ inclusiva 14 2
 inclusive 14 8
 inclusivo 2 2
 inclusivos 1 1
-incluso 12 8
 incluya 1 1
 incluyan 2 2
 incluye 46 19
@@ -13691,7 +13564,6 @@ informe 35 26
 informen 1 1
 informes 168 57
 informessecretari 2 1
-informo 10 10
 infoune 2 1
 infountref 6 1
 infovia 3 2
@@ -14077,16 +13949,12 @@ intensive 1 1
 intensivo 15 8
 intensivos 14 6
 intenso 3 3
-intenta 15 10
 intentaban 1 1
 intentado 4 3
-intentan 2 2
 intentando 4 3
-intentar 5 3
 intentaremos 1 1
 intentarian 1 1
 intente 1 1
-intento 12 2
 intentos 3 2
 intequi 1 1
 inter 7 6
@@ -14421,7 +14289,6 @@ ip 8 5
 ipau 8 1
 ipgp 5 1
 ippoliti 1 1
-ir 82 38
 ira 3 2
 iraguen 1 1
 irak 4 1
@@ -14744,7 +14611,6 @@ juntando 1 1
 juntar 1 1
 juntaran 1 1
 juntas 3 2
-junto 48 27
 juntos 5 3
 jura 2 1
 jurada 6 4
@@ -14955,7 +14821,6 @@ lacteas 10 5
 lacteos 2 2
 ladecor 1 1
 ladisciplina 1 1
-lado 31 9
 lados 2 2
 ladrillo 2 1
 lae 4 2
@@ -15038,7 +14903,6 @@ largas 1 1
 large 1 1
 largest 1 1
 largh 3 1
-largo 42 27
 largometraje 3 2
 largometrajes 5 2
 larran 1 1
@@ -15206,7 +15070,6 @@ leido 3 3
 leila 1 1
 leiva 2 2
 lejanos 1 1
-lejos 7 4
 lelescopiosde 1 1
 leloir 1 1
 lema 6 6
@@ -15529,7 +15392,6 @@ llenar 1 1
 llenara 1 1
 llenaron 1 1
 llenos 1 1
-lleva 25 17
 llevaba 1 1
 llevaban 1 1
 llevada 3 3
@@ -15539,7 +15401,6 @@ llevados 1 1
 llevamos 3 2
 llevan 15 8
 llevando 3 2
-llevar 25 14
 llevara 10 7
 llevaran 2 2
 llevaria 1 1
@@ -15706,9 +15567,7 @@ lucro 11 9
 ludi 2 1
 ludicas 2 1
 ludovica 1 1
-luego 69 42
 lugano 1 1
-lugar 140 51
 lugares 22 18
 lugo 5 2
 lugones 2 1
@@ -15844,7 +15703,6 @@ majors 1 1
 majuano 1 1
 make 3 2
 makinistian 3 1
-mal 8 3
 mala 2 2
 malaga 2 2
 malamud 1 1
@@ -15910,7 +15768,6 @@ mando-obediencia 1 1
 manejaba 1 1
 manejar 4 4
 manejo 26 17
-manera 104 38
 maneras 10 6
 manes 3 2
 mangiameli 1 1
@@ -16117,7 +15974,6 @@ marxistas 3 2
 marzio 1 1
 marzo 183 60
 marzocca 1 1
-mas 1031 173
 masa 23 6
 masacre 1 1
 masanet 1 1
@@ -16244,7 +16100,6 @@ maximotitulo 1 1
 maximum 1 1
 may 77 9
 mayo 160 63
-mayor 86 47
 mayoral 1 1
 mayores 38 22
 mayori 1 1
@@ -16304,7 +16159,6 @@ medianas 4 3
 medianeras 3 1
 mediano 2 2
 medianoche 1 1
-mediante 90 43
 medianteresolucion 1 1
 medias 13 4
 mediateca 6 1
@@ -16343,7 +16197,6 @@ medida 36 12
 medidas 30 13
 medieval 1 1
 medina 6 4
-medio 145 76
 medioambientales 1 1
 medioambiente 3 2
 mediocampista 1 1
@@ -16364,7 +16217,6 @@ megaterremotos 1 1
 meili 1 1
 mejia 2 2
 mejico 1 1
-mejor 48 26
 mejora 12 8
 mejorado 1 1
 mejoramiento 20 17
@@ -16435,7 +16287,6 @@ menini 1 1
 menor 19 12
 menorca 15 1
 menores 7 7
-menos 32 13
 mensaje 60 25
 mensajero 2 1
 mensajes 12 8
@@ -16455,7 +16306,6 @@ mentora 6 2
 mentores 7 2
 menu 148 48
 menuaca 2 1
-menudo 1 1
 menuegre 2 1
 menues 1 1
 menuing 2 1
@@ -16582,7 +16432,6 @@ mgt 3 1
 mgter 19 10
 mhm 15 1
 mhz 4 1
-mia 2 1
 miami 3 1
 micael 1 1
 micaela 8 1
@@ -16630,7 +16479,6 @@ mielbaldi 2 1
 mielnicki 2 1
 miembro 27 11
 miembros 55 27
-mientras 31 17
 mierc 1 1
 miercoles 98 38
 might 2 2
@@ -16719,7 +16567,6 @@ minusculas 1 1
 minutes 3 1
 minuto 1 1
 minutos 14 7
-mio 6 2
 miocardica 2 1
 miopia 1 1
 miqueas 1 1
@@ -16753,10 +16600,6 @@ misioneros 1 1
 misiones 24 15
 misionyvalores 2 1
 miskulin 1 1
-misma 82 32
-mismas 25 14
-mismo 160 57
-mismos 29 22
 mister 1 1
 misterio 1 1
 misterios 3 1
@@ -16840,7 +16683,6 @@ modified 2 1
 modifiedsizedescription 6 3
 modify 1 1
 modish 1 1
-modo 111 26
 modos 18 6
 modulada 4 1
 modulando 1 1
@@ -16878,7 +16720,6 @@ mollelos 1 1
 mollo 2 1
 moluscos 2 1
 momentaneo 1 1
-momento 99 43
 momento-curvatura 1 1
 momentos 11 5
 mona 2 1
@@ -17056,9 +16897,7 @@ msie 1 1
 msj 1 1
 mter 2 2
 mtro 1 1
-mucha 8 5
 muchachos 1 1
-muchas 24 9
 mudancas 1 1
 mudanza 2 1
 mudas 1 1
@@ -17243,7 +17082,6 @@ nacor 1 1
 nadal 1 1
 nadia 1 1
 nadiane 1 1
-nadie 16 7
 nadin 1 1
 nadua 1 1
 nagoya 1 1
@@ -17521,8 +17359,6 @@ ninera 1 1
 ninez 17 5
 ninfas 1 1
 ningun 17 11
-ninguna 22 11
-ninguno 9 3
 ningunosaltar 1 1
 nino 32 9
 ninoportada 1 1
@@ -17723,12 +17559,8 @@ nucleos 3 3
 nucompa 2 1
 nucompa-unicenpinto 1 1
 nuda 2 1
-nueva 129 62
 nuevamente 15 12
-nuevas 140 57
 nueve 7 5
-nuevo 169 77
-nuevos 111 48
 nuevosbeneficiarios 1 1
 nuez 1 1
 nula 1 1
@@ -17747,7 +17579,6 @@ numerosa 1 1
 numerosas 9 6
 numerosos 16 5
 nun 3 1
-nunca 28 8
 nunciato 1 1
 nunes 1 1
 nunez 7 3
@@ -17879,7 +17710,6 @@ occidentales 1 1
 occidente 6 1
 oceanografia 1 1
 ochenta 1 1
-ocho 22 9
 ochoa 1 1
 ocio 2 2
 ociosa 1 1
@@ -18492,7 +18322,6 @@ paidos 9 1
 paimec 2 2
 pair 1 1
 paira 1 1
-pais 181 64
 paisaje 12 7
 paisajes 8 4
 paisajistica 1 1
@@ -18625,7 +18454,6 @@ parciales 30 12
 parcialescronograma 17 1
 parcialmente 1 1
 parcours 14 1
-parece 22 5
 parecemos 1 1
 parecen 4 2
 parecer 5 1
@@ -18669,7 +18497,6 @@ parrondo 1 1
 parsefloat 1 1
 part 1 1
 part-time 1 1
-parte 163 57
 parten 1 1
 partes 21 9
 partial 2 1
@@ -18712,16 +18539,13 @@ partidos 6 5
 partiendo 2 2
 partimos 1 1
 partio 1 1
-partir 170 76
 partira 2 2
 partiran 2 1
 parto 11 3
 pasa 9 4
 pasaba 1 1
-pasada 3 3
 pasadas 1 1
 pasadero 1 1
-pasado 84 35
 pasados 4 3
 pasaje 10 4
 pasajeros 3 2
@@ -18949,7 +18773,6 @@ pentagrama 1 1
 penteo 13 1
 penucci 1 1
 people 1 1
-peor 4 2
 peores 1 1
 pepe 1 1
 pepp 1 1
@@ -19159,7 +18982,6 @@ pervive 2 1
 pesada 1 1
 pesadillas 1 1
 pesados 3 3
-pesar 11 5
 pesarde 1 1
 pesca 2 2
 pescadores 4 1
@@ -19489,12 +19311,8 @@ pobre 2 1
 pobremente 4 2
 pobres 6 4
 pobreza 9 6
-pocas 6 6
 pocito 2 1
-pocos 7 6
 podamos 4 2
-podemos 18 8
-poder 109 40
 poderes 3 2
 podernos 1 1
 poderosamente 1 1
@@ -19510,10 +19328,6 @@ podran 41 28
 podras 11 8
 podre 1 1
 podremos 1 1
-podria 20 9
-podriamos 11 2
-podrian 4 3
-podrias 1 1
 poe 1 1
 poemas 3 1
 poesia 7 4
@@ -19591,7 +19405,6 @@ ponemos 7 4
 ponen 8 3
 ponencia 7 3
 ponencias 8 4
-poner 19 10
 ponerlas 1 1
 ponerlo 1 1
 ponerme 1 1
@@ -19701,7 +19514,6 @@ posibilitaran 1 1
 posibilitaron 1 1
 posibilite 2 2
 posibiliten 2 2
-posible 55 27
 posiblemente 6 2
 posibles 6 5
 posicion 8 1
@@ -20160,11 +19972,7 @@ primario 9 5
 primarios 2 2
 primas 3 2
 primatologia 1 1
-primer 159 72
-primera 118 58
 primeras 34 20
-primero 27 13
-primeros 34 18
 primitiva 6 1
 primitivo 1 1
 primo 1 1
@@ -20176,7 +19984,6 @@ principalauspiciado 1 1
 principalconferencias 1 1
 principalcontacta 1 1
 principales 39 26
-principalmente 9 7
 principalmentecon 1 1
 principalmenu 2 2
 principalque 1 1
@@ -20471,7 +20278,6 @@ pronostico 2 2
 pronosticos 1 1
 prontamente 1 1
 pronte 3 1
-pronto 3 2
 pronuncia 1 1
 pronunciaron 1 1
 propagacion 4 4
@@ -20479,9 +20285,7 @@ propedeuticas 2 2
 propender 1 1
 propension 1 1
 proper 1 1
-propia 26 13
 propiamente 6 3
-propias 20 14
 propicia 2 2
 propiciada 1 1
 propiciado 1 1
@@ -20491,8 +20295,6 @@ propicias 2 1
 propicio 3 2
 propiedad 12 8
 propiedades 19 8
-propio 41 16
-propios 12 5
 propoleos 1 1
 propone 39 20
 proponedifundir 1 1
@@ -20628,7 +20430,6 @@ proximamente 3 3
 proximas 8 8
 proximidad 1 1
 proximnos 1 1
-proximo 56 27
 proximofin 1 1
 proximos 15 12
 proxy 4 1
@@ -20786,18 +20587,13 @@ pudieran 3 3
 pudieron 4 3
 pudiese 1 1
 pudimos 2 1
-pudo 5 3
 pudor 1 1
 pueblo 17 5
 pueblos 7 5
-pueda 23 12
 puedan 25 16
 puedas 2 2
-puede 215 69
-pueden 124 54
 puedensolicitar 1 1
 puedes 3 3
-puedo 11 4
 puef 1 1
 puente 9 7
 puentes 3 2
@@ -20808,7 +20604,6 @@ puertas 31 17
 puerto 15 8
 puertorriquenidad 1 1
 puertos 2 2
-pues 18 8
 puesta 10 7
 puestas 2 2
 puesto 26 10
@@ -20921,7 +20716,6 @@ quemaron 1 1
 quenching 1 1
 quequen 16 2
 querellas 1 1
-queremos 10 7
 querer 4 3
 quererlo 1 1
 queres 6 6
@@ -20947,7 +20741,6 @@ quiebra 2 2
 quiera 2 1
 quieran 12 10
 quieras 2 1
-quiere 39 10
 quieren 5 1
 quieres 3 3
 quiero 29 3
@@ -20995,8 +20788,6 @@ quitar 2 2
 quitaron 1 1
 quite 1 1
 quito 1 1
-quiza 2 1
-quizas 11 4
 quorum 1 1
 ra 8 4
 rabbat 1 1
@@ -21173,7 +20964,6 @@ realizacion 57 36
 realizaciones 1 1
 realizada 19 15
 realizadas 24 17
-realizado 51 20
 realizador 1 1
 realizadores 2 2
 realizados 28 17
@@ -21182,7 +20972,6 @@ realizamos 4 4
 realizan 29 23
 realizando 3 3
 realizandose 2 2
-realizar 107 62
 realizara 53 34
 realizaran 14 13
 realizaremos 2 1
@@ -21876,7 +21665,6 @@ repasan 3 1
 repasando 1 1
 repaso 5 3
 repensar 3 3
-repente 3 1
 repentina 1 1
 repentinamente 1 1
 repercusion 1 1
@@ -22065,7 +21853,6 @@ respectivamente 3 3
 respectivas 9 8
 respectivo 6 5
 respectivos 6 4
-respecto 54 22
 respetados 1 1
 respetan 3 2
 respetando 5 5
@@ -22602,13 +22389,8 @@ sabados 17 10
 sabate 2 1
 sabatico 1 1
 sabato 7 5
-sabe 15 2
-sabemos 19 3
-saben 21 1
-saber 74 24
 saberes 11 7
 saberesy 1 1
-sabes 3 1
 sabia 3 1
 sabiamente 1 1
 sabido 3 2
@@ -22720,7 +22502,6 @@ salvatierra 1 1
 salvatto 4 1
 salvedad 1 1
 salvi 2 1
-salvo 5 3
 sam 12 2
 samba 1 1
 sambucetti 1 1
@@ -22979,11 +22760,8 @@ seguira 2 2
 seguiremos 2 2
 seguiria 1 1
 seguirnos 1 1
-segun 90 40
-segunda 52 26
 segundas 10 1
 segundasimplestemporarios 1 1
-segundo 87 35
 segundocongreso 1 1
 segundos 12 5
 segura 9 6
@@ -22993,7 +22771,6 @@ seguro 15 10
 seguros 14 8
 seidmann 1 1
 seillant 2 1
-seis 13 7
 sela 2 1
 selajp 2 1
 seleccion 47 22
@@ -23131,6 +22908,10 @@ sentencio 1 1
 senti 2 2
 sentia 2 2
 sentian 1 1
+sentida 2 2
+sentidas 5 5
+sentido 75 20
+sentidos 6 3
 sentiments 2 1
 sentimiento 5 3
 sentimientos 5 2
@@ -23168,8 +22949,6 @@ septimo 2 2
 sepulveda 1 1
 sepyme 1 1
 sequencing 1 1
-ser 274 73
-sera 79 38
 serafini 1 1
 seran 26 19
 serbal 1 1
@@ -23289,7 +23068,6 @@ show 5 5
 showcredits 41 2
 shows 2 2
 shuffle 1 1
-si 320 96
 sial 11 3
 siat 2 1
 sibilia 2 2
@@ -23303,19 +23081,16 @@ sidaderechos 5 1
 sidalc 1 1
 side 1 1
 sidebar 7 1
-sido 91 46
 sidoredireccionado 1 1
 siede 2 1
-siempre 84 24
-siendo 23 12
 sienta 1 1
 sientan 1 1
+siente 6 4
 sienten 3 2
 siento 2 2
 sierra 6 3
 sierras 4 2
 siet 2 1
-siete 9 7
 sig 1 1
 siga 4 3
 sigan 1 1
@@ -23362,11 +23137,9 @@ signifique 1 1
 signo 5 2
 signos 11 3
 sigo 2 2
-sigue 22 16
 siguen 4 4
 siguentes 1 1
 siguiendo 8 5
-siguiente 91 48
 siguientes 88 40
 siguiera 1 1
 siguietne 1 1
@@ -23452,7 +23225,6 @@ singularidad 2 1
 siniestros 3 2
 sininterpretaciondirector 1 1
 sinnumero 3 2
-sino 116 27
 sinoen 1 1
 sinopsis 2 2
 sinoviales 2 1
@@ -23690,9 +23462,7 @@ soguientes 1 1
 soja 3 2
 soken 1 1
 sol 15 8
-sola 6 4
 solados 1 1
-solamente 24 9
 solana 1 1
 solanasespacio 1 1
 solange 1 1
@@ -23757,7 +23527,6 @@ solitaria 1 1
 solitario 3 1
 solitarios 1 1
 soliverezprologo 1 1
-solo 135 56
 solsona 1 1
 solucion 11 10
 solucionan 1 1
@@ -24260,7 +24029,6 @@ supropuesta 1 1
 supuesta 1 1
 supuestamente 3 2
 supuestas 1 1
-supuesto 14 4
 supuestos 2 2
 sur 52 29
 surcan 1 1
@@ -24410,7 +24178,6 @@ tairo 2 1
 tais 1 1
 taiwan 1 1
 takes 1 1
-tal 85 34
 tala 1 1
 taladriz 1 1
 talent 16 1
@@ -24434,10 +24201,7 @@ tamanos 1 1
 tamara 2 2
 tamarit 4 2
 tamayo 1 1
-tambien 231 79
 tambores 1 1
-tampoco 13 4
-tan 19 8
 tanatopolitica 1 1
 tanda 1 1
 tandar 1 1
@@ -24464,7 +24228,6 @@ taquigrafica 1 1
 taquini 1 1
 taran 1 1
 tardar 1 1
-tarde 25 15
 tardia 2 1
 tardiamente 1 1
 tardio 5 2
@@ -24653,7 +24416,6 @@ temporarios 5 2
 temporetti 3 1
 temprana 9 7
 tempranamente 2 2
-temprano 8 5
 ten 1 1
 tenaces 1 1
 tenaz 2 2
@@ -24676,7 +24438,6 @@ tendria 2 1
 tendriamos 1 1
 tenebrosos 1 1
 tenencia 2 2
-tener 71 35
 tenerse 1 1
 tenes 9 8
 tenia 13 5
@@ -24724,7 +24485,6 @@ terapias 2 2
 terapista 1 1
 terapistas 1 1
 tercer 48 20
-tercera 16 6
 terceras 1 1
 tercercongreso 1 1
 tercero 2 2
@@ -24906,7 +24666,6 @@ tickets 1 1
 tics 14 4
 ticsface 1 1
 tiempito 2 1
-tiempo 133 47
 tiempos 21 8
 tienda 3 1
 tiendan 1 1
@@ -24990,9 +24749,6 @@ tocante 1 1
 tocar 2 2
 tocci 1 1
 toco 1 1
-toda 92 39
-todas 159 71
-todavia 21 8
 todeschini 1 1
 todosegresadosexperiencia 1 1
 toefl 1 1
@@ -25087,7 +24843,6 @@ toscani 1 1
 tosco 1 1
 tosoratti 1 1
 tossi 1 1
-total 39 18
 totales 1 1
 totalidad 16 7
 totalitarios 1 1
@@ -25128,26 +24883,20 @@ tps 2 1
 tpstp 2 1
 traba 1 1
 trabadas 1 1
-trabaja 12 6
 trabajado 1 1
 trabajador 6 3
 trabajadora 4 3
 trabajadoras 1 1
 trabajadores 32 18
-trabajamos 6 4
-trabajan 11 10
 trabajando 36 15
 trabajandopor 1 1
-trabajar 26 16
 trabajara 1 1
 trabajaran 1 1
 trabajaron 3 3
-trabajas 1 1
 trabaje 1 1
 trabajemos 1 1
 trabajen 1 1
 trabajitos 1 1
-trabajo 387 102
 trabajo-carrera 1 1
 trabajomartes 1 1
 trabajopasantipasantimesa 2 1
@@ -25302,7 +25051,6 @@ transversales 7 1
 trapiche 1 1
 trapo 1 1
 trapos 1 1
-tras 29 20
 trascendencia 1 1
 trascendente 2 2
 trascendentes 2 2
@@ -25327,7 +25075,6 @@ traspaso 2 2
 trasplante 4 1
 trastornos 2 2
 trasvasarlos 1 1
-trata 50 22
 trataba 2 2
 trataban 1 1
 tratado 3 2
@@ -25382,7 +25129,6 @@ tremendas 1 1
 tremendo 1 1
 tren 1 1
 trepode 1 1
-tres 101 45
 trescientas 1 1
 trialista 2 1
 triangulares 1 1
@@ -25588,7 +25334,6 @@ ultima 115 49
 ultimado 1 1
 ultimas 51 23
 ultimate 1 1
-ultimo 48 32
 ultimos 31 24
 ultracortos 1 1
 ultrajase 1 1
@@ -25605,7 +25350,6 @@ unach 1 1
 unainvestigacion 1 1
 unam 2 2
 unanimidad 2 1
-unas 3 3
 unavailable 1 1
 unc 39 21
 uncategorized 1 1
@@ -25848,15 +25592,11 @@ urtubey 1 1
 uruguay 43 16
 uruguaya 2 1
 us 1 1
-usa 39 28
 usaba 2 1
 usabilidad 2 2
 usado 2 2
 usage 1 1
-usamos 1 1
-usan 1 1
 usando 12 10
-usar 17 15
 usarlas 1 1
 usarlo 2 2
 usarlos 1 1
@@ -25872,14 +25612,11 @@ usevar 1 1
 ushuaia 4 3
 using 6 4
 usl 7 1
-uso 108 54
 usos 5 4
 usp 2 1
 usp-t 2 1
 uspt 2 1
 ustariz 1 1
-usted 60 33
-ustedes 47 3
 usual 1 1
 usualmente 2 2
 usualrios 1 1
@@ -25935,7 +25672,6 @@ uvt 9 3
 uvt-consultora 7 2
 uvtsuspension 1 1
 v-webmail 1 1
-va 41 13
 vacaciones 15 10
 vacancia 2 1
 vacante 3 2
@@ -25991,7 +25727,6 @@ vallecito 1 1
 vallefin 1 1
 vallesi 1 1
 valley 1 1
-valor 44 18
 valoracion 10 7
 valoraciones 2 1
 valorados 1 1
@@ -26012,8 +25747,6 @@ value 17 6
 values 4 2
 valverde 1 1
 valzacchi 2 1
-vamos 9 5
-van 18 10
 vana 1 1
 vanagloriarse 1 1
 vanculo 1 1
@@ -26045,12 +25778,10 @@ variando 2 1
 variantes 1 1
 variar 1 1
 variaron 1 1
-varias 25 20
 variedad 16 11
 variedades 1 1
 varillas 3 2
 varilrix 2 1
-varios 51 31
 various 2 1
 varon 3 1
 varones 8 3
@@ -26084,7 +25815,6 @@ vecchi 1 1
 vecchiarto 1 1
 vecchio 1 1
 vecchiola 1 1
-veces 31 6
 vecinal 1 1
 vecinas 1 1
 vecindario 1 1
@@ -26169,7 +25899,6 @@ ventas 17 5
 ventv 1 1
 ventvel 1 1
 veo 1 1
-ver 363 91
 vera 9 6
 veracidad 1 1
 veracruzana 1 1
@@ -26179,11 +25908,8 @@ veras 1 1
 veraz 3 1
 verbase 6 1
 verbigracia 1 1
-verdad 34 5
-verdadera 10 3
 verdaderamente 1 1
 verdaderas 2 2
-verdadero 9 5
 verdades 2 2
 verdana 2 1
 verde 16 6
@@ -26246,7 +25972,6 @@ veterinarios 1 1
 vetusta 1 1
 vetustos 1 1
 vexiologia 1 1
-vez 124 54
 vhosts 1 1
 vi 12 10
 via 35 24
@@ -26607,7 +26332,6 @@ votara 1 1
 voten 1 1
 voto 11 6
 votos 10 1
-voy 22 3
 voz 7 5
 vrillaud 1 1
 vrmu 8 2

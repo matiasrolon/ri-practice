@@ -12,7 +12,7 @@ Parámetros:
     --stats <archivo>       (Opcional) JSON con datos esperados para comparar DFs.
 
 Ejemplo:
-(parado en la carpeta del punto, asumiendo que se dejan las colecciones dentro de la carpeta 'data' en la raiz)
+Asumiendo que se dejan las colecciones dentro de 'data' en la carpeta raiz, y una vez parado en la carpeta del punto (/P3)
     python TP01_P3.py ../data/RI-tknz-data/
     python TP01_P3.py ../data/RI-tknz-data/ --stopwords ../data/stopwords/spanish.txt
     python TP01_P3.py ../data/RE_collection_test/collection_test_ER2 --stopwords ../data/stopwords/spanish.txt --stats ../data/RE_collection_test/collection_data.json

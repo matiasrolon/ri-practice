@@ -11,7 +11,7 @@ Parámetros:
     --stopwords <archivo>   (Opcional) Archivo con palabras vacías a eliminar.
 
 Ejemplo:
-(parado en la carpeta del punto, asumiendo que se dejan las colecciones dentro de la carpeta 'data' en la raiz)
+Asumiendo que se dejan las colecciones dentro de 'data' en la carpeta raiz, y una vez parado en la carpeta del punto (/P4)
     python TP01_P4.py ../data/RI-tknz-data/
     python TP01_P4.py ../data/RI-tknz-data/ --stopwords ../data/stopwords/spanish.txt
 
