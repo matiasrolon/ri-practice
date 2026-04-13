@@ -112,6 +112,7 @@ def train_bigram_model(corpus: str) -> dict[str, dict[str, float]]:
 def score_unigram(text: str, model: dict[str, float]) -> float:
     """
     Devuelve el log-score acumulado del modelo unigrama dado un texto limpio.
+    Se calcula con logaritmos para evitar underflow, por probabilidades demasiado chicas
     """
     score = 0.0
     for char in text:
@@ -123,6 +124,7 @@ def score_unigram(text: str, model: dict[str, float]) -> float:
 def score_bigram(text: str, model: dict[str, dict[str, float]]) -> float:
     """
     Devuelve el log-score acumulado del modelo bigrama dado un texto limpio.
+    Se calcula con logaritmos para evitar underflow, por probabilidades demasiado chicas
     """
     score = 0.0
     for i in range(len(text) - 1):
@@ -182,7 +184,7 @@ def main() -> None:
     for lang in LANGUAGES:
         lang_path = join(data_dir, "training", lang)
         if not isfile(lang_path):
-            print(f"[ERROR] Archivo de entrenamiento '{lang}' no encontrado en {lang_path}.")
+            print(f"[ERROR] Archivo '{lang}' no encontrado en {lang_path}.")
             return
 
         with open(lang_path, "r", encoding="utf-8", errors="ignore") as f:
@@ -234,7 +236,6 @@ def main() -> None:
     confusion_bigram = defaultdict(lambda: defaultdict(int))
     confusion_langdetect = defaultdict(lambda: defaultdict(int))
 
-    skipped_empty = 0
     skipped_langdetect = 0
 
     # 4. Evaluación
@@ -244,12 +245,8 @@ def main() -> None:
 
         cl_text = clean_text(line)
 
-        # Si el texto queda vacío tras la limpieza, no aporta información
-        if len(cl_text) == 0:
-            skipped_empty += 1
-            continue
-
-        # ---- Unigrama
+        # Unigrama
+        # Se elige el idioma con mayor score
         best_lang_uni = max(
             LANGUAGES,
             key=lambda lang: score_unigram(cl_text, unigram_models[lang])
@@ -260,7 +257,8 @@ def main() -> None:
         else:
             errors_unigram_by_truth[truth] += 1
 
-        # ---- Bigrama
+        # Bigrama
+        # Se elige el idioma con mayor score
         best_lang_bi = max(
             LANGUAGES,
             key=lambda lang: score_bigram(cl_text, bigram_models[lang])
@@ -271,7 +269,7 @@ def main() -> None:
         else:
             errors_bigram_by_truth[truth] += 1
 
-        # ---- Langdetect
+        # Langdetect
         if langdetect is not None:
             try:
                 lang_code = langdetect.detect(line)
@@ -289,15 +287,15 @@ def main() -> None:
             except Exception:
                 skipped_langdetect += 1
 
-    evaluated_total = total - skipped_empty
+    evaluated_total = total
 
-    # 5. Resultados generales
+    # 5. Resumen de resultados
     acc_unigram = (correct_unigram / evaluated_total) * 100 if evaluated_total > 0 else 0.0
     acc_bigram = (correct_bigram / evaluated_total) * 100 if evaluated_total > 0 else 0.0
     acc_langdetect = (correct_langdetect / evaluated_total) * 100 if evaluated_total > 0 else 0.0
 
     print("\n" + "=" * 50)
-    print("RESULTADOS DE IDENTIFICACIÓN")
+    print("RESULTADOS")
     print("=" * 50)
     print(f"Documentos evaluados                  : {evaluated_total}")
     print(f"1. Frecuencia de letras (Unigrama)    : {acc_unigram:.2f}%")
