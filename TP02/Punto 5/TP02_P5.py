@@ -17,7 +17,7 @@ Ejemplos:
     python TP02_P5.py ../data/wiki-small/
     python TP02_P5.py ../data/wiki-small/ --max-ranking 20
     python TP02_P5.py ../data/wiki-small/ --stopwords ../data/english.txt
-    python TP02_P5.py ../data/wiki-small/ --stopwords ../data/english.txt --max-ranking 25
+    python3 TP02_P5.py ../data/wiki-small/ --stopwords ../data/stopwords/english.txt --max-ranking 50
 
 El programa:
     1. Lee documentos .txt desde un directorio.
@@ -34,6 +34,7 @@ El programa:
     7. Devuelve ranking por similitud coseno.
 """
 
+import csv
 import sys
 from os.path import isdir, isfile
 from typing import List, Set, Tuple
@@ -101,19 +102,19 @@ def parse_args() -> Tuple[str, str, int]:
 
 def print_ranking(query: str, ranking: List[Tuple[str, float, float]]) -> None:
     """Imprime el ranking obtenido en consola."""
-    print("\n" + "=" * 90)
+    print("\n" + "=" * 80)
     print(f"Consulta: {query}")
-    print("=" * 90)
+    print("=" * 80)
 
     if not ranking:
         print("[INFO] No se encontraron documentos relevantes para la consulta.")
         return
 
-    print(f"{'Pos':>4}  {'Documento':<55}  {'Coseno':>12}  {'Prod. escalar':>14}")
-    print("-" * 90)
+    print(f"{'Pos':>4}  {'Documento':<55}  {'Coseno':>12}")
+    print("-" * 80)
 
-    for pos, (filename, cosine, dot_product) in enumerate(ranking, start=1):
-        print(f"{pos:>4}  {filename:<55}  {cosine:>12.6f}  {dot_product:>14.6f}")
+    for pos, (filename, cosine, _) in enumerate(ranking, start=1):
+        print(f"{pos:>4}  {filename:<55}  {cosine:>12.6f}")
 
 
 def interactive_search(index: VectorialIndex, max_ranking: int) -> None:
@@ -128,6 +129,18 @@ def interactive_search(index: VectorialIndex, max_ranking: int) -> None:
 
         ranking = index.search(query, max_ranking)
         print_ranking(query, ranking)
+
+        if ranking:
+            csv_filename = f"{query.replace(' ', '_')}.csv"
+            try:
+                with open(csv_filename, mode='w', newline='', encoding='utf-8') as csvfile:
+                    writer = csv.writer(csvfile)
+                    writer.writerow(['Pos', 'Documento', 'Coseno'])
+                    for pos, (doc, cosine, _) in enumerate(ranking, start=1):
+                        writer.writerow([pos, doc, f"{cosine:.6f}"])
+                print(f"[INFO] Resultados guardados en '{csv_filename}'.")
+            except Exception as e:
+                print(f"[ERROR] No se pudo guardar el archivo CSV: {e}")
 
         answer = input("\n¿Desea realizar otra consulta? [s/N]: ").strip().lower()
 
