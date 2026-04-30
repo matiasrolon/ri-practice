@@ -17,7 +17,7 @@ Ejemplos:
     python TP02_P5.py ../data/wiki-small/
     python TP02_P5.py ../data/wiki-small/ --max-ranking 20
     python TP02_P5.py ../data/wiki-small/ --stopwords ../data/english.txt
-    python3 TP02_P5.py ../data/wiki-small/ --stopwords ../data/stopwords/english.txt --max-ranking 50
+    python TP02_P5.py ../data/wiki-small/ --stopwords ../data/stopwords/english.txt --max-ranking 50
 
 El programa:
     1. Lee documentos .txt desde un directorio.
