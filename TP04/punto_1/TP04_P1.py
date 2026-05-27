@@ -42,6 +42,8 @@ import shutil
 from os import listdir
 from os.path import join, isdir, isfile
 from collections import defaultdict
+from dataclasses import dataclass, field
+from typing import ClassVar, Optional, Tuple
 # import propios
 from tokenizer import tokenize
 
@@ -128,54 +130,64 @@ def write_index_posting(f, docid: int, freq: int, store_freq: bool) -> int:
 # Clase PostingChunk: cursor sobre un chunk en disco
 # ══════════════════════════════════════════════════════════════════════════════
 
+@dataclass
 class PostingChunk:
     """
-    Cursor de lectura secuencial sobre un archivo chunk binario.
-    Cada registro: (term_id, docid, freq) = 12 bytes (CHUNK_FMT).
-
-    Se usa en el merge para iterar sobre todos los registros sin cargar
-    el archivo completo en memoria.
+    Clase para manejo de Chunks (term_id, docid, freq).
+    Cada registro ocupa 3 × 4 = 12 bytes en formato big-endian.
     """
 
-    def __init__(self, path: str, chunk_id: int):
-        self.path = path
-        self.chunk_id = chunk_id
-        self._fp = open(path, "rb")
-        self._current = None
-        self._exhausted = False
-        self._advance()  # carga el primer registro
+    chunk_id: int = 0
+    term_id: int = None
+    docid: int = None
+    freq: int = None
+    seek: int = 0
 
-    def _advance(self) -> None:
-        raw = self._fp.read(CHUNK_REC_SIZE)
-        if len(raw) < CHUNK_REC_SIZE:
-            self._current = None
-            self._exhausted = True
-            self._fp.close()
+    # Ruta del archivo: se usa en __post_init__ y no se incluye en repr
+    _path: str = field(default=None, init=True, repr=False)
+
+    _file_pointer: object = field(default=None, init=False, repr=False)
+    _NUM_PER_RECORD: ClassVar[int] = 3   # term_id, docid, freq
+    _LEN_NUM: ClassVar[int] = 4          # bytes por entero (formato I)
+
+    def __post_init__(self):
+        """Inicializar el descriptor de archivo y leer el primer registro."""
+        if self._path is None:
+            raise ValueError("PostingChunk requiere '_path' con la ruta al archivo chunk.")
+        self._file_pointer = open(self._path, "rb")
+        self._read_record()
+
+    def _read_record(self) -> None:
+        """Lee un registro basado en seek utilizando unpack."""
+        raw = self._file_pointer.read(self._NUM_PER_RECORD * self._LEN_NUM)
+        if len(raw) < self._NUM_PER_RECORD * self._LEN_NUM:
+            # Fin de archivo: marcar como agotado
+            self.term_id = None
+            self.docid = None
+            self.freq = None
+            self._file_pointer.close()
         else:
-            self._current = struct.unpack(CHUNK_FMT, raw)  # (term_id, docid, freq)
+            self.term_id, self.docid, self.freq = struct.unpack(CHUNK_FMT, raw)
+            self.seek += self._NUM_PER_RECORD * self._LEN_NUM
+
+    def next(self) -> None:
+        """Mover el puntero seek al siguiente registro."""
+        self._read_record()
+
+    def get_record(self) -> Tuple[int, int, int]:
+        """Retorna una tupla con (term_id, docid, freq)."""
+        return (self.term_id, self.docid, self.freq)
+
+    # ── helpers de compatibilidad con heapq ───────────────────────────────────
 
     @property
     def exhausted(self) -> bool:
-        return self._exhausted
+        """True si no hay más registros disponibles."""
+        return self.term_id is None
 
-    @property
-    def term_id(self) -> int:
-        return self._current[0]
-
-    @property
-    def docid(self) -> int:
-        return self._current[1]
-
-    @property
-    def freq(self) -> int:
-        return self._current[2]
-
-    def next(self) -> None:
-        self._advance()
-
-    def __lt__(self, other):
+    def __lt__(self, other: "PostingChunk") -> bool:
         # Para usar en heapq: comparar por (term_id, docid)
-        return (self._current[0], self._current[1]) < (other._current[0], other._current[1])
+        return (self.term_id, self.docid) < (other.term_id, other.docid)
 
 
 # ══════════════════════════════════════════════════════════════════════════════
@@ -289,7 +301,7 @@ def merge_chunks(
     chunk_files = sorted(
         f for f in listdir(chunk_dir) if f.startswith("chunk_") and f.endswith(".bin")
     )
-    cursors = [PostingChunk(join(chunk_dir, f), i) for i, f in enumerate(chunk_files)]
+    cursors = [PostingChunk(chunk_id=i, _path=join(chunk_dir, f)) for i, f in enumerate(chunk_files)]
 
     # Min-heap: elementos son (term_id, docid, cursor_idx)
     heap = []
@@ -378,76 +390,6 @@ def compute_overhead(dir_path: str, index_path: str, vocab_path: str) -> dict:
         "overhead_ratio": total_idx / col_size if col_size > 0 else 0,
     }
 
-
-def write_report(
-    output_dir: str,
-    n_param: int,
-    n_docs: int,
-    n_chunks: int,
-    t_index: float,
-    t_merge: float,
-    vocabulary: dict,
-    posting_sizes: list,
-    overhead: dict,
-    store_freq: bool,
-) -> None:
-    """Escribe reporte.txt."""
-
-    post_size = IDX_POST_FREQ if store_freq else IDX_POST_NFREQ
-    mode_str = "docID+frecuencia (8 bytes/posting)" if store_freq else "solo docID (4 bytes/posting)"
-
-    # ── reporte.txt ──────────────────────────────────────────────────────────
-    df_values = posting_sizes if posting_sizes else [0]
-    df_sum = sum(df_values)
-    df_max = max(df_values)
-    df_min = min(df_values)
-    df_avg = df_sum / len(df_values) if df_values else 0
-
-    # Percentiles simples
-    sorted_df = sorted(df_values)
-    p50 = sorted_df[len(sorted_df) // 2]
-    p90 = sorted_df[int(len(sorted_df) * 0.9)]
-    p99 = sorted_df[int(len(sorted_df) * 0.99)]
-
-    hapax = sum(1 for d in df_values if d == 1)
-
-    col_mb = overhead["coleccion_bytes"] / 1_048_576
-    idx_mb = overhead["total_indice_bytes"] / 1_048_576
-    ratio = overhead["overhead_ratio"]
-
-    with open(join(output_dir, "reporte.txt"), "w", encoding="utf-8") as f:
-        f.write("=" * 60 + "\n")
-        f.write("REPORTE DE INDEXACIÓN BSBI\n")
-        f.write("=" * 60 + "\n\n")
-
-        f.write(f"Colección: {n_docs} documentos\n")
-        f.write(f"Términos únicos en vocabulario: {len(vocabulary)}\n")
-        f.write(f"Total de postings: {df_sum}\n")
-        f.write(f"Modo de almacenamiento: {mode_str}\n")
-        f.write(f"Bytes por posting: {post_size}\n\n")
-
-        f.write("── Tiempos ──────────────────────────────────\n")
-        f.write(f"  Indexación (chunks):  {t_index:.4f} s\n")
-        f.write(f"  Merge:                {t_merge:.4f} s\n")
-        f.write(f"  Total:                {t_index + t_merge:.4f} s\n\n")
-
-        f.write("── Distribución de posting lists ────────────\n")
-        f.write(f"  Min DF:  {df_min}\n")
-        f.write(f"  Max DF:  {df_max}\n")
-        f.write(f"  Media:   {df_avg:.2f}\n")
-        f.write(f"  P50:     {p50}\n")
-        f.write(f"  P90:     {p90}\n")
-        f.write(f"  P99:     {p99}\n")
-        f.write(f"  Hapax legomena (DF=1): {hapax} ({100*hapax/len(df_values):.1f}%)\n\n")
-
-        f.write("── Overhead del índice ───────────────────────\n")
-        f.write(f"  Tamaño colección: {col_mb:.2f} MB\n")
-        f.write(f"  Tamaño índice (index.bin + vocabulary.pkl): {idx_mb:.2f} MB\n")
-        f.write(f"  Overhead ratio: {ratio:.4f}  ({ratio*100:.1f}%)\n")
-
-    print(f"[OK] reporte.txt generado.")
-
-
 # ══════════════════════════════════════════════════════════════════════════════
 # Gráfico de distribución de posting lists
 # ══════════════════════════════════════════════════════════════════════════════
@@ -461,39 +403,27 @@ def plot_distribution(posting_sizes: list, output_path: str) -> None:
         import matplotlib
         matplotlib.use("Agg")
         import matplotlib.pyplot as plt
-        import collections
     except ImportError:
         print("[WARN] matplotlib no disponible. Se omite el gráfico.")
         return
 
-    # Frecuencia de cada valor de DF
-    counter = collections.Counter(posting_sizes)
-    sorted_items = sorted(counter.items())
-    df_vals = [k for k, _ in sorted_items]
-    counts = [v for _, v in sorted_items]
-
-    fig, axes = plt.subplots(1, 2, figsize=(14, 5))
+    fig, ax = plt.subplots(figsize=(10, 5))
     fig.suptitle("Distribución de tamaños de posting lists (DF)", fontsize=13)
 
-    # Histograma log-log
-    ax1 = axes[0]
-    ax1.scatter(df_vals, counts, s=8, alpha=0.6, color="steelblue")
-    ax1.set_xscale("log")
-    ax1.set_yscale("log")
-    ax1.set_xlabel("DF (tamaño de posting list)")
-    ax1.set_ylabel("Número de términos con ese DF")
-    ax1.set_title("Log-log: DF vs Cantidad de términos")
-    ax1.grid(True, which="both", linestyle="--", alpha=0.4)
+    MAX_DF = 30
 
-    # Histograma de DFs (recortado en percentil 99 para visibilidad)
-    ax2 = axes[1]
-    p99 = sorted(posting_sizes)[int(len(posting_sizes) * 0.99)]
-    clipped = [d for d in posting_sizes if d <= p99]
-    ax2.hist(clipped, bins=50, color="darkorange", edgecolor="white", alpha=0.8)
-    ax2.set_xlabel("DF (tamaño de posting list)")
-    ax2.set_ylabel("Número de términos")
-    ax2.set_title(f"Histograma (hasta percentil 99: DF ≤ {p99})")
-    ax2.grid(True, linestyle="--", alpha=0.4)
+    fig, ax = plt.subplots(figsize=(10, 5))
+    fig.suptitle("Distribución de tamaños de posting lists (DF)", fontsize=13)
+
+    # Histograma de DFs (hasta MAX_DF, un bin por valor)
+    clipped = [d for d in posting_sizes if d <= MAX_DF]
+    ax.hist(clipped, bins=range(1, MAX_DF + 2), color="darkorange", edgecolor="white", alpha=0.8, align="left")
+    ax.set_xlabel("DF (tamaño de posting list)")
+    ax.set_ylabel("Número de términos")
+    ax.set_title(f"Histograma de DF (DF ≤ {MAX_DF})")
+    ax.set_xticks(range(1, MAX_DF + 1))
+    ax.set_xlim(0.5, MAX_DF + 0.5)
+    ax.grid(True, axis="y", linestyle="--", alpha=0.4)
 
     plt.tight_layout()
     plt.savefig(output_path, dpi=120)
@@ -573,8 +503,9 @@ def main():
     chunk_dir = join(output_dir, "chunks")
     os.makedirs(chunk_dir, exist_ok=True)
 
-    index_path = join(output_dir, "index.bin")
-    vocab_path = join(output_dir, "vocabulary.pkl")
+    index_path    = join(output_dir, "index.bin")
+    vocab_path    = join(output_dir, "vocabulary.pkl")
+    doc2file_path = join(output_dir, "doc2file.pkl")
 
     mode_str = "docID+frecuencia" if store_freq else "solo docID"
     print(f"\n[INFO] Colección: {total_docs} documentos en '{dir_path}'")
@@ -590,6 +521,11 @@ def main():
     print(f"[OK] {n_chunks} chunks generados en {t_index:.4f} s")
     print(f"[OK] Vocabulario parcial: {len(term2id)} términos únicos")
 
+    # Persistir mapa docid → nombre de archivo
+    with open(doc2file_path, "wb") as df_f:
+        pickle.dump(doc2file, df_f)
+    print(f"[OK] doc2file.pkl guardado ({len(doc2file)} documentos)")
+
     # ── Fase 2: Merge k-way ───────────────────────────────────────────────────
     print("\n── Fase 2: Mergeando chunks... ─────────────────────────────────")
     vocabulary, posting_sizes, t_merge = merge_chunks(
@@ -602,11 +538,6 @@ def main():
     # ── Métricas y reporte ────────────────────────────────────────────────────
     print("\n── Generando reportes... ───────────────────────────────────────")
     overhead = compute_overhead(dir_path, index_path, vocab_path)
-    write_report(
-        output_dir, n_param, n_docs, n_chunks,
-        t_index, t_merge, vocabulary, posting_sizes,
-        overhead, store_freq
-    )
 
     # ── Gráfico ───────────────────────────────────────────────────────────────
     if do_plot and posting_sizes:
