@@ -19,7 +19,7 @@ Ejemplo:
     python TP04_P1.py ../data/wiki-small/ --n 500 --freq --stopwords ../data/stopwords/english.txt
     python TP04_P1.py ../data/wiki-small/ --n 1000
 
-Archivos generados (en --output):
+Archivos generados (en ./output):
     chunks/chunk_N.bin      Bloques parciales ordenados por (term_id, docid).
     index.bin               Índice final mergeado.
     vocabulary.pkl          Vocabulario: {term: [seek, df, term_id]}.
