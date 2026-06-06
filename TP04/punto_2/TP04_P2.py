@@ -8,7 +8,7 @@ Uso:
     python TP04_P2.py <index_dir> "<consulta>" --freq
 
 Parámetros:
-    index_dir       Directorio de salida del index (TP04_P1.py), contiene
+    index_dir       Directorio de salida del index (TP04_P1.py), debe contener
                     index.bin, vocabulary.pkl, doc2file.pkl.
     consulta        Expresión booleana entre comillas. Operadores: AND, OR, NOT.
                     Los términos van en minúscula, los operadores en MAYÚSCULA.
@@ -17,14 +17,11 @@ Parámetros:
                     Si no se indica, se asume solo docID (4 bytes/posting).
 
 Ejemplos:
-    python TP04_P2.py ./output "((python AND code) OR linux)"
-    python TP04_P2.py ./output "((house AND NOT cat) OR NOT dog)" --freq
-    python TP04_P2.py ./output "(algorithm AND NOT sorting)"
+    python TP04_P2.py ../punto_1/output "((python AND code) OR linux)"
+    python TP04_P2.py ../punto_1/output "((house AND NOT cat) OR NOT dog)" --freq
+    python TP04_P2.py ../punto_1/output "dinosaur AND NOT animal"
 
-Estrategia:
-    TAAT (Term-At-A-Time): se carga la posting list completa de cada término
-    como un conjunto de docIDs, y luego se evalúan las operaciones booleanas
-    sobre esos conjuntos usando la biblioteca boolean.py.
+Estrategia: TAAT (Term-At-A-Time)
 """
 
 import os
@@ -90,7 +87,7 @@ def load_posting_list(index_path: str, seek: int, df: int, store_freq: bool) -> 
 
 
 # ══════════════════════════════════════════════════════════════════════════════
-# Evaluación booleana usando boolean.py
+# Evaluación usando boolean.py
 # ══════════════════════════════════════════════════════════════════════════════
 
 def evaluate_query(
@@ -102,12 +99,6 @@ def evaluate_query(
 ) -> set:
     """
     Parsea la consulta booleana con boolean.py y la evalúa usando TAAT.
-
-    Cada símbolo (término) se resuelve cargando su posting list completa
-    como un conjunto de docIDs. Luego se aplican las operaciones de conjuntos:
-        AND  →  intersección
-        OR   →  unión
-        NOT  →  complemento respecto a all_docids
     """
     algebra = boolean.BooleanAlgebra()
 
@@ -124,7 +115,7 @@ def evaluate_query(
     def resolve(node) -> set:
         """Resuelve recursivamente el árbol booleano."""
 
-        # Hoja: símbolo (término)
+        # Hoja: símbolo en boolean.py (es un término)
         if isinstance(node, boolean.Symbol):
             term = str(node.obj).lower().strip()
             if term in cache:

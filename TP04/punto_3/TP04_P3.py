@@ -204,22 +204,27 @@ def run_queries(queries, patterns, vocabulary, all_docids, store_freq, load_fn, 
 # ══════════════════════════════════════════════════════════════════════════════
 
 def print_results(results_2, results_3, mode_label):
-    """Imprime estadísticas por patrón a stdout."""
+    """Imprime estadísticas consolidadas por cantidad de términos (2 y 3) a stdout."""
     for label, results in [("Queries |q|=2", results_2), ("Queries |q|=3", results_3)]:
         print(f"\n── {label} ─────────────────────────────────────────────")
+        # Consolidar todos los datos de todos los patrones
+        all_data = []
         for pat_name, data in results.items():
-            if not data:
-                print(f"  {pat_name}: sin queries válidas")
-                continue
-            times    = [d[2] for d in data]
-            postings = [d[1] for d in data]
-            print(f"\n  Patrón: {pat_name}")
-            print(f"    Queries ejecutadas:  {len(data)}")
-            print(f"    Tiempo total:        {sum(times):.6f} s")
-            print(f"    Tiempo promedio:     {sum(times)/len(times):.6f} s")
-            print(f"    Tiempo mínimo:       {min(times):.6f} s")
-            print(f"    Tiempo máximo:       {max(times):.6f} s")
-            print(f"    Posting total prom:  {sum(postings)/len(postings):.1f}")
+            all_data.extend(data)
+
+        if not all_data:
+            print("  Sin queries válidas ejecutadas.")
+            continue
+
+        times    = [d[2] for d in all_data]
+        postings = [d[1] for d in all_data]
+        
+        print(f"    Total de ejecuciones: {len(all_data)}")
+        print(f"    Tiempo total:        {sum(times):.6f} s")
+        print(f"    Tiempo promedio:     {sum(times)/len(times):.6f} s")
+        print(f"    Tiempo mínimo:       {min(times):.6f} s")
+        print(f"    Tiempo máximo:       {max(times):.6f} s")
+        print(f"    Posting total prom:  {sum(postings)/len(postings):.1f}")
 
 
 def write_results_file(results_2, results_3, output_path):
@@ -227,6 +232,9 @@ def write_results_file(results_2, results_3, output_path):
     Escribe query_results.csv.
     Cada línea: query,patron,total_postings,tiempo_seg
     """
+    dir_name = os.path.dirname(output_path)
+    if dir_name:
+        os.makedirs(dir_name, exist_ok=True)
     with open(output_path, "w", encoding="utf-8") as f:
         f.write("query,patron,total_postings,tiempo_seg\n")
         for results in [results_2, results_3]:

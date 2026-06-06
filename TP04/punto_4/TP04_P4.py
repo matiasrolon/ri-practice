@@ -14,14 +14,14 @@ Parámetros:
 
 Ejemplo:
     python TP04_P4.py ./index "python algorithm data"
-    python TP04_P4.py ./index "car motor america" --k 5
+    python TP04_P4.py ./index "car motor america" --k 10
 
 Salida:
     DocName:docID:Score   (ordenado por score descendente)
 
 Pesos:
     w(t,d) = (1 + log10(tf_td))  ×  log10(N / df_t)
-    w(t,q) = log10(N / df_t)     (asumiendo tf_tq = 1 para cada término)
+    w(t,q) = log10(N / df_t)     (asumiendo tf=1 para cada término de la query)
     score  = Σ w(t,q) × w(t,d)  /  (|d| × |q|)
 
     |d| se calcula escaneando las posting lists de los términos de la query.
@@ -36,7 +36,7 @@ import heapq
 from os.path import join, isdir, isfile
 
 
-# ── Constantes de formato ─────────────────────────────────────────────────────
+# ── Constantes de formato 
 IDX_FMT  = ">II"                             # (docid, freq)
 IDX_POST = struct.calcsize(IDX_FMT)          # 8 bytes
 
@@ -92,7 +92,7 @@ def daat_cosine(query_terms: list, vocabulary: dict, index_path: str, n_docs: in
     Retorna [(score, docid), ...] ordenado por score descendente, hasta k elementos.
     """
 
-    # ── 1. Filtrar términos que existen en el vocabulario ─────────────────────
+    # ── Filtrar términos que existen en el vocabulario 
     valid_terms = []
     for t in query_terms:
         if t in vocabulary:
@@ -103,7 +103,7 @@ def daat_cosine(query_terms: list, vocabulary: dict, index_path: str, n_docs: in
     if not valid_terms:
         return []
 
-    # ── 2. Cargar posting lists y calcular IDF ────────────────────────────────
+    # ── Cargar posting lists y calcular IDF 
     lists = []      # [(idf, [(docid, freq), ...]), ...]
     query_weights = []
 
@@ -119,7 +119,7 @@ def daat_cosine(query_terms: list, vocabulary: dict, index_path: str, n_docs: in
     if query_norm == 0:
         return []
 
-    # ── 3. Norma de documentos ──
+    # ── Norma de documentos 
     # |d| = sqrt(Σ_t w(t,d)²) donde w(t,d) = (1 + log10(tf)) * idf
     doc_norm_sq: dict[int, float] = {}
     for idf, postings in lists:
@@ -127,7 +127,7 @@ def daat_cosine(query_terms: list, vocabulary: dict, index_path: str, n_docs: in
             w_td = (1.0 + math.log10(freq)) * idf if freq > 0 else 0.0
             doc_norm_sq[docid] = doc_norm_sq.get(docid, 0.0) + w_td * w_td
 
-    # ── 4. DAAT: recorrido paralelo por docID ─────────────────────────────────
+    # ── DAAT: recorrido paralelo por docID 
     # Cursores: un índice por lista
     cursors = [0] * len(lists)
     # Min-heap de tamaño k: elementos = (score, docid)  (min-heap, el peor arriba)

@@ -12,8 +12,8 @@ Parámetros:
     término      Palabra a buscar en el índice.
 
 Ejemplo:
-    python TP04_P1_1.py bsbi_output/ python
-    python TP04_P1_1.py bsbi_output/ "machine"
+    python TP04_P1_1.py output/ python
+    python TP04_P1_1.py output/ "machine"
 
 Salida por cada documento encontrado:
     DocName:docID:Frecuencia

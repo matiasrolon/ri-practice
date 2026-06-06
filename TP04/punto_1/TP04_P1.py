@@ -12,7 +12,7 @@ Parámetros:
     --n <int>                   Documentos por bloque antes del volcado (default: 10% del total).
     --freq                      Si se indica, almacena docID+frecuencia (8 bytes/posting).
                                 Si no, solo docID (4 bytes/posting).
-    --output <dir>              Directorio de salida (default: ./bsbi_output/).
+    --output <dir>              Directorio de salida (default: ./output/).
     --no-plot                   No generar gráfico de distribución.
 
 Ejemplo:
@@ -272,7 +272,7 @@ def build_chunks(
 
 
 # ══════════════════════════════════════════════════════════════════════════════
-# BSBI: Fase 2 — Merge k-way de chunks → índice final
+# BSBI: Fase 2 - Merge k-way de chunks
 # ══════════════════════════════════════════════════════════════════════════════
 
 def merge_chunks(
@@ -286,13 +286,8 @@ def merge_chunks(
     """
     Fase 2 de BSBI: k-way merge de todos los chunks usando un min-heap.
 
-    El merge produce el índice final ordenado por term_id → docid,
-    y construye el vocabulario con offsets de disco.
-
-    Retorna:
-        vocabulary  dict  {term_str: [seek, df, term_id]}
-        posting_sizes list  [df por término, en orden de aparición]
-        t_elapsed   float  tiempo en segundos
+    El merge crea el índice final ordenado por term_id-docid,
+    y construye el vocabulario con los offsets de disco.
     """
     # Construir mapa inverso: term_id → term_str
     id2term = {tid: term for term, tid in term2id.items()}
@@ -303,7 +298,7 @@ def merge_chunks(
     )
     cursors = [PostingChunk(chunk_id=i, _path=join(chunk_dir, f)) for i, f in enumerate(chunk_files)]
 
-    # Min-heap: elementos son (term_id, docid, cursor_idx)
+    # Min-heap: con elementos (term_id, docid, cursor_idx)
     heap = []
     for i, c in enumerate(cursors):
         if not c.exhausted:
@@ -320,7 +315,7 @@ def merge_chunks(
     with open(index_path, "wb") as idx_f:
         current_term_id = None
         current_postings: list[tuple[int, int]] = []  # [(docid, freq), ...]
-
+        #Escribe el term en el vocabulario y su postinglist en el índice
         def flush_term(term_id: int, postings: list) -> None:
             nonlocal seek
             if not postings:
@@ -333,8 +328,10 @@ def merge_chunks(
                 write_index_posting(idx_f, docid, freq, store_freq)
             seek += df * post_size
 
+        # heap contiene un registro por cada chunk no terminado.
         while heap:
-            tid, did, ci = heapq.heappop(heap)
+            # saca el registro con el menor term_id (el que se va a procesar ahora)
+            tid, did, ci = heapq.heappop(heap) 
             cursor = cursors[ci]
             freq_val = cursor.freq
 
@@ -354,9 +351,10 @@ def merge_chunks(
 
             cursor.next()
             if not cursor.exhausted:
+                # lee el siguiente registro del chunk del que se sacó el min y lo agrega al heap.
                 heapq.heappush(heap, (cursor.term_id, cursor.docid, ci))
 
-        # Flush del último término
+        # Escribe el último término
         if current_term_id is not None:
             flush_term(current_term_id, current_postings)
 
@@ -370,7 +368,7 @@ def merge_chunks(
 
 
 # ══════════════════════════════════════════════════════════════════════════════
-# Métricas y reporte
+# Reporte
 # ══════════════════════════════════════════════════════════════════════════════
 
 def compute_overhead(dir_path: str, index_path: str, vocab_path: str) -> dict:
@@ -396,7 +394,7 @@ def compute_overhead(dir_path: str, index_path: str, vocab_path: str) -> dict:
 
 def plot_distribution(posting_sizes: list, output_path: str) -> None:
     """
-    Genera un gráfico log-log de la distribución de tamaños de posting lists
+    Genera un gráfico de la distribución de tamaños de posting lists
     (DF = document frequency por término).
     """
     try:
@@ -410,7 +408,7 @@ def plot_distribution(posting_sizes: list, output_path: str) -> None:
     fig, ax = plt.subplots(figsize=(10, 5))
     fig.suptitle("Distribución de tamaños de posting lists (DF)", fontsize=13)
 
-    MAX_DF = 30
+    MAX_DF = 30 # para mejor visualizacion, se acorta a DF<=30
 
     fig, ax = plt.subplots(figsize=(10, 5))
     fig.suptitle("Distribución de tamaños de posting lists (DF)", fontsize=13)
@@ -444,7 +442,7 @@ def parse_args():
     stopwords_file = None
     n_param = None
     store_freq = False
-    output_dir = "bsbi_output"
+    output_dir = "output"
     do_plot = True
 
     i = 2
@@ -513,7 +511,7 @@ def main():
     print(f"[INFO] n (docs/bloque): {n_param}")
     print(f"[INFO] Salida: {output_dir}\n")
 
-    # ── Fase 1: Construcción de chunks ────────────────────────────────────────
+    # ── Fase 1: Construcción de chunks 
     print("── Fase 1: Construyendo chunks... ──────────────────────────────")
     term2id, doc2file, n_chunks, n_docs, t_index = build_chunks(
         dir_path, stopwords, n_param, chunk_dir
@@ -526,7 +524,7 @@ def main():
         pickle.dump(doc2file, df_f)
     print(f"[OK] doc2file.pkl guardado ({len(doc2file)} documentos)")
 
-    # ── Fase 2: Merge k-way ───────────────────────────────────────────────────
+    # ── Fase 2: Merge k-way 
     print("\n── Fase 2: Mergeando chunks... ─────────────────────────────────")
     vocabulary, posting_sizes, t_merge = merge_chunks(
         chunk_dir, n_chunks, term2id, index_path, vocab_path, store_freq
@@ -535,16 +533,16 @@ def main():
     print(f"[OK] Vocabulario final: {len(vocabulary)} términos")
     print(f"[OK] Total postings: {sum(posting_sizes)}")
 
-    # ── Métricas y reporte ────────────────────────────────────────────────────
-    print("\n── Generando reportes... ───────────────────────────────────────")
+    # ── Métricas y reporte 
+    print("\n── Generando reportes... ")
     overhead = compute_overhead(dir_path, index_path, vocab_path)
 
-    # ── Gráfico ───────────────────────────────────────────────────────────────
+    # ── Gráfico 
     if do_plot and posting_sizes:
         plot_path = join(output_dir, "distribucion.png")
         plot_distribution(posting_sizes, plot_path)
 
-    # ── Tiempos (pantalla) ────────────────────────────────────────────────────
+    # ── Tiempos (pantalla)
     mode_str = "docID+frecuencia" if store_freq else "solo docID"
     print(f"\n{'=' * 60}")
     print(f"TIEMPOS DE EJECUCIÓN")
