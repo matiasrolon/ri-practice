@@ -13,8 +13,8 @@ Parámetros:
     --in-memory         Cargar index.bin completo en RAM antes de ejecutar.
 
 Ejemplo:
-    python TP04_P3.py ./index EFF-10K-queries.txt
-    python TP04_P3.py ./index EFF-10K-queries.txt --freq --in-memory
+    python TP04_P3.py ../punto_1/output EFF-10K-queries.txt
+    python TP04_P3.py ../punto_1/output EFF-10K-queries.txt --freq --in-memory
 
 Archivo generado (en index_dir):
     query_results.csv   Cada línea: <patron>,<total_postings>,<tiempo_seg>

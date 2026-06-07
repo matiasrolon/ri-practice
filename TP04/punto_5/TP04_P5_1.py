@@ -8,10 +8,10 @@ Uso:
 
 Parámetros:
     index_dir           Directorio del índice (vocabulary.pkl, index.bin, doc2file.pkl).
-    termino             Término a buscar
+    term                Término a buscar
 
 Ejemplo:
-    python TP04_P5_1.py ./index hotel
+    python TP04_P5_1.py ../punto_1/output hotel
 
 Salida:
     docName:docID  (ordenada por docName)
@@ -42,10 +42,15 @@ def main():
     index_dir = sys.argv[1]
     term      = sys.argv[2].strip().lower()
 
-    for name in ["vocabulary.pkl", "doc2file.pkl", "skips.bin"]:
+    for name in ["vocabulary.pkl", "doc2file.pkl"]:
         if not isfile(join(index_dir, name)):
             print(f"[ERROR] No se encontró '{name}' en '{index_dir}'.")
             sys.exit(1)
+
+    skips_bin_path = "./output/skips.bin"
+    if not isfile(skips_bin_path):
+        print(f"[ERROR] No se encontró 'skips.bin' en './output'.")
+        sys.exit(1)
 
     with open(join(index_dir, "vocabulary.pkl"), "rb") as f:
         vocabulary = pickle.load(f)
@@ -68,7 +73,7 @@ def main():
         print(f"Término '{term}' (df={df}): sin skip pointers (lista demasiado corta).")
         return
 
-    with open(join(index_dir, "skips.bin"), "rb") as f:
+    with open(skips_bin_path, "rb") as f:
         f.seek(skip_seek)
         raw = f.read(n * SKIP_SIZE)
 

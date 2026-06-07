@@ -14,8 +14,8 @@ Parámetros:
     --dgaps         Indicar si el índice comprimido fue creado con delta-gaps.
 
 Ejemplo:
-    python TP04_P7_1.py ./index ./output "dragon"
-    python TP04_P7_1.py ./index ./output "cowboy" --dgaps
+    python TP04_P7_1.py ../punto_1/output/ ./output/ "dragon"
+    python TP04_P7_1.py ../punto_1/output/ ./output/ "cowboy" --dgaps
 
 Salida:
     Posting list original (desde index.bin) y descomprimida (desde archivos

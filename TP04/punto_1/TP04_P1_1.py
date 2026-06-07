@@ -4,12 +4,12 @@
 TP04 - Recuperación de posting list desde el índice BSBI
 
 Uso:
-    python TP04_P1_1.py <output_dir> <término>
+    python TP04_P1_1.py <output_dir> <term>
 
 Parámetros:
     output_dir   Directorio de salida generado por TP04_P1.py
                  (debe contener vocabulary.pkl, doc2file.pkl e index.bin).
-    término      Palabra a buscar en el índice.
+    term         Palabra a buscar en el índice.
 
 Ejemplo:
     python TP04_P1_1.py output/ python

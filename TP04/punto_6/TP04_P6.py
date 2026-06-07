@@ -194,13 +194,15 @@ def print_stats(label, data):
     print(f"    {label} ({n} queries)")
     print(f"      TAAT  total: {s_taat*1000:.4f} ms  prom: {s_taat/n*1000:.4f} ms  min: {min(t_taat)*1000:.4f} ms  max: {max(t_taat)*1000:.4f} ms")
     print(f"      DAAT  total: {s_daat*1000:.4f} ms  prom: {s_daat/n*1000:.4f} ms  min: {min(t_daat)*1000:.4f} ms  max: {max(t_daat)*1000:.4f} ms")
-    print(f"      DAAT/TAAT speedup: {speedup:.2f}x")
+    print(f"      DAAT/TAAT mejora rendimiento: {speedup:.2f}x")
     print()
 
 
 def print_results(results):
+    all_data = []
     for n_terms in sorted(results.keys()):
         data = results[n_terms]
+        all_data.extend(data)
         print(f"\n{'=' * 65}")
         print(f"  Queries |q| = {n_terms}  ({len(data)} queries)")
         print(f"{'=' * 65}")
@@ -208,12 +210,14 @@ def print_results(results):
         # Global
         print_stats("Global", data)
 
-        # Por tamaño de posting
-        if n_terms > 1:
-            buckets = classify_by_posting_size(data)
-            print(f"  Desglose por tamaño de posting lists:")
-            for rango, bucket_data in buckets.items():
-                print_stats(rango, bucket_data)
+    # Análisis general por tamaño de posting
+    print(f"\n{'=' * 65}")
+    print(f"  Análisis General por Tamaño de Posting Lists  ({len(all_data)} queries)")
+    print(f"{'=' * 65}")
+    
+    buckets = classify_by_posting_size(all_data)
+    for rango, bucket_data in buckets.items():
+        print_stats(rango, bucket_data)
 
 
 def write_results_csv(results, output_path):

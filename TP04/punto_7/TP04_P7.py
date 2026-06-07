@@ -11,8 +11,8 @@ Parámetros:
     --dgaps         Usar delta-gaps en los docIDs antes de comprimir.
 
 Ejemplo:
-    python TP04_P7.py ./index
-    python TP04_P7.py ./index --dgaps
+    python TP04_P7.py ../punto_1/output/
+    python TP04_P7.py ../punto_1/output/ --dgaps
 
 Archivos generados (en ./output/):
     docids_vbyte.bin            DocIDs comprimidos con Variable-Byte.
@@ -177,7 +177,7 @@ def main():
     comp_total = vbyte_size + gamma_size
     dgaps_str = "con DGaps" if use_dgaps else "sin DGaps"
 
-    print(f"\n── Compresión ({dgaps_str}) ─────────────────────────────")
+    print(f"\n── Compresión ({dgaps_str}) ")
     print(f"  index.bin original:     {orig_size:>12,} bytes  ({orig_size/1e6:.2f} MB)")
     print(f"  docids_vbyte.bin:       {vbyte_size:>12,} bytes  ({vbyte_size/1e6:.2f} MB)")
     print(f"  freqs_gamma.bin:        {gamma_size:>12,} bytes  ({gamma_size/1e6:.2f} MB)")

@@ -11,13 +11,17 @@ Parámetros:
     queries_file        Archivo de queries (formato "id:texto", una por línea).
     --freq              El índice fue creado con frecuencias (8 bytes/posting).
 
-En la primera ejecución construye skips.bin y extiende vocabulary.pkl con
-el campo skip_seek. En ejecuciones posteriores detecta que ya existen.
+Ejemplos:
+    python TP04_P5.py ../punto_1/output EFF-10K-queries.txt
+    python TP04_P5.py ../punto_1/output EFF-10K-queries.txt --freq
 
-Archivos generados/modificados (en index_dir):
+Archivos generados/modificados (en /output):
     skips.bin                Skip pointers binarios (docid, idx) × 8 bytes c/u.
     vocabulary.pkl           Sobreescribe: {term: [seek, df, term_id, skip_seek]}.
     query_results_skip.csv   Resultados de las queries.
+
+En la primera ejecución construye skips.bin y extiende vocabulary.pkl con
+el campo skip_seek. En ejecuciones posteriores detecta que ya existen.
 """
 
 import os
@@ -46,10 +50,14 @@ SKIP_SIZE = struct.calcsize(SKIP_FMT)             # 8
 def load_index_metadata(index_dir):
     vocab_path    = join(index_dir, "vocabulary.pkl")
     doc2file_path = join(index_dir, "doc2file.pkl")
-    for p, name in [(vocab_path, "vocabulary.pkl"), (doc2file_path, "doc2file.pkl")]:
-        if not isfile(p):
-            print(f"[ERROR] No se encontró '{name}' en '{index_dir}'.")
-            sys.exit(1)
+
+    if not isfile(vocab_path):
+        print(f"[ERROR] No se encontró 'vocabulary.pkl' en '{vocab_path}'.")
+        sys.exit(1)
+    if not isfile(doc2file_path):
+        print(f"[ERROR] No se encontró 'doc2file.pkl' en '{index_dir}'.")
+        sys.exit(1)
+
     with open(vocab_path, "rb") as f:
         vocabulary = pickle.load(f)
     with open(doc2file_path, "rb") as f:
@@ -322,7 +330,7 @@ def print_results(results_2, results_3):
             total_no = sum(t_no_list)
             total_sk = sum(t_sk_list)
             speedup = total_no / total_sk if total_sk > 0 else float("inf")
-            print(f"\n    Speedup global {pat_name}: {speedup:.2f}x")
+            print(f"\n    Mejora de rendimiento {pat_name}: {speedup:.2f}x")
 
 
 def write_results_file(results_2, results_3, output_path):
@@ -362,8 +370,11 @@ def main():
         print(f"[ERROR] 'index.bin' no encontrado en '{index_dir}'.")
         sys.exit(1)
 
-    vocab_path     = join(index_dir, "vocabulary.pkl")
-    skips_bin_path  = join(index_dir, "skips.bin")
+    output_dir = "./output"
+    os.makedirs(output_dir, exist_ok=True)
+
+    vocab_path      = join(index_dir, "vocabulary.pkl")
+    skips_bin_path  = join(output_dir, "skips.bin")
 
     # ── Cargar índice ─────────────────────────────────────────────────────────
     vocabulary, doc2file = load_index_metadata(index_dir)
@@ -402,7 +413,7 @@ def main():
     print_results(results_2, results_3)
 
     # ── Guardar CSV ───────────────────────────────────────────────────────────
-    out_path = join(index_dir, "query_results_skip.csv")
+    out_path = join(output_dir, "query_results_skip.csv")
     write_results_file(results_2, results_3, out_path)
 
 
