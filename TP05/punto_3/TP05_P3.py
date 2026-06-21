@@ -33,14 +33,14 @@ from bs4 import BeautifulSoup
 # ── Constantes de límites y concurrencia ──────────────────────────────────────
 MAX_LOGICAL = 3
 MAX_PHYSICAL = 3
-WORKERS = 1
+WORKERS = 8
 
-# Extensiones que delatan una página generada por un programa.
+# Extensiones por las que se asume una página generada dinamicamente.
 DYNAMIC_EXTS = {".php", ".asp", ".aspx", ".jsp", ".jspx", ".cgi", ".pl", ".do"}
 
 
 # ══════════════════════════════════════════════════════════════════════════════
-# Utilidades de URL
+# Utilidades
 # ══════════════════════════════════════════════════════════════════════════════
 
 def physical_depth(url):
@@ -70,11 +70,10 @@ def is_valid_url(url):
 
 def classify_url(url):
     """
-    Heurística de IR: 'dinamica' si la URL tiene query string o extensión de
-    script; 'estatica' en caso contrario.
+    Clasifica la URL como 'dinamica' si tiene query string o extensión de script; 
+    'estatica' en caso contrario.
 
-    Limitación conocida: las 'clean URLs' (sin '?' ni extensión, como
-    /dp/B0... de Amazon) se clasifican como estáticas aunque sean dinámicas.
+    Limitación conocida: las 'clean URLs' (sin '?' ni extensión, como /dp/B0... de Amazon) se clasifican como estáticas aunque sean dinámicas.
     """
     parsed = urlparse(url)
     if parsed.query:
@@ -95,11 +94,7 @@ SESSION.headers.update({"User-Agent": "Mozilla/5.0 (compatible; TP05-Crawler/1.0
 
 def fetch_page(url, timeout=8):
     """
-    Descarga la página.
-    Devuelve una tupla (html, status_code, error_msg):
-      - html        : texto HTML o None si falla.
-      - status_code : código HTTP recibido (int) o None si hubo excepción de red.
-      - error_msg   : descripción del error, o None si todo fue bien.
+    Descarga la página. Devuelve una tupla (html, status_code, error_msg)
     """
     try:
         resp = SESSION.get(url, timeout=timeout)
@@ -137,7 +132,7 @@ def parse_links(html, base_url):
 # ══════════════════════════════════════════════════════════════════════════════
 
 def passes_filter(url, base_domain, max_physical):
-    """Filtra por dominio y profundidad física. El límite de páginas lo gestiona el batch-builder."""
+    """Filtra por dominio y profundidad física."""
     if get_domain(url) != base_domain:
         return False
     if physical_depth(url) > max_physical:
@@ -146,18 +141,18 @@ def passes_filter(url, base_domain, max_physical):
 
 
 # ══════════════════════════════════════════════════════════════════════════════
-# Crawler BFS paralelo por nivel (un solo dominio)
+# Crawler
 # ══════════════════════════════════════════════════════════════════════════════
 
-def crawl(base_url, max_logical, max_physical, workers=12, max_pages=None):
+def crawl(base_url, max_logical, max_physical, workers=8, max_pages=None):
     """
     Devuelve `pages`: lista de (url, prof_logica, prof_fisica, tipo) por cada
-    página efectivamente descargada dentro del dominio.
+    página descargada dentro del dominio.
     Si max_pages es None, no hay límite de páginas.
     """
     base_domain = get_domain(base_url)
     seen = set()
-    pages_per_site = defaultdict(int)
+    pages_per_site = defaultdict(int)   # cuenta paginas por dominio
     pages = []
 
     start = normalize_url(base_url)
@@ -210,10 +205,13 @@ def crawl(base_url, max_logical, max_physical, workers=12, max_pages=None):
             raw_links = parse_links(html, url)
             links_total += len(raw_links)
             for link in raw_links:
+                # Si pertenece al mismo dominio
                 if get_domain(link) == base_domain:
                     links_same_domain += 1
+                # Si cumple maximo nivel logica y no está en las paginas ya vistas.
                 if logical_depth >= max_logical or link in seen:
                     continue
+                # Si cumple maximo nivel fisico y no cambia de dominio.
                 if passes_filter(link, base_domain, max_physical):
                     next_frontier.append(link)
                     seen.add(link)
@@ -233,7 +231,7 @@ def crawl(base_url, max_logical, max_physical, workers=12, max_pages=None):
 
 
 # ══════════════════════════════════════════════════════════════════════════════
-# Análisis y salida
+# Estadisticas de salida
 # ══════════════════════════════════════════════════════════════════════════════
 
 def write_pages_csv(pages, path):
@@ -275,7 +273,7 @@ def main():
     parser.add_argument("base_url",
                         help="URL base/semilla del dominio a indexar.")
     parser.add_argument("--max-pages", type=int, default=None,
-                        help="(Opcional) Máx. páginas a descargar. Sin el parámetro, sin límite.")
+                        help="(Opcional) Máx. páginas a descargar")
     args = parser.parse_args()
 
     print(f"Dominio: {get_domain(args.base_url)}")

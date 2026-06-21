@@ -41,23 +41,23 @@ DEFAULT_SEEDS = [
     "https://www.google.com",
     "https://www.youtube.com",
     "https://www.facebook.com",
+    "https://chatgpt.com",
+    "https://outlook.office.com",
+    "https://campus-1001.ammon.cloud",
+    "https://www.linkedin.com",
+    "https://www.bing.com", 
     "https://www.instagram.com",
     "https://www.x.com",
-    "https://www.wikipedia.org",
-    "https://www.reddit.com",
-    "https://www.amazon.com",
-    "https://www.tiktok.com",
-    "https://www.linkedin.com",
-    "https://www.microsoft.com",
-    "https://www.apple.com",
-    "https://www.netflix.com",
-    "https://www.bing.com",
-    "https://www.live.com",
-    "https://www.office.com",
-    "https://www.yahoo.com",
-    "https://www.whatsapp.com",
-    "https://www.openai.com",
     "https://www.github.com",
+    "https://web.whatsapp.com",
+    "https://www.reddit.com",
+    "https://orangecrm-hog.crm4.dynamics.com",
+    "https://aftiftim365.sharepoint.com",
+    "https://duckduckgo.com",
+	"https://captain.aftral.com",
+	"https://claude.ai",
+	"https://hoffmann-group.atoss.com",
+    "https://app.slack.com"
 ]
 
 
@@ -167,7 +167,7 @@ def passes_filter(url, max_physical, pages_per_site, max_pages_site):
 # Crawler — implementa el algoritmo de la figura con restricciones
 # ══════════════════════════════════════════════════════════════════════════════
 
-def crawl(seeds, max_pages_site, max_logical, max_physical, workers=12):
+def crawl(seeds, max_pages_site, max_logical, max_physical, workers=8):
     """
     Crawler BFS (mismo algoritmo de la figura) pero descargando cada nivel
     de profundidad lógica en paralelo con un ThreadPoolExecutor.
