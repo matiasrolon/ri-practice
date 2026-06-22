@@ -148,7 +148,6 @@ def parse_links(html, base_url):
 def passes_filter(url, max_physical, pages_per_site, max_pages_site):
     """
     Decide si una URL debe agregarse a la todo_list.
-
     Aplica:
       - Profundidad física máxima.
       - Límite de páginas por sitio (dominio).
@@ -169,13 +168,7 @@ def passes_filter(url, max_physical, pages_per_site, max_pages_site):
 
 def crawl(seeds, max_pages_site, max_logical, max_physical, workers=8):
     """
-    Crawler BFS (mismo algoritmo de la figura) pero descargando cada nivel
-    de profundidad lógica en paralelo con un ThreadPoolExecutor.
-
-    Restricciones:
-      - max_logical : profundidad lógica máxima (saltos desde la semilla).
-      - max_physical: profundidad física máxima (niveles de directorio).
-      - max_pages_site: páginas máximas descargadas por dominio.
+    Crawler descargando cada nivel de profundidad lógica en paralelo con un ThreadPoolExecutor.
     """
     done_list = set()
     seen = set()                           # URLs ya encoladas o procesadas

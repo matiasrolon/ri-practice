@@ -15,9 +15,7 @@ Ejemplo:
     python TP05_P3.py https://en.wikipedia.org --max-pages 100
 
 Salida:
-    output/pages.csv   Una fila por página descargada: url, prof_logica,
-                       prof_fisica, tipo (dinamica/estatica).
-    (en consola)       Conteo de páginas por tipo y por profundidad (excluyendo L0 y F0).
+    output/pages.csv   url, prof_logica, prof_fisica, tipo (dinamica/estatica).
 """
 
 import os
@@ -30,10 +28,10 @@ from urllib.parse import urljoin, urlparse, urldefrag
 import requests
 from bs4 import BeautifulSoup
 
-# ── Constantes de límites y concurrencia ──────────────────────────────────────
-MAX_LOGICAL = 3
-MAX_PHYSICAL = 3
-WORKERS = 8
+# ── Constantes ────────────────────────────────────────────────────────────────
+MAX_LOGICAL = 4
+MAX_PHYSICAL = 4
+WORKERS = 12
 
 # Extensiones por las que se asume una página generada dinamicamente.
 DYNAMIC_EXTS = {".php", ".asp", ".aspx", ".jsp", ".jspx", ".cgi", ".pl", ".do"}
@@ -72,8 +70,6 @@ def classify_url(url):
     """
     Clasifica la URL como 'dinamica' si tiene query string o extensión de script; 
     'estatica' en caso contrario.
-
-    Limitación conocida: las 'clean URLs' (sin '?' ni extensión, como /dp/B0... de Amazon) se clasifican como estáticas aunque sean dinámicas.
     """
     parsed = urlparse(url)
     if parsed.query:

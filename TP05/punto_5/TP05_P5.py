@@ -1,9 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-TP05 - Punto 5: Recolección intra-dominio + PageRank/Authorities (HITS) con
-NetworkX, y comparación de estrategias de crawling (BFS vs orden PageRank)
-midiendo el overlap contra el orden por Authority.
+TP05 - Punto 5
 
 Uso:
     python TP05_P5.py <URL> [--max-pages 500]
@@ -13,9 +11,8 @@ Ejemplo:
     python TP05_P5.py https://en.wikipedia.org --max-pages 500
 
 Salida:
-    output/pages.csv     url, orden_bfs, prof_fisica, pagerank, authority.
-    output/overlap.csv    k, overlap_pagerank, overlap_bfs (en %).
-    output/overlap.png    evolución del % de overlap vs Authority.
+    output/pages.csv      url, orden_bfs, prof_fisica, pagerank, authority.
+    output/overlap.png    evolución del % de overlap PR vs HITS.
 """
 
 import os
@@ -32,7 +29,7 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
-# ── Límites y concurrencia ────────────────────────────────────────────────────
+# ── Constantes ────────────────────────────────────────────────────────────────
 MAX_LOGICAL = 100          # tope de seguridad; el límite real es --max-pages
 WORKERS = 8                # bajar a 1 si el sitio bloquea por concurrencia
 
@@ -101,17 +98,13 @@ def parse_links(html, base_url):
 
 
 # ══════════════════════════════════════════════════════════════════════════════
-# Crawler BFS intra-dominio con tope de páginas
+# Crawler (intra-dominio)
 # ══════════════════════════════════════════════════════════════════════════════
 
 def crawl(base_url, max_pages, max_logical=MAX_LOGICAL, workers=WORKERS):
     """
-    Crawl BFS dentro del dominio de `base_url`, hasta `max_pages` páginas
+    Crawl dentro del dominio de `base_url`, hasta `max_pages` páginas
     descargadas con éxito.
-
-    Devuelve:
-      - pages_order : lista de URLs en orden de descubrimiento (BFS).
-      - edges       : lista de (origen, destino) de enlaces intra-dominio.
     """
     base_domain = get_domain(base_url)
     seen = set()
@@ -158,7 +151,7 @@ def crawl(base_url, max_pages, max_logical=MAX_LOGICAL, workers=WORKERS):
 
 
 # ══════════════════════════════════════════════════════════════════════════════
-# Análisis: PageRank, HITS y overlap de estrategias
+# Análisis: PageRank, HITS y overlap 
 # ══════════════════════════════════════════════════════════════════════════════
 
 def build_graph(pages_order, edges):
@@ -195,7 +188,6 @@ def analyze(pages_order, edges, outdir):
     auth_order = sorted(pages_order, key=lambda u: auth[u], reverse=True)
 
     ov_pr = overlap_curve(pr_order, auth_order)
-    ov_bfs = overlap_curve(bfs_order, auth_order)
     ks = list(range(1, len(pages_order) + 1))
 
     # pages.csv
@@ -207,29 +199,25 @@ def analyze(pages_order, edges, outdir):
             w.writerow([u, rank_bfs[u], physical_depth(u),
                         f"{pr[u]:.8f}", f"{auth[u]:.8f}"])
 
-    # overlap.csv
-    with open(os.path.join(outdir, "overlap.csv"), "w", newline="", encoding="utf-8") as f:
-        w = csv.writer(f)
-        w.writerow(["k", "overlap_pagerank", "overlap_bfs"])
-        for k, a, b in zip(ks, ov_pr, ov_bfs):
-            w.writerow([k, f"{a:.4f}", f"{b:.4f}"])
 
     # overlap.png
     plt.figure(figsize=(9, 5.5))
-    plt.plot(ks, ov_pr, label="Crawling por orden de PageRank", linewidth=1.8)
-    plt.plot(ks, ov_bfs, label="Crawling por orden BFS", linewidth=1.8)
+    plt.plot(ks, ov_pr, linewidth=1.8)
     plt.xlabel("Páginas crawleadas (k)")
-    plt.ylabel("% overlap con top-k por Authority")
-    plt.title("Evolución del overlap vs orden por Authority (HITS)")
-    plt.legend()
+    plt.ylabel("Porcentaje de overlap")
+    plt.title("Overlap entre orden por PageRank y por Authority (HITS)")
+    # Ticks y líneas verticales punteadas cada 10 páginas
+    x_ticks = list(range(0, max(ks) + 1, 10)) if ks else [0]
+    plt.xticks(x_ticks)
+    for x in x_ticks[1:]:   # omitir el 0
+        plt.axvline(x=x, color="gray", linestyle="--", linewidth=0.7, alpha=0.5)
     plt.grid(True, alpha=0.3)
     plt.tight_layout()
     plt.savefig(os.path.join(outdir, "overlap.png"), dpi=120)
 
     print(f"\nNodos: {G.number_of_nodes()} | Aristas: {G.number_of_edges()}")
-    print(f"overlap@50  -> PageRank: {ov_pr[min(49,len(ov_pr)-1)]:.1f}%  "
-          f"BFS: {ov_bfs[min(49,len(ov_bfs)-1)]:.1f}%")
-    print("[OK] output/pages.csv, output/overlap.csv, output/overlap.png")
+    print(f"overlap@50  -> PageRank: {ov_pr[min(49,len(ov_pr)-1)]:.1f}%")
+    print("[OK] output/pages.csv, output/overlap.png")
 
 
 # ══════════════════════════════════════════════════════════════════════════════
