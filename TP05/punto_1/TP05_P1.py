@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Descarga una página HTML y extrae sus enlaces usando BeautifulSoup.
+Descarga una página HTML y extrae sus enlaces.
 
 Uso:
     python TP05_P1.py <URL>

@@ -26,17 +26,18 @@ import argparse
 from collections import deque, defaultdict
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from urllib.parse import urljoin, urlparse, urldefrag
-
 import requests
+import networkx as nx
 from bs4 import BeautifulSoup
 from pyvis.network import Network
 
-# ── Constantes de límites ─────────────────────────────────────────────────────
+
+# ── Constantes ─────────────────────────────────────────────────────
 MAX_LOGICAL = 3
 MAX_PHYSICAL = 3
+WORKERS = 12
 
-
-# ── Conjunto semilla por defecto: top 20 Netcraft (puede actualizarse) ────────
+# ── Conjunto semilla ────────
 DEFAULT_SEEDS = [
     "https://www.google.com",
     "https://www.youtube.com",
@@ -166,7 +167,7 @@ def passes_filter(url, max_physical, pages_per_site, max_pages_site):
 # Crawler — implementa el algoritmo de la figura con restricciones
 # ══════════════════════════════════════════════════════════════════════════════
 
-def crawl(seeds, max_pages_site, max_logical, max_physical, workers=8):
+def crawl(seeds, max_pages_site, max_logical, max_physical, workers=WORKERS):
     """
     Crawler descargando cada nivel de profundidad lógica en paralelo con un ThreadPoolExecutor.
     """
@@ -231,43 +232,56 @@ def crawl(seeds, max_pages_site, max_logical, max_physical, workers=8):
 # ══════════════════════════════════════════════════════════════════════════════
 
 def build_graph(edges, seeds, out_path):
-    """Construye un grafo dirigido con pyvis a partir de las aristas."""
-    net = Network(height="800px", width="100%", directed=True,
-                  bgcolor="#ffffff", font_color="#333333")
-    net.barnes_hut()  # layout físico para grafos grandes
+    """
+    Construye un grafo dirigido con pyvis.
+    """
 
+    # quitar enlaces repetidos
+    edges = list(set(edges))
     seed_set = {normalize_url(s) for s in seeds}
-    nodes = set()
 
-    # Agregar nodos
+    nodes = set()
     for origen, destino in edges:
         nodes.add(origen)
         nodes.add(destino)
 
-    for node in nodes:
-        domain = get_domain(node)
-        is_seed = node in seed_set
-        color = "#E24B4A" if is_seed else "#185FA5"
-        size = 25 if is_seed else 12
-        # etiqueta corta: solo el dominio
-        net.add_node(node, label=domain, title=node, color=color, size=size)
+    net = Network(height="800px", width="100%", directed=True,
+                  bgcolor="#ffffff", font_color="#333333")
 
-    # Agregar aristas
-    for origen, destino in edges:
-        net.add_edge(origen, destino)
-
+    # vis.js calcula las posiciones en el browser
     net.set_options("""
     {
       "physics": {
         "barnesHut": { "gravitationalConstant": -8000, "springLength": 120 },
-        "minVelocity": 0.75
-      }
+        "minVelocity": 0.75,
+        "stabilization": { "enabled": true, "iterations": 200, "updateInterval": 25 }
+      },
+      "edges": { "smooth": false }
     }
     """)
+
+    for node in nodes:
+        is_seed = node in seed_set
+        label = get_domain(node)
+        net.add_node(node, label=label, title=node,
+                     color="#E24B4A" if is_seed else "#185FA5",
+                     size=25 if is_seed else 10)
+
+    for origen, destino in edges:
+        net.add_edge(origen, destino)
 
     net.save_graph(out_path)
     print(f"\n[OK] Grafo guardado en: {out_path}")
     print(f"     Nodos: {len(nodes)}  |  Aristas: {len(edges)}")
+ 
+ 
+def save_edges_csv(edges, path):
+    """Guarda las aristas en un CSV (origen, destino)."""
+    with open(path, "w", newline="", encoding="utf-8") as f:
+        writer = csv.writer(f)
+        writer.writerow(["origen", "destino"])
+        writer.writerows(edges)
+    print(f"[OK] Aristas guardadas en: {path}")
 
 
 def save_edges_csv(edges, path):
@@ -318,7 +332,7 @@ def main():
 
     # Grafo + CSV
     build_graph(edges, seeds, out_path)
-    save_edges_csv(edges, "edges.csv")
+    save_edges_csv(edges, os.path.join(output_dir, "edges.csv"))
 
 
 if __name__ == "__main__":
